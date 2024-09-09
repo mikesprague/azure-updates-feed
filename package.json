@@ -1,0 +1,56 @@
+{
+  "name": "azure-product-updates-feed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "description": "Script that scrapes the Azure Updates page and produces an RSS feed from the content",
+  "scripts": {
+    "build": "npx tsc",
+    "declarations": "npx rimraf types/ && npx tsc --emitDeclarationOnly",
+    "dev": "cross-env NODE_ENV=development npx tsx --trace-warnings --inspect=0.0.0.0:9229 ./src/index.ts",
+    "docker-up": "docker-compose -f ./docker-compose.yml up",
+    "postdocker-up": "docker-compose -f ./docker-compose.yml down --rmi 'all'",
+    "start": "cross-env NODE_ENV=production npx tsx ./src/index.ts",
+    "test": "echo \"No tests yet...\"",
+    "typecheck": "npx tsc --noEmit",
+    "typedoc": "npx typedoc --out docs --entryPointStrategy expand ./src --excludeInternal false --excludeNotDocumented false --plugin typedoc-plugin-markdown --readme none",
+    "typedoc-html": "npx typedoc --out docs/docs --entryPointStrategy expand ./src --excludeInternal false --excludeNotDocumented false --readme none"
+  },
+  "author": {
+    "name": "Michael Sprague",
+    "email": "ms388@cornell.edu"
+  },
+  "repository": {
+    "url": "https://github.com/cu-cit-cloud-team/azure-product-updates-feed"
+  },
+  "engines": {
+    "node": ">= 20.x",
+    "npm": ">= 10.x"
+  },
+  "dependencies": {
+    "@actions/core": "1.10.1",
+    "cheerio": "1.0.0",
+    "got": "14.4.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/cheerio": "0.22.35",
+    "@types/node": "22.3.0",
+    "cross-env": "7.0.3",
+    "cz-git": "1.9.4",
+    "tsx": "4.17.0",
+    "typedoc": "0.26.5",
+    "typedoc-plugin-markdown": "4.2.4",
+    "typescript": "5.5.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-git"
+    }
+  },
+  "volta": {
+    "node": "22.7.0",
+    "npm": "10.8.2"
+  }
+}

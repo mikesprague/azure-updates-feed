@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strictFunctionTypes": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": ["node"],
+    "lib": ["ESNext"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "declarationMap": true
+  },
+  "ts-node": {
+    "esm": true,
+    "swc": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "src/**/*.d.ts",
+    "docs",
+    "node_modules",
+    ".history",
+    ".git",
+    ".github",
+    "<node_internals>/**"
+  ]
+}

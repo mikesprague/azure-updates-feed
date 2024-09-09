@@ -1,0 +1,87 @@
+name: Build Azure Product Updates Feed
+
+on:
+  # run daily
+  schedule:
+    - cron: "0 12 * * *"
+  # allow manual runs from GH
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "22.x"
+  DISPLAY_NAME: "Azure Product Updates Feed"
+  OUTPUT_FILE_DIR: "docs/rss/"
+  FILE_TO_ATTACH: "index.rss"
+
+jobs:
+  build-aws-hipaa-services-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 👷  Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: 🏗️  Setup Node.js ${{ env.NODE_VERSION }} environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          check-latest: true
+          cache: npm
+          cache-dependency-path: "**/package-lock.json"
+
+      - name: ⚡  Cache node_modules
+        uses: actions/cache@v4
+        id: cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ env.NODE_VERSION }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-${{ env.NODE_VERSION }}-
+
+      - name: ⬆️  Update npm and install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm i --location=global npm && npm install
+
+      - name: 🛠️  Run script to create RSS feed
+        run: npm start
+
+      - name: 🛠️  Run script to update docs
+        run: npm run typedoc-html
+
+      - name: 🗄️  Add updated output file to repo and push changes
+        if: ${{ env.HAS_UPDATES }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git status
+          git add ${{ env.OUTPUT_FILE_DIR }}
+          git commit -s -m "chore: update output file"
+          git push origin main
+
+      - name: 📎  Attach RSS feed file to workflow run
+        if: ${{ env.HAS_UPDATES }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.FILE_TO_ATTACH }}
+          path: ${{ env.OUTPUT_FILE_DIR }}${{ env.FILE_TO_ATTACH }}
+          retention-days: 30
+
+      - name: ⛔  Failure Notification
+        if: ${{ failure() }}
+        uses: mikesprague/teams-incoming-webhook-action@v1
+        with:
+          github-token: ${{ github.token }}
+          webhook-url: ${{ secrets.TEAMS_NOTIFICATION_WEBHOOK_URL }}
+          title: Workflow Failure - ${{ env.DISPLAY_NAME }}
+          message: |
+            **The last ${{ env.DISPLAY_NAME }} workflow run failed**
+            Run logs: [${{github.server_url}}/${{github.repository}}/actions/runs/${{github.run_id}}](${{github.server_url}}/${{github.repository}}/actions/runs/${{github.run_id}})
+          color: failure
