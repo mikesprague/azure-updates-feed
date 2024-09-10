@@ -5,23 +5,30 @@ import got from 'got';
 
 const { hrtime } = process;
 
-export type ModelsObject = {
-  name: string;
-  productId: string;
+export type PostsObject = {
+  date: string;
+  link: string;
+  category: string;
+  text: string;
 };
 
 export type ResultsObject = {
   lastUpdated: string | undefined;
-  models: ModelsObject[];
+  posts: PostsObject[];
 };
 
 export interface Config {
   url: string;
   selectors: {
-    container: string;
-    updates: string;
+    updateRow: string;
+    date: string;
+    link: string;
+    linkAlt: string;
+    linkText: string;
+    category: string;
+    text: string;
   };
-  // userAgent: string;
+  userAgent?: string;
   outputDir: string;
   fileName: string;
 }
@@ -38,8 +45,9 @@ export interface Config {
       date: '#areaheading-oc925a > div > div.col-12.col-md-8.col-xl-6 > div > p',
       link: 'h3 > span > a',
       linkAlt: 'section h3 > a',
-      tag: '#richtext-oc8284 > div',
-      text: '#richtext-oc7ca0 > div > p',
+      title: 'h3',
+      category: '#richtext-oc8284 > div',
+      description: '#richtext-oc7ca0 > div > p',
     },
     // userAgent: 'Script - Get Current AWS HIPAA Services List',
     outputDir: 'docs/rss/',
@@ -69,6 +77,21 @@ export interface Config {
   // instantiate cheerio with markup from earlier http request
   const $ = cheerio.load(markup);
 
+  const rssStart = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Azure Product Updates Feed</title>
+    <link>https://azure.microsoft.com/en-us/updates/</link>
+    <description>Currently the Azure Product Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
+    <language>en-us</language>
+    <pubDate>${new Date().toISOString()}</pubDate>
+`;
+  const rssEnd = `  </channel>
+</rss>
+`;
+
+  const rssItems = [];
+
   // if date strings are different, proceed with update
   // loop over services list and add to array in results object
   $(config.selectors.updateRow).each((i, elem) => {
@@ -78,17 +101,35 @@ export interface Config {
     if (link === undefined) {
       link = $(elem).find(config.selectors.linkAlt).attr('href');
     }
-    const tag = $(elem).find(config.selectors.tag).text().trim();
-    const text = $(elem).find(config.selectors.text).text().trim();
-    if (date?.length && link?.length && tag?.length && text?.length) {
-      updatesList.updates.push({ date, link, tag, text });
+    const title = $(elem).find(config.selectors.title).text().trim();
+    const category = $(elem).find(config.selectors.category).text().trim();
+    const description = $(elem)
+      .find(config.selectors.description)
+      .text()
+      .trim();
+    if (
+      date?.length &&
+      link?.length &&
+      category?.length &&
+      title?.length &&
+      description?.length
+    ) {
+      updatesList.updates.push({ date, link, title, category, description });
+      const rssItem = `    <item>
+      <title>${title}</title>
+      <link>${link}</link>
+      <description>${description}</description>
+      <pubDate>${date}</pubDate>
+    </item>`;
+      rssItems.push(rssItem);
     } else {
       console.log(
         'Missing data for update:\n',
         `date: ${date}\n`,
+        `title: ${title}\n`,
         `link: ${link}\n`,
-        `tag: ${tag}\n`,
-        `text: ${text}\n`,
+        `category: ${category}\n`,
+        `description: ${description}\n`,
         'full element:',
         $(elem).text(),
         '\n'
@@ -99,7 +140,10 @@ export interface Config {
   // set last updated date string and add to results object
   updatesList.lastUpdated = new Date().toISOString();
 
-  console.log(updatesList);
+  // console.log(updatesList);
+  console.log(rssStart);
+  console.log(rssItems.join('\n'));
+  console.log(rssEnd);
 
   // set var indicating if there are updates to process
   // const hasUpdates =
