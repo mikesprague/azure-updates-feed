@@ -1,5 +1,5 @@
-// import fs from 'node:fs';
-// import * as core from '@actions/core';
+import fs from 'node:fs';
+import * as core from '@actions/core';
 import * as cheerio from 'cheerio';
 import got from 'got';
 
@@ -29,8 +29,10 @@ export interface Config {
     text: string;
   };
   userAgent?: string;
-  outputDir: string;
-  fileName: string;
+  jsonFileName: string;
+  jsonOutputDir: string;
+  rssFileName: string;
+  rssOutputDir: string;
 }
 
 (async () => {
@@ -50,14 +52,16 @@ export interface Config {
       description: '#richtext-oc7ca0 > div > p',
     },
     // userAgent: 'Script - Get Current AWS HIPAA Services List',
-    outputDir: 'docs/rss/',
-    fileName: 'index.rss',
+    jsonFileName: 'index.json',
+    jsonOutputDir: 'docs/json/',
+    rssFileName: 'index.rss',
+    rssOutputDir: 'docs/rss/',
   };
 
   // read in previous results to get date for comparison
-  // const lastResults = JSON.parse(
-  //   fs.readFileSync('docs/list/index.json', 'utf-8')
-  // );
+  const lastResults = JSON.parse(
+    fs.readFileSync(`${config.jsonOutputDir}${config.jsonFileName}`, 'utf-8')
+  );
 
   // make http call to fetch html
   const markup = await got
@@ -71,7 +75,7 @@ export interface Config {
   // create object to hold results
   const updatesList: ResultsObject = {
     lastUpdated: undefined,
-    updates: [],
+    posts: [],
   };
 
   // instantiate cheerio with markup from earlier http request
@@ -114,7 +118,7 @@ export interface Config {
       title?.length &&
       description?.length
     ) {
-      updatesList.updates.push({ date, link, title, category, description });
+      updatesList.posts.push({ date, link, title, category, description });
       const rssItem = `    <item>
       <title>${title}</title>
       <link>${link}</link>
@@ -141,30 +145,37 @@ export interface Config {
   updatesList.lastUpdated = new Date().toISOString();
 
   // console.log(updatesList);
-  console.log(rssStart);
-  console.log(rssItems.join('\n'));
-  console.log(rssEnd);
+  // console.log(rssStart);
+  // console.log(rssItems.join('\n'));
+  // console.log(rssEnd);
 
   // set var indicating if there are updates to process
-  // const hasUpdates =
-  //   JSON.stringify(lastResults).models !==
-  //   JSON.stringify(updatesList).models;
+  const hasUpdates =
+    JSON.stringify(lastResults).posts !== JSON.stringify(updatesList).posts;
 
-  // if (hasUpdates) {
-  //   // create JSON string from object data to write to file
-  //   const jsonDataAsString = `${JSON.stringify(updatesList, null, 2)}\n`;
+  if (hasUpdates) {
+    // create JSON string from object data to write to file
+    const jsonDataAsString = `${JSON.stringify(updatesList, null, 2)}\n`;
 
-  //   // write json file
-  //   const jsonFileName = `${config.outputDir}${config.fileName}.json`;
-  //   await fs.writeFileSync(jsonFileName, jsonDataAsString);
-  //   console.log(`JSON file written: ${jsonFileName}`);
+    // write json file
+    const jsonFile = `${config.jsonOutputDir}${config.jsonFileName}`;
+    await fs.writeFileSync(jsonFile, jsonDataAsString);
+    console.log(`JSON file written: ${jsonFile}`);
 
-  //   // set env var that workflow can use for conditional processing
-  //   core.exportVariable('HAS_UPDATES', true);
-  // } else {
-  //   // output to run logs
-  //   console.log('No updates to services page, nothing to process');
-  // }
+    // create string from RSS data to write to file
+    const rssDataAsString = `${rssStart}${rssItems.join('\n')}${rssEnd}`;
+
+    // write RSS file
+    const rssFile = `${config.rssOutputDir}${config.rssFileName}`;
+    await fs.writeFileSync(rssFile, rssDataAsString);
+    console.log(`RSS file written: ${rssFile}`);
+
+    // set env var that workflow can use for conditional processing
+    core.exportVariable('HAS_UPDATES', true);
+  } else {
+    // output to run logs
+    console.log('No updates to services page, nothing to process');
+  }
 
   // output execution time
   const debugEnd = hrtime(debugStart);
