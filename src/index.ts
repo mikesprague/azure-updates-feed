@@ -55,8 +55,8 @@ export interface Config {
     // userAgent: 'Script - Get Current AWS HIPAA Services List',
     jsonFileName: 'index.json',
     jsonOutputDir: 'docs/json/',
-    rssFileName: 'index.xml',
-    rssOutputDir: 'docs/rss/',
+    rssFileName: 'index.rss',
+    rssOutputDir: 'docs/feed/',
   };
 
   // read in previous results to get date for comparison
