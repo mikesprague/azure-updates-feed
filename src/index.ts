@@ -55,7 +55,7 @@ export interface Config {
     // userAgent: 'Script - Get Current AWS HIPAA Services List',
     jsonFileName: 'index.json',
     jsonOutputDir: 'docs/json/',
-    rssFileName: 'index.rss',
+    rssFileName: 'index.xml',
     rssOutputDir: 'docs/rss/',
   };
 
@@ -150,7 +150,7 @@ export interface Config {
   // console.log(rssItems.join('\n'));
   // console.log(rssEnd);
 
-  // set var indicating if there are updates to process
+  // set var indicating if there are updates to process+
   const hasUpdates =
     JSON.stringify(lastResults.posts) !== JSON.stringify(updatesList.posts);
 
@@ -160,7 +160,9 @@ export interface Config {
 
     // write json file
     const jsonFile = `${config.jsonOutputDir}${config.jsonFileName}`;
-    await fs.writeFileSync(jsonFile, jsonDataAsString);
+    await fs.writeFileSync(jsonFile, jsonDataAsString, {
+      encoding: 'utf-8',
+    });
     console.log(`JSON file written: ${jsonFile}`);
 
     // create string from RSS data to write to file
@@ -168,7 +170,9 @@ export interface Config {
 
     // write RSS file
     const rssFile = `${config.rssOutputDir}${config.rssFileName}`;
-    await fs.writeFileSync(rssFile, rssDataAsString);
+    await fs.writeFileSync(rssFile, rssDataAsString, {
+      encoding: 'utf-8',
+    });
     console.log(`RSS file written: ${rssFile}`);
 
     // set env var that workflow can use for conditional processing
