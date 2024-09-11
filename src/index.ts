@@ -97,6 +97,12 @@ export interface Config {
 
   const rssItems: string[] = [];
 
+  const encodeHtmlEntities = (str: string) => {
+    return str.replace(/[\u00A0-\u9999<>\&]/gim, (i) => {
+      return `&#${i.charCodeAt(0)};`;
+    });
+  };
+
   // if date strings are different, proceed with update
   // loop over services list and add to array in results object
   $(config.selectors.updateRow).each((i, elem) => {
@@ -119,7 +125,13 @@ export interface Config {
       title?.length &&
       description?.length
     ) {
-      updatesList.posts.push({ date, link, title, category, description });
+      updatesList.posts.push({
+        date,
+        link,
+        title: encodeHtmlEntities(title),
+        category,
+        description: encodeHtmlEntities(description),
+      });
       const rssItem = `    <item>
       <title>${title}</title>
       <link>${link}</link>
