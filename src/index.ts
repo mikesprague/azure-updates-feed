@@ -166,7 +166,7 @@ export interface Config {
     console.log(`JSON file written: ${jsonFile}`);
 
     // create string from RSS data to write to file
-    const rssDataAsString = `${rssStart}${rssItems.join('\n')}${rssEnd}`;
+    const rssDataAsString = `${rssStart}${rssItems.join('\n')}\n${rssEnd}`;
 
     // write RSS file
     const rssFile = `${config.rssOutputDir}${config.rssFileName}`;
