@@ -5,7 +5,7 @@
     <link>https://azure.microsoft.com/en-us/updates/</link>
     <description>Currently the Azure Product Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
-    <pubDate>2024-09-11T14:25:06.850Z</pubDate>
+    <pubDate>2024-09-11T14:27:41.421Z</pubDate>
     <item>
       <title>Retirement: Azure App Service Environment v1/v2 is retired as of August 31, 2024</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/App-Service-Environment-v1v2-Retirement-Update-1</link>
@@ -37,21 +37,21 @@
       <pubDate>Sep 05, 2024</pubDate>
     </item>
     <item>
-      <title>Generally Available: VMSS Automatic Instance Repairs – Reimage, Restart Repair Actions</title>
+      <title>Generally Available: VMSS Automatic Instance Repairs &#8211; Reimage, Restart Repair Actions</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Now-available-vmss-automatic-instance-repairs-reimage-restart-repair-actions</link>
-      <description>We are excited to announce that customers can now choose between Replace, Reimage (New), or Restart (New) as the default repair action performed in response to an "Unhealthy" application signal.</description>
+      <description>We are excited to announce that customers can now choose between&#8239;Replace,&#8239;Reimage&#8239;(New), or Restart (New) as the default repair action performed in response to an "Unhealthy" application signal.</description>
       <pubDate>Sep 05, 2024</pubDate>
     </item>
     <item>
-      <title>Public Preview – Templates Support in Azure Logic Apps Standard</title>
+      <title>Public Preview &#8211; Templates Support in Azure Logic Apps Standard</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Templates-Support-Azure-Logic-apps-Standard</link>
       <description>We're excited to announce the Public Preview of Templates Support in Azure Logic Apps Standard, providing pre-built workflow solutions to streamline and accelerate integration projects. This new feature allows developers to quickly set up, customize, and deploy workflows, simplifying the process of building and managing applications.</description>
       <pubDate>Sep 05, 2024</pubDate>
     </item>
     <item>
-      <title>Public Preview – Out of box monitoring dashboards for Logic Apps Standard</title>
+      <title>Public Preview &#8211; Out of box monitoring dashboards for Logic Apps Standard</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Out-of-box-monitoring-dashboards-for-Logic-Apps-Standard</link>
-      <description>We’re excited to introduce Insights support for Azure Logic Apps Standard, offering curated visualizations to help you monitor your applications and workflows more effectively. With these new dashboards, you gain a comprehensive view of your Logic Apps Standard environments, enabling better oversight of your integration scenarios.</description>
+      <description>We&#8217;re excited to introduce Insights support for Azure Logic Apps Standard, offering curated visualizations to help you monitor your applications and workflows more effectively. With these new dashboards, you gain a comprehensive view of your Logic Apps Standard environments, enabling better oversight of your integration scenarios.</description>
       <pubDate>Sep 05, 2024</pubDate>
     </item>
     <item>
@@ -79,7 +79,7 @@
       <pubDate>Sep 05, 2024</pubDate>
     </item>
     <item>
-      <title>Public Preview – Managed linting support in API Center</title>
+      <title>Public Preview &#8211; Managed linting support in API Center</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Managed-linting-support-in-API-Center</link>
       <description>We are excited to announce the public preview of managed linting support for API Analysis in Azure API Center. This feature offers robust linting capabilities to ensure your API definitions comply with organizational style rules, providing detailed reports and seamless integration for enhanced API quality.</description>
       <pubDate>Aug 29, 2024</pubDate>
@@ -127,7 +127,7 @@
       <pubDate>Aug 29, 2024</pubDate>
     </item>
     <item>
-      <title>Public Preview: JavaScript (JS) Challenge on Azure WAF integrated with Azure Front Door</title>
+      <title>Public Preview: JavaScript (JS) Challenge&#8239;on Azure WAF integrated with Azure Front Door</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Public-Preview-JavaScript-JS-Challenge-on-Azure-WAF-integrated-with-Azure-Front-Door</link>
       <description>Increase your security posture and generate a non-intrusive mitigation when a request matches a WAF bot rule or custom rule using Azure WAF JS challenge.</description>
       <pubDate>Aug 22, 2024</pubDate>
@@ -229,7 +229,7 @@
       <pubDate>Aug 16, 2024</pubDate>
     </item>
     <item>
-      <title>Public Preview: Azure CNI Powered by Cilium & Azure CNI Overlay support in AKS</title>
+      <title>Public Preview: Azure CNI Powered by Cilium &#38; Azure CNI Overlay support in AKS</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/CNI-Powered-by-Cilium-Azure-CNI-Overlay-support-AKS</link>
       <description>You now have greater control over your network traffic within your Kubernetes environment in AKS.</description>
       <pubDate>Aug 16, 2024</pubDate>
@@ -261,11 +261,11 @@
     <item>
       <title>Retirement: Azure Synapse Runtime for Apache Spark 3.2 disablement</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Synapse-Runtime-for-Apache-Spark-3-2-disablement</link>
-      <description>Effective September 12th, 2024, disablement of jobs running on Azure Synapse Runtime for Apache Spark 3.2 will be executed.</description>
+      <description>Effective September 12th, 2024,&#8239;disablement&#8239;of jobs running on Azure Synapse Runtime for Apache Spark 3.2 will be executed.</description>
       <pubDate>Aug 16, 2024</pubDate>
     </item>
     <item>
-      <title>Public Preview: High Scale mode for Azure Monitor – Container Insights</title>
+      <title>Public Preview: High Scale mode for Azure Monitor &#8211; Container Insights</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/High-Scale-mode-Container-Insights</link>
       <description>Using the new High Scale mode in Container Insights, customers can send up to 50K logs per second per node from their AKS clusters.</description>
       <pubDate>Aug 16, 2024</pubDate>
@@ -325,7 +325,7 @@
       <pubDate>Aug 08, 2024</pubDate>
     </item>
     <item>
-      <title>Generally Available: Azure NetApp Files zone volume placement enhancement – Populate existing volume</title>
+      <title>Generally Available: Azure NetApp Files zone volume placement enhancement &#8211; Populate existing volume</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/ANF-AZ-Volume-Placement-Exisiting</link>
       <description>Populate previously deployed, existing volumes with the logical availability zone information to enable failure domain protection for workloads in specific availability zones.</description>
       <pubDate>Aug 08, 2024</pubDate>
@@ -339,7 +339,7 @@
     <item>
       <title>Retirement: Azure Synapse Runtime for Apache Spark 3.1 disablement</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Synapse-Runtime-for-Apache-Spark-3-1-Disablement</link>
-      <description>Effective August 29th, 2024, disablement of jobs running on Azure Synapse Runtime for Apache Spark 3.1 will be executed.</description>
+      <description>Effective August 29th, 2024,&#8239;disablement&#8239;of jobs running on Azure Synapse Runtime for Apache Spark 3.1 will be executed.</description>
       <pubDate>Aug 08, 2024</pubDate>
     </item>
     <item>
@@ -393,7 +393,7 @@
     <item>
       <title>Generally Available: Azure Container Storage for Ephemeral (Local NVMe/Temp SSD) and Azure Disk</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Container-Storage-GA</link>
-      <description>Azure Container Storage, industry’s first platform-managed container-native storage solution in the public cloud, is now generally available with full support for Ephemeral Disks (Local NVMe/Temp SSD) and Azure Disks.</description>
+      <description>Azure Container Storage, industry&#8217;s first platform-managed container-native storage solution in the public cloud, is now generally available with full support for Ephemeral Disks (Local NVMe/Temp SSD) and Azure Disks.</description>
       <pubDate>Aug 01, 2024</pubDate>
     </item>
     <item>
@@ -405,7 +405,7 @@
     <item>
       <title>Retirement: Azure Synapse Runtime for Apache Spark 2.4 Disablement</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Synapse-Runtime-for-Apche-Spark-2-4-Disablement</link>
-      <description>Effective August 15th, 2024, disablement of jobs running on Azure Synapse Runtime for Apache Spark 2.4 will be executed.</description>
+      <description>Effective August 15th, 2024,&#8239;disablement&#8239;of jobs running on Azure Synapse Runtime for Apache Spark 2.4 will be executed.</description>
       <pubDate>Aug 01, 2024</pubDate>
     </item>
     <item>
