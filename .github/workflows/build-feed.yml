@@ -17,12 +17,12 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  DISPLAY_NAME: "Azure Product Updates Feed"
+  DISPLAY_NAME: "Azure Updates Feed"
   JSON_OUTPUT_FILE_DIR: "docs/json/"
   JSON_FILE_TO_ATTACH: "index.json"
   OUTPUT_FILE_DIR: "docs/"
-  RSS_OUTPUT_FILE_DIR: "docs/feed/"
-  RSS_FILE_TO_ATTACH: "index.rss"
+  RSS_OUTPUT_FILE_DIR: "docs/rss/"
+  RSS_FILE_TO_ATTACH: "feed.rss"
 
 jobs:
   build-aws-hipaa-services-list:
