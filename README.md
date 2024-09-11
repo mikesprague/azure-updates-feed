@@ -1,10 +1,9 @@
-# aws-bedrock-foundation-models
+# azure-product-updates-feed
 
-[![Build AWS Bedrock Foundation Models List](https://github.com/cu-cit-cloud-team/aws-bedrock-foundation-models/actions/workflows/build-models-list.yml/badge.svg)](https://github.com/cu-cit-cloud-team/aws-bedrock-foundation-models/actions/workflows/build-models-list.yml)
+[![Build Azure Product Updates Feed](https://github.com/mikesprague/azure-product-updates-feed/actions/workflows/build-feed.yml/badge.svg)](https://github.com/mikesprague/azure-product-updates-feed/actions/workflows/build-feed.yml)
 
-Workflow/script that collects the current list of AWS Bedrock Foundation Models that have
-Marketplace costs associated with using them and then generates and serves a JSON file
-with that list.
+Workflow/script that collects the current list of Azure Product Updates and then
+generates and serves an RSS and a JSON file with that list.
 
 ## Contents
 
@@ -13,20 +12,25 @@ with that list.
 - `./package.json`/`./package-lock.json`
   - script dependencies and dev/linter config
 - `./docs/` (served via HTTPS by GH Pages)
-  - `./docs/list/index.json`
+  - `./docs/json/index.json`
     - JSON file generated and used by script
-    - <https://cu-cit-cloud-team.github.io/aws-bedrock-foundation-models/list/>
+    - <https://mikesprague.github.io/azure-product-updates-feed/json/>
+  - `./docs/feed/index.rss`
+    - RSS feed generated and used by script
+    - <https://mikesprague.github.io/azure-product-updates-feed/feed/>
 - `./.github/dependabot.yml`
   - Dependabot config set to check daily for GH Actions and npm dependency updates
-- `./.github/workflows/build-services-list.yml`
+- `./.github/workflows/build-feed.yml`
   - GH Action Workflow used to execute script/update repo
 - Misc Development Related Files
   - Docker-related files included to help with local dev
     - `./Dockerfile`
     - `./.dockerignore`
     - `./docker-compose.yml`
-  - Editor config files
+  - Config files
     - `./.editorConfig`
+    - `./.gitignore`
+    - `./biome.json`
     - `./tsconfig.json`
 
 ## Prerequisites
@@ -41,9 +45,11 @@ OR
 
 ## Behavior
 
-1. Script makes HTTP call to AWS Bedrock Foundation Models page and checks for updates to the page since the last time it ran
+1. Script makes HTTP call to Azure Product Updates page and checks for updates to the page since the last time it ran
 1. Script outputs a JSON file
     - JSON is used by the script and served via GH Pages
+1. Script outputs an RSS feed
+    - RSS is served via GH Pages
 1. Script only updates (writes new files) if the content has been updated.
 
 ## Local Development
