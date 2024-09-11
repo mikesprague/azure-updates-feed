@@ -128,14 +128,14 @@ export interface Config {
       updatesList.posts.push({
         date,
         link,
-        title: encodeHtmlEntities(title),
+        title,
         category,
-        description: encodeHtmlEntities(description),
+        description,
       });
       const rssItem = `    <item>
-      <title>${title}</title>
+      <title>${encodeHtmlEntities(title)}</title>
       <link>${link}</link>
-      <description>${description}</description>
+      <description>${encodeHtmlEntities(description)}</description>
       <pubDate>${date}</pubDate>
     </item>`;
       rssItems.push(rssItem);
