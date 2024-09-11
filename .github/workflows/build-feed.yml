@@ -17,10 +17,12 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: "22.x"
   DISPLAY_NAME: "Azure Product Updates Feed"
-  OUTPUT_FILE_DIR: "docs/rss/"
-  FILE_TO_ATTACH: "index.rss"
+  JSON_OUTPUT_FILE_DIR: "docs/json/"
+  JSON_FILE_TO_ATTACH: "index.json"
+  OUTPUT_FILE_DIR: "docs/"
+  RSS_OUTPUT_FILE_DIR: "docs/rss/"
+  RSS_FILE_TO_ATTACH: "index.rss"
 
 jobs:
   build-aws-hipaa-services-list:
@@ -29,10 +31,10 @@ jobs:
       - name: 👷  Checkout Repo
         uses: actions/checkout@v4
 
-      - name: 🏗️  Setup Node.js ${{ env.NODE_VERSION }} environment
+      - name: 🏗️  Setup Node.js ${{ vars.NODE_VERSION }} environment
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: ${{ vars.NODE_VERSION }}
           check-latest: true
           cache: npm
           cache-dependency-path: "**/package-lock.json"
@@ -42,9 +44,9 @@ jobs:
         id: cache
         with:
           path: node_modules
-          key: ${{ runner.os }}-node-${{ env.NODE_VERSION }}-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ vars.NODE_VERSION }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-${{ env.NODE_VERSION }}-
+            ${{ runner.os }}-node-${{ vars.NODE_VERSION }}-
 
       - name: ⬆️  Update npm and install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
@@ -63,15 +65,23 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git status
           git add ${{ env.OUTPUT_FILE_DIR }}
-          git commit -s -m "chore: update output file"
+          git commit -s -m "chore: update output files"
           git push origin main
 
       - name: 📎  Attach RSS feed file to workflow run
         if: ${{ env.HAS_UPDATES }}
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.FILE_TO_ATTACH }}
-          path: ${{ env.OUTPUT_FILE_DIR }}${{ env.FILE_TO_ATTACH }}
+          name: ${{ env.RSS_FILE_TO_ATTACH }}
+          path: ${{ env.RSS_OUTPUT_FILE_DIR }}${{ env.RSS_FILE_TO_ATTACH }}
+          retention-days: 30
+
+      - name: 📎  Attach JSON feed file to workflow run
+        if: ${{ env.HAS_UPDATES }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.JSON_FILE_TO_ATTACH }}
+          path: ${{ env.JSON_OUTPUT_FILE_DIR }}${{ env.JSON_FILE_TO_ATTACH }}
           retention-days: 30
 
       - name: ⛔  Failure Notification
