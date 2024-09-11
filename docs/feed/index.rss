@@ -5,7 +5,7 @@
     <link>https://azure.microsoft.com/en-us/updates/</link>
     <description>Currently the Azure Product Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
-    <pubDate>2024-09-11T14:21:47.628Z</pubDate>
+    <pubDate>2024-09-11T14:25:06.850Z</pubDate>
     <item>
       <title>Retirement: Azure App Service Environment v1/v2 is retired as of August 31, 2024</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/App-Service-Environment-v1v2-Retirement-Update-1</link>
