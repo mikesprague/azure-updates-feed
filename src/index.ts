@@ -83,13 +83,14 @@ export interface Config {
   const $ = cheerio.load(markup);
 
   const rssStart = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure Updates Feed</title>
     <link>https://azure.microsoft.com/en-us/updates/</link>
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
-    <pubDate>${new Date().toISOString()}</pubDate>
+    <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
+    <pubDate>${new Date().toUTCString()}</pubDate>
 `;
   const rssEnd = `  </channel>
 </rss>
@@ -136,7 +137,8 @@ export interface Config {
       <title>${encodeHtmlEntities(title)}</title>
       <link>${link}</link>
       <description>${encodeHtmlEntities(description)}</description>
-      <pubDate>${date}</pubDate>
+      <pubDate>${new Date(date).toUTCString()}</pubDate>
+      <guid>${link}</guid>
     </item>`;
       rssItems.push(rssItem);
     } else {
