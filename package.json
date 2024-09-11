@@ -1,5 +1,5 @@
 {
-  "name": "azure-product-updates-feed",
+  "name": "azure-updates-feed",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -19,10 +19,10 @@
   },
   "author": {
     "name": "Michael Sprague",
-    "email": "ms388@cornell.edu"
+    "email": "mikesprague@gmail.com"
   },
   "repository": {
-    "url": "https://github.com/cu-cit-cloud-team/azure-product-updates-feed"
+    "url": "https://github.com/mikesprague/azure-updates-feed"
   },
   "engines": {
     "node": ">= 20.x",
