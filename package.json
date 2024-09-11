@@ -14,7 +14,7 @@
     "start": "cross-env NODE_ENV=production npx tsx ./src/index.ts",
     "test": "echo \"No tests yet...\"",
     "typecheck": "npx tsc --noEmit",
-    "typedoc": "npx typedoc --out docs --entryPointStrategy expand ./src --excludeInternal false --excludeNotDocumented false --plugin typedoc-plugin-markdown --readme none",
+    "typedoc": "npx typedoc --out docs/docs --entryPointStrategy expand ./src --excludeInternal false --excludeNotDocumented false --plugin typedoc-plugin-markdown --readme none",
     "typedoc-html": "npx typedoc --out docs/docs --entryPointStrategy expand ./src --excludeInternal false --excludeNotDocumented false --readme none"
   },
   "author": {
