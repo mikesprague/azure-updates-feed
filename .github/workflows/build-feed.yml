@@ -21,7 +21,7 @@ env:
   JSON_OUTPUT_FILE_DIR: "docs/json/"
   JSON_FILE_TO_ATTACH: "index.json"
   OUTPUT_FILE_DIR: "docs/"
-  RSS_OUTPUT_FILE_DIR: "docs/rss/"
+  RSS_OUTPUT_FILE_DIR: "docs/feed/"
   RSS_FILE_TO_ATTACH: "index.rss"
 
 jobs:
