@@ -8,8 +8,9 @@ const { hrtime } = process;
 export type PostsObject = {
   date: string;
   link: string;
+  title: string;
   category: string;
-  text: string;
+  description: string;
 };
 
 export type ResultsObject = {
@@ -24,9 +25,9 @@ export interface Config {
     date: string;
     link: string;
     linkAlt: string;
-    linkText: string;
+    title: string;
     category: string;
-    text: string;
+    description: string;
   };
   userAgent?: string;
   jsonFileName: string;
@@ -59,7 +60,7 @@ export interface Config {
   };
 
   // read in previous results to get date for comparison
-  const lastResults = JSON.parse(
+  const lastResults: ResultsObject = JSON.parse(
     fs.readFileSync(`${config.jsonOutputDir}${config.jsonFileName}`, 'utf-8')
   );
 
@@ -94,7 +95,7 @@ export interface Config {
 </rss>
 `;
 
-  const rssItems = [];
+  const rssItems: string[] = [];
 
   // if date strings are different, proceed with update
   // loop over services list and add to array in results object
@@ -151,7 +152,7 @@ export interface Config {
 
   // set var indicating if there are updates to process
   const hasUpdates =
-    JSON.stringify(lastResults).posts !== JSON.stringify(updatesList).posts;
+    JSON.stringify(lastResults.posts) !== JSON.stringify(updatesList.posts);
 
   if (hasUpdates) {
     // create JSON string from object data to write to file
