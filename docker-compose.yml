@@ -1,6 +1,6 @@
 services:
-  build_aws_bedrock_foundation_models_list:
-    container_name: "build_aws_bedrock_foundation_models_list"
+  build_azure_updates_feed:
+    container_name: "build_azure_updates_feed"
     build:
       context: .
       dockerfile: ./Dockerfile
