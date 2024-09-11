@@ -30,6 +30,9 @@ gets fixed, I will likely stop maintaining this repo.
   - `./docs/json/index.json`
     - JSON file generated and used by script
     - <https://mikesprague.github.io/azure-updates-feed/json/>
+  - `./docs/docs/`
+    - Typedoc generated files for script
+    - <https://mikesprague.github.io/azure-updates-feed/docs/>
 - `./.github/dependabot.yml`
   - Dependabot config set to check daily for GH Actions and npm dependency updates
 - `./.github/workflows/dependabot-auto-merge.yml`
