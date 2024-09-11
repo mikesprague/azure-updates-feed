@@ -55,8 +55,8 @@ export interface Config {
     // userAgent: 'Script - Get Current AWS HIPAA Services List',
     jsonFileName: 'index.json',
     jsonOutputDir: 'docs/json/',
-    rssFileName: 'index.rss',
-    rssOutputDir: 'docs/feed/',
+    rssFileName: 'feed.rss',
+    rssOutputDir: 'docs/rss/',
   };
 
   // read in previous results to get date for comparison
@@ -85,9 +85,9 @@ export interface Config {
   const rssStart = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Azure Product Updates Feed</title>
+    <title>Azure Updates Feed</title>
     <link>https://azure.microsoft.com/en-us/updates/</link>
-    <description>Currently the Azure Product Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
+    <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <pubDate>${new Date().toISOString()}</pubDate>
 `;
@@ -191,7 +191,7 @@ export interface Config {
     core.exportVariable('HAS_UPDATES', true);
   } else {
     // output to run logs
-    console.log('No updates to services page, nothing to process');
+    console.log('No changes to Azure Updates page, nothing to process');
   }
 
   // output execution time
