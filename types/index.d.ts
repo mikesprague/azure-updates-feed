@@ -1,19 +1,29 @@
-export type ModelsObject = {
-    name: string;
-    productId: string;
+export type PostsObject = {
+    date: string;
+    link: string;
+    title: string;
+    category: string;
+    description: string;
 };
 export type ResultsObject = {
     lastUpdated: string | undefined;
-    models: ModelsObject[];
+    posts: PostsObject[];
 };
 export interface Config {
     url: string;
     selectors: {
-        modelsRows: string;
-        modelName: string;
-        productId: string;
+        updateRow: string;
+        date: string;
+        link: string;
+        linkAlt: string;
+        title: string;
+        category: string;
+        description: string;
     };
-    outputDir: string;
-    fileName: string;
+    userAgent?: string;
+    jsonFileName: string;
+    jsonOutputDir: string;
+    rssFileName: string;
+    rssOutputDir: string;
 }
 //# sourceMappingURL=index.d.ts.map
