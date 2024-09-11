@@ -1,4 +1,4 @@
-name: Build Azure Product Updates Feed
+name: Build Azure Updates Feed
 
 on:
   # run daily
@@ -25,7 +25,7 @@ env:
   RSS_FILE_TO_ATTACH: "feed.rss"
 
 jobs:
-  build-aws-hipaa-services-list:
+  build-azure-updates-feed:
     runs-on: ubuntu-latest
     steps:
       - name: 👷  Checkout Repo
