@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2024-09-12T12:02:21.126Z",
+  "lastUpdated": "2024-09-13T12:02:25.067Z",
   "posts": [
+    {
+      "date": "Sep 12, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-PostgreSQL-migration-extension-in-Azure-Data-Studio-1",
+      "title": "Retirement: Azure PostgreSQL migration extension in Azure Data Studio (ADS)",
+      "category": "RETIREMENT",
+      "description": "The Azure PostgreSQL migration extension in Azure Data Studio is being retired to focus on more advanced and supported migration services within the Azure Database for PostgreSQL portal and CLI. This change ensures customers have access to up-to-date features for their migration needs."
+    },
     {
       "date": "Sep 12, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/Java-on-Azure-Container-Apps",

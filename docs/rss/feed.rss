@@ -6,7 +6,14 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 Sep 2024 12:02:21 GMT</pubDate>
+    <pubDate>Fri, 13 Sep 2024 12:02:25 GMT</pubDate>
+    <item>
+      <title>Retirement: Azure PostgreSQL migration extension in Azure Data Studio (ADS)</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-PostgreSQL-migration-extension-in-Azure-Data-Studio-1</link>
+      <description>The Azure PostgreSQL migration extension in Azure Data Studio is being retired to focus on more advanced and supported migration services within the Azure Database for PostgreSQL portal and CLI. This change ensures customers have access to up-to-date features for their migration needs.</description>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-PostgreSQL-migration-extension-in-Azure-Data-Studio-1</guid>
+    </item>
     <item>
       <title>Generally Available: Java on Azure Container Apps</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Java-on-Azure-Container-Apps</link>
