@@ -6,7 +6,7 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Sep 2024 12:02:25 GMT</pubDate>
+    <pubDate>Sat, 14 Sep 2024 12:02:13 GMT</pubDate>
     <item>
       <title>Retirement: Azure PostgreSQL migration extension in Azure Data Studio (ADS)</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-PostgreSQL-migration-extension-in-Azure-Data-Studio-1</link>
@@ -62,13 +62,6 @@
       <description>This feature is the ability to increase your Premium SSD v2 and Ultra disk storage capacity without stopping your VM.</description>
       <pubDate>Thu, 12 Sep 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/v2/Live-Resize-for-Azure-Premium-SSD-v2-and-Ultra-Disks</guid>
-    </item>
-    <item>
-      <title>Generally Available: Azure Application Gateway v2 Basic SKU</title>
-      <link>https://azure.microsoft.com/en-us/updates/v2/GA-Azure-Application-Gateway-v2-Basic-SKU</link>
-      <description>Designed for customers, especially developers or small enterprises who are looking for a cost-effective Application Load Balancer solution and don&#8217;t require high scalability and advanced features.</description>
-      <pubDate>Thu, 12 Sep 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/v2/GA-Azure-Application-Gateway-v2-Basic-SKU</guid>
     </item>
     <item>
       <title>Generally Available: Azure Functions support for PowerShell 7.4</title>
