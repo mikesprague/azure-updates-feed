@@ -1,6 +1,258 @@
 {
-  "lastUpdated": "Fri, 20 Sep 2024 12:02:29 GMT",
+  "lastUpdated": "Thu, 26 Sep 2024 12:02:21 GMT",
   "posts": [
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/end-of-support-for-the-Microsoft-Translator-DEPRECATED-connector",
+      "title": "Retirement: Information regarding the end of support for the \"Microsoft Translator [DEPRECATED]\" connector",
+      "category": "RETIREMENT",
+      "description": "The Microsoft Translator connector and its underlying API have been deprecated and will be disabled on Power Platform starting September 15, 2024. To avoid disruptions, transition to the Microsoft Translator V2 connector and Azure Text to Speech connector for the respective actions."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/open-service-mesh-extension-for-aks-retirement",
+      "title": "Retirement: Open Service Mesh extension for Arc-enabled Kubernetes will be retired on September 30, 2027",
+      "category": "RETIREMENT",
+      "description": "Plan out your migration for Open Service Mesh (OSM) to Istio."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Maps-Spatial-APIs-V1-2022-08-01",
+      "title": "Retirement: Azure Maps Spatial APIs V1 & 2022-08-01 will be retired on September 30th, 2025.",
+      "category": "RETIREMENT",
+      "description": "Azure Maps support for Azure Maps Spatial APIs V1 & 2022-08-01 will be retired on September 30th 2025"
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Functions-NET-9-support-in-Linux-20plans",
+      "title": "Public Preview: Azure Functions .NET 9 support in Linux plans",
+      "category": "IN PREVIEW",
+      "description": "Azure Functions now supports .NET 9 preview 7, using the isolated worker model."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Deprecation-of-Virtual-Network-Injection-for-Azure-Data-Explorer",
+      "title": "Retirement: Deprecation of Virtual Network Injection for Azure Data Explorer",
+      "category": "RETIREMENT",
+      "description": "The Virtual Network Injection feature for Azure Data Explorer is being deprecated due to its limitations and challenges. Customers are advised to migrate to a private endpoint-based network security architecture by February 1, 2025, to avoid any disruption"
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Introducing-Reporting-and-Microsoft-Entra-IDAuthentication-for-MPT",
+      "title": "Public Preview: Introducing Reporting and Microsoft Entra ID Authentication for Microsoft Playwright Testing",
+      "category": "IN PREVIEW",
+      "description": "We are excited to announce the public preview of Reporting and Microsoft Entra ID authentication for Microsoft Playwright Testing."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Virtual-machines-node-pools-support-in-AKS",
+      "title": "Public Preview: Virtual machines node pools support in AKS",
+      "category": "IN PREVIEW",
+      "description": "You can now have multiple VM SKU in a node pool in AKS."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Open-Service-Mesh-add-on-for-AKS-will-be-retired-on-September-30-2027",
+      "title": "Retirement: Open Service Mesh add-on for AKS will be retired on September 30, 2027",
+      "category": "RETIREMENT",
+      "description": "Plan out your migration from Open Service Mesh (OSM) to Istio add-on for Azure Kubernetes Service (AKS)."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Long-term-support-for-version-1-27-and-1-30-in-AKS",
+      "title": "Generally Available: Long-term support for version 1.27 and 1.30 in Azure Kubernetes Service (AKS)",
+      "category": "NOW AVAILABLE",
+      "description": "You can now enable long-term support (LTS) for Kubernetes version 1.30."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/AKS-GPU-image-preview-will-retire",
+      "title": "Retirement: AKS GPU image (preview) will retire on Jan 10, 2025",
+      "category": "RETIREMENT",
+      "description": "Effective January 10, 2025, Azure Kubernetes Service will no longer support or provide updates to the GPU image."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/FIPS-mutability-support-in-AKS-GA",
+      "title": "Generally Available: FIPS mutability support in AKS",
+      "category": "NOW AVAILABLE",
+      "description": "You can now enable or disable FIPS on an existing Linux node pool in AKS."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Php-81-extension",
+      "title": "Generally Available: Extended support: PHP 8.1 on App Service",
+      "category": "NOW AVAILABLE",
+      "description": "PHP 8.1 support is extending on App Service."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/python-39-app-svc",
+      "title": "Retirement: Extended support for Python 3.9 ends October 2025 – upgrade your apps to Python 3.10",
+      "category": "RETIREMENT",
+      "description": "Support for Python 3.9 ends October 2025 upgrade apps to Python 3.10"
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/php-82-app-svc",
+      "title": "Retirement: Extended support for PHP 8.2 ends December 31st, 2026 – upgrade apps to PHP 8.3",
+      "category": "RETIREMENT",
+      "description": "Support for PHP 8.2 ends December 31st, 2026, upgrade apps to PHP 8.3"
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Machine-Learning-Data-Drift-Retirement",
+      "title": "Retirement: Azure Machine Learning data drift detection will retire on September 1st, 2025",
+      "category": "RETIREMENT",
+      "description": "Start using the Azure Machine Learning model monitoring instead of the Azure Machine Learning data drift detection before September 1st, 2025."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Cosmos-DB-dynamic-scaling",
+      "title": "Generally Available: Azure Cosmos DB dynamic scaling—per region and per partition autoscale",
+      "category": "NOW AVAILABLE",
+      "description": "Optimize costs using the new dynamic scaling enhancement to autoscale for nonuniform workloads."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/GA-confidential-VMs-with-NVIDIA-H100-Tensor-Core-GPUs",
+      "title": "Generally Available: Azure confidential VMs with NVIDIA Tensor Core GPUs",
+      "category": "NOW AVAILABLE",
+      "description": "VMs based on AMD 4th Gen EPYCTM processors with SEV-SNP technology paired with NVIDIA H100 Tensor Core GPUs."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/FXmsv2-and-FXmdsv2-preview",
+      "title": "Public Preview: New FX series VMs - FXmsv2 and FXmdsv2",
+      "category": "IN PREVIEW",
+      "description": "The FXmsv2 and FXmdsv2 series are newest additions to the FX subfamily of VMs."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Retirement-notice-Azure-Load-Balancer-Inbound-NAT-rule-V1-for-Azure-VMs-and-Azure-VMSS-will-be-retired",
+      "title": "Retirement: Azure Load Balancer Inbound NAT rule V1 for Azure VMs and Azure VMSS will be retired",
+      "category": "RETIREMENT",
+      "description": "Migrate to Azure Load Balancer Inbound NAT rule V2 by September 30, 2027."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-FrontDoor-support-for-TLS-10-and-TLS-11-will-end-by-1-Dec-2024",
+      "title": "Retirement: Azure Front Door support for TLS 1.0 and TLS 1.1 will end by 1 Dec 2024",
+      "category": "RETIREMENT",
+      "description": "The TLS versions 1.2 and later offer improved security with features such as perfect forward secrecy and stronger cipher suites."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-CDN-Standard-from-Microsoft-classic-will-be-retired-on-30-September-2027",
+      "title": "Retirement: Azure CDN Standard from Microsoft (classic) will be retired on 30 September 2027",
+      "category": "RETIREMENT",
+      "description": "Migrate to Azure Front Door Standard or Premium to avoid service disruptions."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Application-Gateway-support-for-TLS-10-and-TLS-11-will-end-by-31-August-2025",
+      "title": "Retirement: Azure Application Gateway support for TLS 1.0 and TLS 1.1 will end by 31 August 2025",
+      "category": "RETIREMENT",
+      "description": "The TLS versions 1.2 and later offer improved security with features such as perfect forward secrecy and stronger cipher suites."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/grpc-and-frontend-mutual-authentication-available-on-application-gateway-for-containers",
+      "title": "Generally Available: gRPC and frontend mTLS now available for Application Gateway for Containers",
+      "category": "NOW AVAILABLE",
+      "description": "Application Gateway for Containers now supports gRPC and frontend mutual authentication.  With both frontend and backend mutual authentication, end-to-end mutual authentication is now possible."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Intent-Recognition-Retirement",
+      "title": "Retirement: Intent Recognition an Azure AI Speech feature will be retired on September 30th, 2025",
+      "category": "RETIREMENT",
+      "description": "Intent Recognition an Azure AI Speech feature will be retired on September 30th, 2025."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/SQL-Data-Sync-Retirement",
+      "title": "Retirement: SQL Data Sync will be retired on September 30th, 2027",
+      "category": "RETIREMENT",
+      "description": "Important Notice: Support for SQL Data Sync service will be retired on September 30th,2027."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-NSG-flow-logs-Retirement",
+      "title": "Retirement: Network security group flow logs in Azure Network Watcher will be retired",
+      "category": "RETIREMENT",
+      "description": "Network security group flow logs in Azure Network Watcher will be retired on September 30th, 2027."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-AI-Speaker-Recognition-Retirement",
+      "title": "Retirement: Azure AI Speaker Recognition",
+      "category": "RETIREMENT",
+      "description": "Azure AI Speaker Recognition will be retired on September 30, 2025."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/azure-site-recovery-classic-alerts-retirement",
+      "title": "Retirement: Retirement of Classic Alerts for Azure Site Recovery",
+      "category": "RETIREMENT",
+      "description": "Classic Alerts for Azure Site Recovery is on a retirement journey. Migrate to an improved solution using Azure Monitor by Sept 23 2027."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Conversation-Transcription-Multichannel-Diarization-Retirement",
+      "title": "Retirement: Conversation Transcription Multi Channel Diarization",
+      "category": "RETIREMENT",
+      "description": "Conversation Transcription Service provided speaker diarization with multichannel audio will be retired on March 28th ,2025."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/vpngw1-5-non-az-skus-will-be-retired-on-30-september-2026",
+      "title": "Retirement: VpnGw1-5 (Non-AZ SKUs) will be retired on Sep 30, 2026 – gateways will be automatically migrated to AZ SKUs",
+      "category": "RETIREMENT",
+      "description": "Retirement notice: VPN Gateway Non-Availability Zone SKU (VpnGw 1-5)"
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/acr-helm-repositories-retirement",
+      "title": "Retirement: Transition from Helm Repositories to OCI Artifacts for Storing Helm Charts",
+      "category": "RETIREMENT",
+      "description": "Helm v2 reached end of life status in November 2020. Therefore, Azure Container Registry will end support for Helm v2 and Helm repositories on March 30th, 2025. Please transition to Helm v3 and store your Helm Charts as OCI Artifacts."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Automanage-Best-Practices-Retirement-Migrate-to-Azure-Policy",
+      "title": "Retirement: Azure Automanage Best Practices Retirement. Migrate to Azure Policy",
+      "category": "RETIREMENT",
+      "description": "Azure Product Retirement: Azure Automanage Best Practices on 09/30/2027. Replace with Azure Policy."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/V5-reservations-for-Azure-Database",
+      "title": "Generally Available: V5 reservations for Azure Database for PostgreSQL – Flexible Server",
+      "category": "NOW AVAILABLE",
+      "description": "Save up to 65% on V5 compute resources by using reserved capacity pricing."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Smaller-Enterprise-tier-cache-instance-for-Azure-Cache-for-Redis",
+      "title": "Generally Available: Smaller Enterprise tier cache instance for Azure Cache for Redis",
+      "category": "NOW AVAILABLE",
+      "description": "Take advantage of a lower cost option for your Redis workloads."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Online-migration-from-Azure-Database-for-PostgreSQL-Single-Server-to-Flexible-Server",
+      "title": "Generally Available: Online migration from Azure Database for PostgreSQL - Single Server to Flexible Server",
+      "category": "NOW AVAILABLE",
+      "description": "Experience seamless online migration with minimal application downtime."
+    },
+    {
+      "date": "Sep 26, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Latest-PostgreSQL-minor-versions-supported-by-Azure-Database-for-PostgreSQL",
+      "title": "Generally Available: Latest PostgreSQL minor versions supported by Azure Database for PostgreSQL – Flexible Server",
+      "category": "NOW AVAILABLE",
+      "description": "Azure Database for PostgreSQL – Flexible Server now supports minor versions 16.4, 15.8, 14.13, 13.16, 12.20, and 17 Beta 3."
+    },
     {
       "date": "Sep 19, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/Microsoft-Purview-Data-Sharing-in-Public-Preview-is-retiring",
