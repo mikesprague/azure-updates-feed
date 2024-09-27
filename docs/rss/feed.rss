@@ -6,11 +6,11 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Sep 2024 12:02:21 GMT</pubDate>
+    <pubDate>Fri, 27 Sep 2024 12:02:37 GMT</pubDate>
     <item>
       <title>Retirement: Information regarding the end of support for the "Microsoft Translator [DEPRECATED]" connector</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/end-of-support-for-the-Microsoft-Translator-DEPRECATED-connector</link>
-      <description>The Microsoft Translator connector and its underlying API have been deprecated and will be disabled on Power Platform starting September 15, 2024. To avoid disruptions, transition to the Microsoft Translator V2 connector and Azure Text to Speech connector for the respective actions.</description>
+      <description>The Microsoft Translator connector and its underlying API have been deprecated and will be disabled on Power Platform starting October&#160;30, 2024. To avoid disruptions, transition to the Microsoft Translator V2 connector and Azure Text to Speech connector for the respective actions.</description>
       <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/v2/end-of-support-for-the-Microsoft-Translator-DEPRECATED-connector</guid>
     </item>
@@ -141,14 +141,14 @@
       <guid>https://azure.microsoft.com/en-us/updates/v2/Retirement-notice-Azure-Load-Balancer-Inbound-NAT-rule-V1-for-Azure-VMs-and-Azure-VMSS-will-be-retired</guid>
     </item>
     <item>
-      <title>Retirement: Azure Front Door support for TLS 1.0 and TLS 1.1 will end by 1 Dec 2024</title>
+      <title>Retirement: Azure Front Door support for TLS 1.0 and TLS 1.1 will end by Dec 1st, 2024</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-FrontDoor-support-for-TLS-10-and-TLS-11-will-end-by-1-Dec-2024</link>
       <description>The TLS versions 1.2 and later offer improved security with features such as perfect forward secrecy and stronger cipher suites.</description>
       <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-FrontDoor-support-for-TLS-10-and-TLS-11-will-end-by-1-Dec-2024</guid>
     </item>
     <item>
-      <title>Retirement: Azure CDN Standard from Microsoft (classic) will be retired on 30 September 2027</title>
+      <title>Retirement: Azure CDN Standard from Microsoft (classic) will be retired on September 30th, 2027</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-CDN-Standard-from-Microsoft-classic-will-be-retired-on-30-September-2027</link>
       <description>Migrate to Azure Front Door Standard or Premium to avoid service disruptions.</description>
       <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>
@@ -174,13 +174,6 @@
       <description>Intent Recognition an Azure AI Speech feature will be retired on September 30th, 2025.</description>
       <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Intent-Recognition-Retirement</guid>
-    </item>
-    <item>
-      <title>Retirement: SQL Data Sync will be retired on September 30th, 2027</title>
-      <link>https://azure.microsoft.com/en-us/updates/v2/SQL-Data-Sync-Retirement</link>
-      <description>Important Notice: Support for SQL Data Sync service will be retired on September 30th,2027.</description>
-      <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/v2/SQL-Data-Sync-Retirement</guid>
     </item>
     <item>
       <title>Retirement: Network security group flow logs in Azure Network Watcher will be retired</title>
@@ -225,7 +218,7 @@
       <guid>https://azure.microsoft.com/en-us/updates/v2/acr-helm-repositories-retirement</guid>
     </item>
     <item>
-      <title>Retirement: Azure Automanage Best Practices Retirement. Migrate to Azure Policy</title>
+      <title>Retirement: Azure Automange Best Practices Migrating&#160;to Azure Policy</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Automanage-Best-Practices-Retirement-Migrate-to-Azure-Policy</link>
       <description>Azure Product Retirement: Azure Automanage Best Practices on 09/30/2027. Replace with Azure Policy.</description>
       <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>

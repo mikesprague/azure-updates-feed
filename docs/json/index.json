@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "Thu, 26 Sep 2024 12:02:21 GMT",
+  "lastUpdated": "Fri, 27 Sep 2024 12:02:37 GMT",
   "posts": [
     {
       "date": "Sep 26, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/end-of-support-for-the-Microsoft-Translator-DEPRECATED-connector",
       "title": "Retirement: Information regarding the end of support for the \"Microsoft Translator [DEPRECATED]\" connector",
       "category": "RETIREMENT",
-      "description": "The Microsoft Translator connector and its underlying API have been deprecated and will be disabled on Power Platform starting September 15, 2024. To avoid disruptions, transition to the Microsoft Translator V2 connector and Azure Text to Speech connector for the respective actions."
+      "description": "The Microsoft Translator connector and its underlying API have been deprecated and will be disabled on Power Platform starting October 30, 2024. To avoid disruptions, transition to the Microsoft Translator V2 connector and Azure Text to Speech connector for the respective actions."
     },
     {
       "date": "Sep 26, 2024",
@@ -137,14 +137,14 @@
     {
       "date": "Sep 26, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-FrontDoor-support-for-TLS-10-and-TLS-11-will-end-by-1-Dec-2024",
-      "title": "Retirement: Azure Front Door support for TLS 1.0 and TLS 1.1 will end by 1 Dec 2024",
+      "title": "Retirement: Azure Front Door support for TLS 1.0 and TLS 1.1 will end by Dec 1st, 2024",
       "category": "RETIREMENT",
       "description": "The TLS versions 1.2 and later offer improved security with features such as perfect forward secrecy and stronger cipher suites."
     },
     {
       "date": "Sep 26, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-CDN-Standard-from-Microsoft-classic-will-be-retired-on-30-September-2027",
-      "title": "Retirement: Azure CDN Standard from Microsoft (classic) will be retired on 30 September 2027",
+      "title": "Retirement: Azure CDN Standard from Microsoft (classic) will be retired on September 30th, 2027",
       "category": "RETIREMENT",
       "description": "Migrate to Azure Front Door Standard or Premium to avoid service disruptions."
     },
@@ -168,13 +168,6 @@
       "title": "Retirement: Intent Recognition an Azure AI Speech feature will be retired on September 30th, 2025",
       "category": "RETIREMENT",
       "description": "Intent Recognition an Azure AI Speech feature will be retired on September 30th, 2025."
-    },
-    {
-      "date": "Sep 26, 2024",
-      "link": "https://azure.microsoft.com/en-us/updates/v2/SQL-Data-Sync-Retirement",
-      "title": "Retirement: SQL Data Sync will be retired on September 30th, 2027",
-      "category": "RETIREMENT",
-      "description": "Important Notice: Support for SQL Data Sync service will be retired on September 30th,2027."
     },
     {
       "date": "Sep 26, 2024",
@@ -221,7 +214,7 @@
     {
       "date": "Sep 26, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Automanage-Best-Practices-Retirement-Migrate-to-Azure-Policy",
-      "title": "Retirement: Azure Automanage Best Practices Retirement. Migrate to Azure Policy",
+      "title": "Retirement: Azure Automange Best Practices Migrating to Azure Policy",
       "category": "RETIREMENT",
       "description": "Azure Product Retirement: Azure Automanage Best Practices on 09/30/2027. Replace with Azure Policy."
     },
