@@ -1,6 +1,104 @@
 {
-  "lastUpdated": "Fri, 27 Sep 2024 12:02:37 GMT",
+  "lastUpdated": "Thu, 03 Oct 2024 12:02:32 GMT",
   "posts": [
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Spring-Apps-will-be-retired-on-March-31-2028",
+      "title": "Retirement: Azure Spring Apps will be retired on March 31, 2028",
+      "category": "RETIREMENT",
+      "description": "Plan out your migration from Azure Spring Apps to Azure Container Apps."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Diagnostics-Extensions-retiring-march-31-2026",
+      "title": "Retirement: Azure Diagnostic Extensions set to Retire in 18 months",
+      "category": "RETIREMENT",
+      "description": "Start using the Azure Monitor Agent instead of the Azure Diagnostics Agent before March 31st, 2026."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Alerts-LSA-Email-template-reminder",
+      "title": "Generally Available: Reminder New E-mail templates for Log search alerts - API version 2021-08-01 and up",
+      "category": "NOW AVAILABLE",
+      "description": "As we continue to enhance your experience with Azure Monitor, we want to remind you about an important update of Log search alerts V2 non common scheme e-mail templates."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Sphere-Legacy-Interface-Retirement",
+      "title": "Retirement: Azure Sphere is retiring Legacy service interfaces on September 27th, 2027",
+      "category": "RETIREMENT",
+      "description": "Azure Sphere (Legacy) service interfaces will be retired on September 27th, 2027 – plan your migration to Azure Sphere (Integrated)."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Switch-to-Azure-Business-Continuity-Center-for-your-at-scale-BCDR-management-needs",
+      "title": "Generally Available: Switch to Azure Business Continuity Center for at scale BCDR management",
+      "category": "NOW AVAILABLE",
+      "description": "Take advantage of Azure Business Continuity (ABC) Center, a streamlined, centralized management center that simplifies backup and disaster recovery across various environments (Azure, Hybrid) and solutions (Azure Backup and Azure Site Recovery)."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Linux-VM-promotional-offer",
+      "title": "Generally Available: Save up to 56% on the latest Linux VMs in most Azure regions for a limited time",
+      "category": "NOW AVAILABLE",
+      "description": "Save an additional 15% discount on 1-year Azure Reserved Virtual Machine Instance rates for the latest Linux VMs. Offer valid from October 1, 2024, to March 31, 2025"
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Introducing-the-Public-Preview-of-AVNM-IPAM",
+      "title": "Public Preview: Azure Virtual Network Monitoring IP address management",
+      "category": "IN PREVIEW",
+      "description": "Announcing the preview of the new Azure Virtual Network Manager feature, enhancing your network management capability."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Public-preview-Azure-NVads-V710-v5-series-virtual-machines",
+      "title": "Public Preview: Azure NVads V710 v5-series virtual machines",
+      "category": "IN PREVIEW",
+      "description": "The NVads V710 v5-series virtual machines are powered by AMD Radeon Pro V710 GPUs and AMD EPYC 9374 F (Genoa) CPUs, providing five VM sizes from 1/6 to a full V710 GPU with NVMe support for ephemeral local storage. These VMs are ideal for demanding GPU-accelerated graphics applications, cloud-based virtual desktops, high-quality gaming experiences, and small to medium AI/ML inference workloads."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Public-preview-Azure-NMads-MA35D-Series-virtual-machines",
+      "title": "Public Preview: Azure NMads MA35D-Series virtual machines",
+      "category": "IN PREVIEW",
+      "description": "The Azure NMads MA35D-Series virtual machines (VM) are now in public preview in the East US region, offering specialized hardware for optimized video transcoding workloads. This VM series provides higher throughput, lower latency, and access to modern codecs like AV1, making it an ideal choice for video transcoding on the cloud."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Backup-Reduced-Protected-Instance-Fees-HANA-Backup",
+      "title": "Generally Available: Azure Backup- Reduced Protected Instance Fee for SAP HANA Backup",
+      "category": "NOW AVAILABLE",
+      "description": "Azure Backup for SAP HANA Database Delivers More Value at Lower TCO with Reduced Protected Instance Fees starting Sept 1st, 2024"
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/SQL-Data-Sync-Retirement",
+      "title": "Retirement: SQL Data Sync will be retired on September 30th, 2027",
+      "category": "RETIREMENT",
+      "description": "Important Notice: Support for SQL Data Sync service will be retired on September 30th,2027."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Orbital-Ground-Station-Retirement",
+      "title": "Retirement: Azure Orbital Ground Station Retirement",
+      "category": "RETIREMENT",
+      "description": "Azure Orbital Ground Station (AOGS) will be retired on December 16th, 2024. This includes 1st party antenna support and 3rd party partner network scheduling capabilities."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/NCv3-series-VM-family-support-in-azure-batch-pools-retirement",
+      "title": "Retirement: End of life for NCv3-series VM family support in Azure Batch pools",
+      "category": "RETIREMENT",
+      "description": "Support for NCv3-series VM family will be retired for Azure Batch pools on September 30th, 2025."
+    },
+    {
+      "date": "Oct 03, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Planned-Service-Retirement-Azure-Automation-State-Configuration-16-September-2027",
+      "title": "Retirement: Planned Service Retirement - Azure Automation State Configuration on September 30, 2027",
+      "category": "RETIREMENT",
+      "description": "This article contains important information about required actions related to the retirement of Azure Automation State Configuration on September 30, 2027."
+    },
     {
       "date": "Sep 26, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/end-of-support-for-the-Microsoft-Translator-DEPRECATED-connector",
