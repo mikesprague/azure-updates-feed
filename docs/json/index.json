@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Thu, 03 Oct 2024 12:02:32 GMT",
+  "lastUpdated": "Fri, 04 Oct 2024 12:02:13 GMT",
   "posts": [
     {
       "date": "Oct 03, 2024",
@@ -32,8 +32,8 @@
     {
       "date": "Oct 03, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/Switch-to-Azure-Business-Continuity-Center-for-your-at-scale-BCDR-management-needs",
-      "title": "Generally Available: Switch to Azure Business Continuity Center for at scale BCDR management",
-      "category": "NOW AVAILABLE",
+      "title": "Public Preview: Switch to Azure Business Continuity Center for at scale BCDR management",
+      "category": "IN PREVIEW",
       "description": "Take advantage of Azure Business Continuity (ABC) Center, a streamlined, centralized management center that simplifies backup and disaster recovery across various environments (Azure, Hybrid) and solutions (Azure Backup and Azure Site Recovery)."
     },
     {

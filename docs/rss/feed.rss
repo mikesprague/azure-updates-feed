@@ -6,7 +6,7 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Oct 2024 12:02:32 GMT</pubDate>
+    <pubDate>Fri, 04 Oct 2024 12:02:13 GMT</pubDate>
     <item>
       <title>Retirement: Azure Spring Apps will be retired on March 31, 2028</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Spring-Apps-will-be-retired-on-March-31-2028</link>
@@ -36,7 +36,7 @@
       <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Sphere-Legacy-Interface-Retirement</guid>
     </item>
     <item>
-      <title>Generally Available: Switch to Azure Business Continuity Center for at scale BCDR management</title>
+      <title>Public Preview: Switch to Azure Business Continuity Center for at scale BCDR management</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Switch-to-Azure-Business-Continuity-Center-for-your-at-scale-BCDR-management-needs</link>
       <description>Take advantage of Azure Business Continuity (ABC) Center, a streamlined, centralized management center that simplifies backup and disaster recovery across various environments (Azure, Hybrid) and solutions (Azure Backup and Azure Site Recovery).</description>
       <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
