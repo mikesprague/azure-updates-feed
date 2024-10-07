@@ -37,7 +37,7 @@
     "@types/cheerio": "0.22.35",
     "@types/node": "22.7.4",
     "cross-env": "7.0.3",
-    "cz-git": "1.10.0",
+    "cz-git": "1.10.1",
     "tsx": "4.19.1",
     "typedoc": "0.26.8",
     "typedoc-plugin-markdown": "4.2.9",
