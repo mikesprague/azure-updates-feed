@@ -6,7 +6,7 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Oct 2024 12:02:24 GMT</pubDate>
+    <pubDate>Mon, 14 Oct 2024 12:02:31 GMT</pubDate>
     <item>
       <title>Retirement: Older versions of EA Azure Price Sheet &#8211; Download by Billing Account API</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Cost-Management-Download-by-Billing-Account-API-version-retirement</link>
@@ -146,13 +146,6 @@
       <description>You can now bring a &#8220;global&#8221; BYOIP range to azure that can be divided into multiple &#8220;regional&#8221; ranges across multiple Azure regions</description>
       <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/v2/Custom-IPv4-Prefixes-BYOIP-can-be-used-in-a-Global-Regional-configuration</guid>
-    </item>
-    <item>
-      <title>Generally Available: Azure Application Gateway v2 Basic SKU</title>
-      <link>https://azure.microsoft.com/en-us/updates/v2/GA-Azure-Application-Gateway-v2-Basic-SKU</link>
-      <description>Designed for customers, especially developers or small enterprises who are looking for a cost-effective Application Load Balancer solution and don&#8217;t require high scalability and advanced features.</description>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/v2/GA-Azure-Application-Gateway-v2-Basic-SKU</guid>
     </item>
     <item>
       <title>Retirement: Azure Spring Apps will be retired on March 31, 2028</title>

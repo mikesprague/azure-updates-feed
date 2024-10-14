@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Fri, 11 Oct 2024 12:02:24 GMT",
+  "lastUpdated": "Mon, 14 Oct 2024 12:02:31 GMT",
   "posts": [
     {
       "date": "Oct 10, 2024",
@@ -140,13 +140,6 @@
       "title": "Generally Available: Custom IPv4 Prefixes (BYOIP) can be used in a Global/Regional configuration",
       "category": "NOW AVAILABLE",
       "description": "You can now bring a “global” BYOIP range to azure that can be divided into multiple “regional” ranges across multiple Azure regions"
-    },
-    {
-      "date": "Oct 10, 2024",
-      "link": "https://azure.microsoft.com/en-us/updates/v2/GA-Azure-Application-Gateway-v2-Basic-SKU",
-      "title": "Generally Available: Azure Application Gateway v2 Basic SKU",
-      "category": "NOW AVAILABLE",
-      "description": "Designed for customers, especially developers or small enterprises who are looking for a cost-effective Application Load Balancer solution and don’t require high scalability and advanced features."
     },
     {
       "date": "Oct 03, 2024",
