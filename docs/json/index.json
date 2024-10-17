@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "Mon, 14 Oct 2024 12:02:31 GMT",
+  "lastUpdated": "Thu, 17 Oct 2024 12:02:22 GMT",
   "posts": [
+    {
+      "date": "Oct 17, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/linux-sssh-ed25519",
+      "title": "Generally Available: ED25519 SSH key support for Linux VMs",
+      "category": "NOW AVAILABLE",
+      "description": "We are excited to offer Azure customers highly secure and faster ED25519 SSH keys support for Linux Virtual Machines (VMs) in Azure."
+    },
+    {
+      "date": "Oct 17, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Cobalt-100-Arm-based-Virtual-Machines",
+      "title": "Generally Available: Azure Cobalt 100 Arm-based Virtual Machines",
+      "category": "NOW AVAILABLE",
+      "description": "Azure Cobalt 100 Arm-based VMs are now generally available in over 20 regions in North America, Asia, and EMEA."
+    },
+    {
+      "date": "Oct 17, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/VM-watch-on-Azure-VMs",
+      "title": "Public Preview: VM watch for Azure VMs",
+      "category": "IN PREVIEW",
+      "description": "VM watch makes it easier to collect and transmit health signals from virtual machines and virtual machine scale sets."
+    },
+    {
+      "date": "Oct 17, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Reduced-Pricing-for-JBoss-EAP-on-App-Service",
+      "title": "Generally Available: Reduced Pricing for JBoss EAP on App Service",
+      "category": "NOW AVAILABLE",
+      "description": "Reduced pricing now available for JBoss EAP on App Service!"
+    },
+    {
+      "date": "Oct 17, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Ermetro-ga-announcement",
+      "title": "Generally Available: ExpressRoute Metro",
+      "category": "NOW AVAILABLE",
+      "description": "Announcing the general availability of ExpressRoute Metro, a new private connectivity architecture designed to enhance network resiliency for our customers."
+    },
+    {
+      "date": "Oct 17, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/AzBackupGrsForPv2Ultra",
+      "title": "Generally Available: GRS and CRR support for Azure VMs using Premium SSD v2 and Ultra Disk in Azure Backup",
+      "category": "NOW AVAILABLE",
+      "description": "You can now backup VMs using Premium SSDv2 and Ultra Disk with Azure Backup to GRS vaults to guard against disasters in the primary region. You can also enable cross-region to restore to test restored on-demand in the secondary region."
+    },
+    {
+      "date": "Oct 17, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/AzureElasticSAN-for-AVS",
+      "title": "Generally Available: Azure Elastic SAN for Azure VMware Solution",
+      "category": "NOW AVAILABLE",
+      "description": "Azure Elastic SAN is now generally available as a VMware Certified datastore for Azure VMware Solution (AVS). Elastic SAN offers the cheapest per GiB storage for AVS, so you can optimize your storage and lower your costs."
+    },
     {
       "date": "Oct 10, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/Cost-Management-Download-by-Billing-Account-API-version-retirement",

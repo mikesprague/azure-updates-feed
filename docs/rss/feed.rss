@@ -6,7 +6,56 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Oct 2024 12:02:31 GMT</pubDate>
+    <pubDate>Thu, 17 Oct 2024 12:02:22 GMT</pubDate>
+    <item>
+      <title>Generally Available: ED25519 SSH key support for Linux VMs</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/linux-sssh-ed25519</link>
+      <description>We are excited to offer Azure customers highly secure and faster ED25519 SSH keys support for Linux Virtual Machines (VMs) in Azure.</description>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/linux-sssh-ed25519</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Cobalt 100 Arm-based Virtual Machines</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Cobalt-100-Arm-based-Virtual-Machines</link>
+      <description>Azure Cobalt 100 Arm-based VMs are now generally available in over 20 regions in North America, Asia, and EMEA.</description>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Cobalt-100-Arm-based-Virtual-Machines</guid>
+    </item>
+    <item>
+      <title>Public Preview: VM watch for Azure VMs</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/VM-watch-on-Azure-VMs</link>
+      <description>VM watch makes it easier to collect and transmit health signals from virtual machines and virtual machine scale sets.</description>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/VM-watch-on-Azure-VMs</guid>
+    </item>
+    <item>
+      <title>Generally Available: Reduced Pricing for JBoss EAP on App Service</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Reduced-Pricing-for-JBoss-EAP-on-App-Service</link>
+      <description>Reduced pricing now available for JBoss EAP on App Service!</description>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Reduced-Pricing-for-JBoss-EAP-on-App-Service</guid>
+    </item>
+    <item>
+      <title>Generally Available: ExpressRoute Metro</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Ermetro-ga-announcement</link>
+      <description>Announcing the general availability of ExpressRoute Metro, a new private connectivity architecture designed to enhance network resiliency for our customers.</description>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Ermetro-ga-announcement</guid>
+    </item>
+    <item>
+      <title>Generally Available: GRS and CRR support for Azure VMs using Premium SSD v2 and Ultra Disk in Azure Backup</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/AzBackupGrsForPv2Ultra</link>
+      <description>You can now backup VMs using Premium SSDv2 and Ultra Disk with Azure Backup to GRS vaults to guard against disasters in the primary region. You can also enable cross-region to restore to test restored on-demand in the secondary region.</description>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/AzBackupGrsForPv2Ultra</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Elastic SAN for Azure VMware Solution</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/AzureElasticSAN-for-AVS</link>
+      <description>Azure Elastic SAN is now generally available as a VMware Certified datastore for Azure VMware Solution (AVS). Elastic SAN offers the cheapest per GiB storage for AVS, so you can optimize your storage and lower your costs.</description>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/AzureElasticSAN-for-AVS</guid>
+    </item>
     <item>
       <title>Retirement: Older versions of EA Azure Price Sheet &#8211; Download by Billing Account API</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Cost-Management-Download-by-Billing-Account-API-version-retirement</link>
