@@ -6,7 +6,77 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 24 Oct 2024 12:02:15 GMT</pubDate>
+    <pubDate>Fri, 01 Nov 2024 12:02:19 GMT</pubDate>
+    <item>
+      <title>Public Preview: Edit network features for Azure NetApp Files with no downtime</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/edit-network-no-downtime</link>
+      <description>Azure NetApp Files now supports the capability to edit network features of existing volumes with no downtime.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/edit-network-no-downtime</guid>
+    </item>
+    <item>
+      <title>Public Preview: API Management &#38; API Center Synchronization</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/API-Management-API-Center-Synchronization</link>
+      <description>Managing APIs just got easier with Azure API Center&#8217;s new linking feature: seamless integration with an Azure API Management service. This ensures your API inventory stays automatically synced and updated.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/API-Management-API-Center-Synchronization</guid>
+    </item>
+    <item>
+      <title>Generally Available: Live Resize for Azure Premium SSD v2 and Ultra Disks</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Live-Resize-for-Azure-Premium-SSD-v2-and-Ultra-Disks1</link>
+      <description>This feature is the ability to increase your Premium SSD v2 and Ultra disks storage capacity without stopping your VM.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Live-Resize-for-Azure-Premium-SSD-v2-and-Ultra-Disks1</guid>
+    </item>
+    <item>
+      <title>Generally Available: App Service multi plan subnet join</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Announcing-App-Service-Multi-Plan-Subnet-Join</link>
+      <description>New ability for apps from multiple App Service plans to integrate with the same subnet</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Announcing-App-Service-Multi-Plan-Subnet-Join</guid>
+    </item>
+    <item>
+      <title>Retirement: Change Analysis (classic) API in Azure Monitor is retiring</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Monitor-Change-Analysis-Retirement</link>
+      <description>Azure Monitor support for Change Analysis API will be retired on October 31st, 2025.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Monitor-Change-Analysis-Retirement</guid>
+    </item>
+    <item>
+      <title>Retirement: Azure Health Data Services Retirement of Qatar Central Region</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-Region-Retirement</link>
+      <description>Azure Health Data Services from the Qatar Central region is retiring as of October 31, 2024.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-Region-Retirement</guid>
+    </item>
+    <item>
+      <title>Retirement: Azure Stream Analytics PowerBI output connector</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Stream-Analytics-PowerBI-output-connector</link>
+      <description>Azure Stream Analytics PowerBI output connector will be retired on Oct 31, 2027.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Stream-Analytics-PowerBI-output-connector</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Premium SSD v2 Disk Storage is now available in more regions</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-premium-ssd-v2-disk-storage-is-now-available-in-more-regions</link>
+      <description>Azure Premium SSD v2 Disk Storage is now available in several new regions, offering top-tier performance for demanding workloads at a low cost.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-premium-ssd-v2-disk-storage-is-now-available-in-more-regions</guid>
+    </item>
+    <item>
+      <title>Generally Available: Bot Manager Ruleset 1.1 on Azure WAF with Azure Application Gateway</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/General-availability-Bot-Manager-Ruleset-1-1-on-Azure-WAF-with-Azure-Application-Gateway</link>
+      <description>Bot Manager Rule Set 1.1 is an enhancement to Bot Manager Rule Set 1.0 and provides customers enhanced protection against malicious bots and increases detection of good bots.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/General-availability-Bot-Manager-Ruleset-1-1-on-Azure-WAF-with-Azure-Application-Gateway</guid>
+    </item>
+    <item>
+      <title>Generally Available: App Insights Code Optimizations</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/AppInsights-CodeOpt-NowAvailable</link>
+      <description>Optimize performance of your .NET apps at the code level.</description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/AppInsights-CodeOpt-NowAvailable</guid>
+    </item>
     <item>
       <title>Retirement: Update on retirement of TLS 1.0 and TLS 1.1 versions for Azure Services</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/Update-retirement-TLS1-0-TLS1-1-versions-Azure-Services</link>

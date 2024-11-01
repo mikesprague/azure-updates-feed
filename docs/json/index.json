@@ -1,6 +1,76 @@
 {
-  "lastUpdated": "Thu, 24 Oct 2024 12:02:15 GMT",
+  "lastUpdated": "Fri, 01 Nov 2024 12:02:19 GMT",
   "posts": [
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/edit-network-no-downtime",
+      "title": "Public Preview: Edit network features for Azure NetApp Files with no downtime",
+      "category": "IN PREVIEW",
+      "description": "Azure NetApp Files now supports the capability to edit network features of existing volumes with no downtime."
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/API-Management-API-Center-Synchronization",
+      "title": "Public Preview: API Management & API Center Synchronization",
+      "category": "IN PREVIEW",
+      "description": "Managing APIs just got easier with Azure API Center’s new linking feature: seamless integration with an Azure API Management service. This ensures your API inventory stays automatically synced and updated."
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Live-Resize-for-Azure-Premium-SSD-v2-and-Ultra-Disks1",
+      "title": "Generally Available: Live Resize for Azure Premium SSD v2 and Ultra Disks",
+      "category": "NOW AVAILABLE",
+      "description": "This feature is the ability to increase your Premium SSD v2 and Ultra disks storage capacity without stopping your VM."
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Announcing-App-Service-Multi-Plan-Subnet-Join",
+      "title": "Generally Available: App Service multi plan subnet join",
+      "category": "NOW AVAILABLE",
+      "description": "New ability for apps from multiple App Service plans to integrate with the same subnet"
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Monitor-Change-Analysis-Retirement",
+      "title": "Retirement: Change Analysis (classic) API in Azure Monitor is retiring",
+      "category": "RETIREMENT",
+      "description": "Azure Monitor support for Change Analysis API will be retired on October 31st, 2025."
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-Region-Retirement",
+      "title": "Retirement: Azure Health Data Services Retirement of Qatar Central Region",
+      "category": "RETIREMENT",
+      "description": "Azure Health Data Services from the Qatar Central region is retiring as of October 31, 2024."
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Stream-Analytics-PowerBI-output-connector",
+      "title": "Retirement: Azure Stream Analytics PowerBI output connector",
+      "category": "RETIREMENT",
+      "description": "Azure Stream Analytics PowerBI output connector will be retired on Oct 31, 2027."
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-premium-ssd-v2-disk-storage-is-now-available-in-more-regions",
+      "title": "Generally Available: Azure Premium SSD v2 Disk Storage is now available in more regions",
+      "category": "NOW AVAILABLE",
+      "description": "Azure Premium SSD v2 Disk Storage is now available in several new regions, offering top-tier performance for demanding workloads at a low cost."
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/General-availability-Bot-Manager-Ruleset-1-1-on-Azure-WAF-with-Azure-Application-Gateway",
+      "title": "Generally Available: Bot Manager Ruleset 1.1 on Azure WAF with Azure Application Gateway",
+      "category": "NOW AVAILABLE",
+      "description": "Bot Manager Rule Set 1.1 is an enhancement to Bot Manager Rule Set 1.0 and provides customers enhanced protection against malicious bots and increases detection of good bots."
+    },
+    {
+      "date": "Oct 31, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/AppInsights-CodeOpt-NowAvailable",
+      "title": "Generally Available: App Insights Code Optimizations",
+      "category": "NOW AVAILABLE",
+      "description": "Optimize performance of your .NET apps at the code level."
+    },
     {
       "date": "Oct 24, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/Update-retirement-TLS1-0-TLS1-1-versions-Azure-Services",
