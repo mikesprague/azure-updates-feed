@@ -1,6 +1,153 @@
 {
-  "lastUpdated": "Fri, 01 Nov 2024 12:02:19 GMT",
+  "lastUpdated": "Thu, 07 Nov 2024 12:02:20 GMT",
   "posts": [
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Event-Hubs-offers-new-portal-capabilities-and-100-Kafka-compatibility",
+      "title": "Public Preview:  Azure Event Hubs offers new portal capabilities, and 100% Kafka compatibility",
+      "category": "Public Preview:  Azure Event Hubs offers new portal capabilities, and 100% Kafka compatibility  IN PREVIEW",
+      "description": "New portal experience simplifies testing and debugging.  Kafka compatibility enables seamless integration with Apache Kafka workloads."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/azure-cdn-from-edgio-retirement",
+      "title": "Retirement: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired",
+      "category": "RETIREMENT",
+      "description": "Retirement notice: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired on November 4, 2025"
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Convert-to-Azure-Premium-SSD-v2-disks",
+      "title": "Generally Available: Convert to Azure Premium SSD v2 disks",
+      "category": "NOW AVAILABLE",
+      "description": "Converting to Azure Premium SSD v2 (Pv2) feature allows you to change your existing Standard SSD, Standard HDD, or Premium SSD v1 disks to Pv2 disks in a few clicks with minimal downtime. This process avoids disk destruction, eliminates the need to use snapshots as a staging resource, and doesn’t require waiting for background data copying."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-File-Sync-support-for-managed-identities",
+      "title": "Public Preview: Azure File Sync support for managed identities",
+      "category": "IN PREVIEW",
+      "description": "Azure File Sync now supports managed identities, eliminating shared keys for authentication. This feature, in public preview, is available at no extra cost in all Azure Public and Gov regions."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-region-retirement",
+      "title": "Retirement: Azure Health Data Services will be retired on October 31, 2025 in the Qatar Central region",
+      "category": "RETIREMENT",
+      "description": "Important: Azure Health Data Services in the Qatar Central region will be retired on October 31, 2025."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Confidential-Containers-now-in-preview-on-Azure-Red-Hat-OpenShift",
+      "title": "Public Preview: Confidential Containers now in preview on Azure Red Hat OpenShift",
+      "category": "IN PREVIEW",
+      "description": "Enhance cloud security with Confidential Containers on Azure Red Hat OpenShift, protecting sensitive workloads using hardware-level encryption and isolation."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Elastic-SAN-Updates",
+      "title": "Generally Available: Enhancements on Elastic SAN on resiliency, security, scalability, and integration with Azure VMWare Solution",
+      "category": "NOW AVAILABLE",
+      "description": "Azure Elastic SAN has released new features around improving data integrity, simplifying the management experience of a SAN, improving cost-effectiveness for AVS, and published a Service Level Agreement (SLA)."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/PostgreSQL-17-on-Azure-Database-for-PostgreSQL-Flexible-Server",
+      "title": "Public Preview: PostgreSQL 17 on Azure Database for PostgreSQL – Flexible Server",
+      "category": "IN PREVIEW",
+      "description": "Explore new performance enhancements and JSON functions in PostgreSQL 17."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Enhanced-error-messaging-in-Azure-Cosmos-DB-Data-Explorer",
+      "title": "Generally Available: Enhanced error messaging in Azure Cosmos DB Data Explorer",
+      "category": "NOW AVAILABLE",
+      "description": "Debug queries more efficiently with the improved error messaging in Azure Cosmos DB Data Explorer."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Cosmos-DB-vector-database-integration-with-LangChain-js",
+      "title": "Generally Available: Azure Cosmos DB vector database integration with LangChain.js",
+      "category": "NOW AVAILABLE",
+      "description": "Power your AI JavaScript apps with Azure Cosmos DB vector database capabilities."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-SQL-updates-for-early-November-2024",
+      "title": "Generally Available: Azure SQL updates for early November 2024",
+      "category": "NOW AVAILABLE",
+      "description": "General availability enhancements and updates released for Azure SQL in early November 2024."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-Resource-Manager-API-for-vCore-based-Azure-Cosmos-DB-for-MongoDB",
+      "title": "Generally Available: Azure Resource Manager API for vCore-based Azure Cosmos DB for MongoDB",
+      "category": "NOW AVAILABLE",
+      "description": "Unlock scalable, high-performance MongoDB clusters with new API for Azure Cosmos DB for MongoDB."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/SDK-style-SQL-projects-in-Visual-Studio",
+      "title": "Public Preview: SDK-style SQL projects in Visual Studio",
+      "category": "IN PREVIEW",
+      "description": "New database development and deployment toolkit for Microsoft SQL Server, Azure SQL, and Microsoft Fabric Data Warehouse."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/New-vector-data-type-and-functions-in-Azure-SQL",
+      "title": "Public Preview: New vector data type and functions in Azure SQL",
+      "category": "IN PREVIEW",
+      "description": "Power new AI solutions using native support for vectors in Azure SQL."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Azure-SQL-Database-Hyperscale-performance-enhancements",
+      "title": "Public Preview: Azure SQL Database Hyperscale performance enhancements",
+      "category": "IN PREVIEW",
+      "description": "Experience Azure SQL Database Hyperscale: Boosted 150 MB/s log rate and new continuous priming for failover performance."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-load-balancer-now-supports-admin-state",
+      "title": "Generally Available: Azure Load Balancer now supports Admin State",
+      "category": "NOW AVAILABLE",
+      "description": "Override Azure Load Balancer’s health probe behavior on a per backend pool instance basis using Load Balancer Admin State feature to make taking your VM out of rotation for maintenance easy."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/General-Availability-Single-Prefix-enhancement-to-Seamless-Gateway-Migration",
+      "title": "Generally Available: Single prefix enhancement to seamless gateway migration",
+      "category": "NOW AVAILABLE",
+      "description": "ExpressRoute seamless gateway migration now allows migration with a single prefix, eliminating the previous requirement to create a second address prefix in the Gateway."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Introducing-the-general-availability-of-Azure-Virtual-Network-Manager-UDR-management",
+      "title": "Generally Available: Azure Virtual Network Manager user-defined route (UDR) management",
+      "category": "NOW AVAILABLE",
+      "description": "Azure Virtual Network Manager’s new UDR Management feature streamlines routing automation, reducing manual setup and enhancing network scalability with effortless route configuration and deployment."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-load-balancer-now-supports-health-status",
+      "title": "Generally Available: Azure Load Balancer now supports Health Status",
+      "category": "NOW AVAILABLE",
+      "description": "Enhance reliability and performance with Azure Load Balancer Health Status, providing detailed insights and seamless monitoring of your backend instances' health."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Generally-Available-Azure-cross-subscription-Load-Balancer",
+      "title": "Generally Available: Azure cross-subscription Load Balancer",
+      "category": "NOW AVAILABLE",
+      "description": "Connect cross-subscription resources to your Azure Load Balancer."
+    },
+    {
+      "date": "Nov 07, 2024",
+      "link": "https://azure.microsoft.com/en-us/updates/v2/Support-for-TLS-1-0-1-1-in-Application-Insights-Availability-Tests-will-be-retired",
+      "title": "Retirement: Support for TLS 1.0/1.1 in Application Insights Availability Tests will be retired",
+      "category": "RETIREMENT",
+      "description": "TLS 1.0/1.1 and Legacy TLS configurations for Application Insights Availability Tests will be retired on March 1, 2025"
+    },
     {
       "date": "Oct 31, 2024",
       "link": "https://azure.microsoft.com/en-us/updates/v2/edit-network-no-downtime",
@@ -35,13 +182,6 @@
       "title": "Retirement: Change Analysis (classic) API in Azure Monitor is retiring",
       "category": "RETIREMENT",
       "description": "Azure Monitor support for Change Analysis API will be retired on October 31st, 2025."
-    },
-    {
-      "date": "Oct 31, 2024",
-      "link": "https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-Region-Retirement",
-      "title": "Retirement: Azure Health Data Services Retirement of Qatar Central Region",
-      "category": "RETIREMENT",
-      "description": "Azure Health Data Services from the Qatar Central region is retiring as of October 31, 2024."
     },
     {
       "date": "Oct 31, 2024",
@@ -84,13 +224,6 @@
       "title": "Generally Available: Azure App Configuration – Premium pricing plan now generally available",
       "category": "NOW AVAILABLE",
       "description": "Greater capacity and no hourly request quota limits."
-    },
-    {
-      "date": "Oct 24, 2024",
-      "link": "https://azure.microsoft.com/en-us/updates/v2/Immutable-WORM-Storage-for-Backups-in-Azure-Recovery-Services-Vaults",
-      "title": "Public Preview: Immutable WORM Storage for Backups in Azure Recovery Services Vaults",
-      "category": "IN PREVIEW",
-      "description": "With Azure Backup, you can now enable Immutable WORM storage for your backups when you lock immutability on the Recovery Services Vault."
     },
     {
       "date": "Oct 24, 2024",

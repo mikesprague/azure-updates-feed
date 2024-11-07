@@ -6,7 +6,154 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Nov 2024 12:02:19 GMT</pubDate>
+    <pubDate>Thu, 07 Nov 2024 12:02:20 GMT</pubDate>
+    <item>
+      <title>Public Preview:&#160; Azure Event Hubs offers new portal capabilities, and 100% Kafka compatibility</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Event-Hubs-offers-new-portal-capabilities-and-100-Kafka-compatibility</link>
+      <description>New portal experience simplifies testing and debugging.&#160; Kafka compatibility enables seamless integration with Apache Kafka workloads.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Event-Hubs-offers-new-portal-capabilities-and-100-Kafka-compatibility</guid>
+    </item>
+    <item>
+      <title>Retirement: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/azure-cdn-from-edgio-retirement</link>
+      <description>Retirement notice: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired on November 4, 2025</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/azure-cdn-from-edgio-retirement</guid>
+    </item>
+    <item>
+      <title>Generally Available: Convert to Azure Premium SSD v2 disks</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Convert-to-Azure-Premium-SSD-v2-disks</link>
+      <description>Converting to Azure Premium SSD v2 (Pv2) feature allows you to change your existing Standard SSD, Standard HDD, or Premium SSD v1 disks to Pv2 disks in a few clicks with minimal downtime. This process avoids disk destruction, eliminates the need to use snapshots as a staging resource, and doesn&#8217;t require waiting for background data copying.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Convert-to-Azure-Premium-SSD-v2-disks</guid>
+    </item>
+    <item>
+      <title>Public Preview: Azure File Sync support for managed identities</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-File-Sync-support-for-managed-identities</link>
+      <description>Azure File Sync now supports managed identities, eliminating shared keys for authentication. This feature, in public preview, is available at no extra cost in all Azure Public and Gov regions.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-File-Sync-support-for-managed-identities</guid>
+    </item>
+    <item>
+      <title>Retirement: Azure Health Data Services will be retired on October 31, 2025 in the Qatar Central region</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-region-retirement</link>
+      <description>Important: Azure Health Data Services in the Qatar Central region will be retired on October 31, 2025.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-region-retirement</guid>
+    </item>
+    <item>
+      <title>Public Preview: Confidential Containers now in preview on Azure Red Hat OpenShift</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Confidential-Containers-now-in-preview-on-Azure-Red-Hat-OpenShift</link>
+      <description>Enhance cloud security with Confidential Containers on Azure Red Hat OpenShift, protecting sensitive workloads using hardware-level encryption and isolation.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Confidential-Containers-now-in-preview-on-Azure-Red-Hat-OpenShift</guid>
+    </item>
+    <item>
+      <title>Generally Available: Enhancements on Elastic SAN on resiliency, security, scalability, and integration with Azure VMWare Solution</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Elastic-SAN-Updates</link>
+      <description>Azure Elastic SAN has released new features around improving data integrity, simplifying the management experience of a SAN, improving cost-effectiveness for AVS, and published a Service Level Agreement (SLA).</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Elastic-SAN-Updates</guid>
+    </item>
+    <item>
+      <title>Public Preview: PostgreSQL 17 on Azure Database for PostgreSQL &#8211; Flexible Server</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/PostgreSQL-17-on-Azure-Database-for-PostgreSQL-Flexible-Server</link>
+      <description>Explore new performance enhancements and JSON functions in PostgreSQL 17.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/PostgreSQL-17-on-Azure-Database-for-PostgreSQL-Flexible-Server</guid>
+    </item>
+    <item>
+      <title>Generally Available: Enhanced error messaging in Azure Cosmos DB Data Explorer</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Enhanced-error-messaging-in-Azure-Cosmos-DB-Data-Explorer</link>
+      <description>Debug queries more efficiently with the improved error messaging in Azure Cosmos DB Data Explorer.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Enhanced-error-messaging-in-Azure-Cosmos-DB-Data-Explorer</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Cosmos DB vector database integration with LangChain.js</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Cosmos-DB-vector-database-integration-with-LangChain-js</link>
+      <description>Power your AI JavaScript apps with Azure Cosmos DB vector database capabilities.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Cosmos-DB-vector-database-integration-with-LangChain-js</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure SQL updates for early November 2024</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-SQL-updates-for-early-November-2024</link>
+      <description>General availability enhancements and updates released for Azure SQL in early November 2024.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-SQL-updates-for-early-November-2024</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Resource Manager API for vCore-based Azure Cosmos DB for MongoDB</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-Resource-Manager-API-for-vCore-based-Azure-Cosmos-DB-for-MongoDB</link>
+      <description>Unlock scalable, high-performance MongoDB clusters with new API for Azure Cosmos DB for MongoDB.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Resource-Manager-API-for-vCore-based-Azure-Cosmos-DB-for-MongoDB</guid>
+    </item>
+    <item>
+      <title>Public Preview: SDK-style SQL projects in Visual Studio</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/SDK-style-SQL-projects-in-Visual-Studio</link>
+      <description>New database development and deployment toolkit for Microsoft SQL Server, Azure SQL, and Microsoft Fabric Data Warehouse.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/SDK-style-SQL-projects-in-Visual-Studio</guid>
+    </item>
+    <item>
+      <title>Public Preview: New vector data type and functions in Azure SQL</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/New-vector-data-type-and-functions-in-Azure-SQL</link>
+      <description>Power new AI solutions using native support for vectors in Azure SQL.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/New-vector-data-type-and-functions-in-Azure-SQL</guid>
+    </item>
+    <item>
+      <title>Public Preview: Azure SQL Database Hyperscale performance enhancements</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Azure-SQL-Database-Hyperscale-performance-enhancements</link>
+      <description>Experience Azure SQL Database Hyperscale: Boosted 150 MB/s log rate and new continuous priming for failover performance.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-SQL-Database-Hyperscale-performance-enhancements</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Load Balancer now supports Admin State</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-load-balancer-now-supports-admin-state</link>
+      <description>Override Azure Load Balancer&#8217;s health probe behavior on a per backend pool instance basis using Load Balancer Admin State feature to make taking your VM out of rotation for maintenance easy.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-load-balancer-now-supports-admin-state</guid>
+    </item>
+    <item>
+      <title>Generally Available: Single prefix enhancement to seamless gateway migration</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/General-Availability-Single-Prefix-enhancement-to-Seamless-Gateway-Migration</link>
+      <description>ExpressRoute seamless gateway migration now allows migration with a single prefix, eliminating the previous requirement to create a second address prefix in the Gateway.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/General-Availability-Single-Prefix-enhancement-to-Seamless-Gateway-Migration</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Virtual Network Manager user-defined route (UDR) management</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Introducing-the-general-availability-of-Azure-Virtual-Network-Manager-UDR-management</link>
+      <description>Azure Virtual Network Manager&#8217;s new UDR Management feature streamlines routing automation, reducing manual setup and enhancing network scalability with effortless route configuration and deployment.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Introducing-the-general-availability-of-Azure-Virtual-Network-Manager-UDR-management</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Load Balancer now supports Health Status</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-load-balancer-now-supports-health-status</link>
+      <description>Enhance reliability and performance with Azure Load Balancer Health Status, providing detailed insights and seamless monitoring of your backend instances' health.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/generally-available-azure-load-balancer-now-supports-health-status</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure cross-subscription Load Balancer</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Generally-Available-Azure-cross-subscription-Load-Balancer</link>
+      <description>Connect cross-subscription resources to your Azure Load Balancer.</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Generally-Available-Azure-cross-subscription-Load-Balancer</guid>
+    </item>
+    <item>
+      <title>Retirement: Support for TLS 1.0/1.1 in Application Insights Availability Tests will be retired</title>
+      <link>https://azure.microsoft.com/en-us/updates/v2/Support-for-TLS-1-0-1-1-in-Application-Insights-Availability-Tests-will-be-retired</link>
+      <description>TLS 1.0/1.1 and Legacy TLS configurations for Application Insights Availability Tests will be retired on March 1, 2025</description>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/v2/Support-for-TLS-1-0-1-1-in-Application-Insights-Availability-Tests-will-be-retired</guid>
+    </item>
     <item>
       <title>Public Preview: Edit network features for Azure NetApp Files with no downtime</title>
       <link>https://azure.microsoft.com/en-us/updates/v2/edit-network-no-downtime</link>
@@ -41,13 +188,6 @@
       <description>Azure Monitor support for Change Analysis API will be retired on October 31st, 2025.</description>
       <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-Monitor-Change-Analysis-Retirement</guid>
-    </item>
-    <item>
-      <title>Retirement: Azure Health Data Services Retirement of Qatar Central Region</title>
-      <link>https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-Region-Retirement</link>
-      <description>Azure Health Data Services from the Qatar Central region is retiring as of October 31, 2024.</description>
-      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/v2/AHDS-Qatar-Central-Region-Retirement</guid>
     </item>
     <item>
       <title>Retirement: Azure Stream Analytics PowerBI output connector</title>
@@ -90,13 +230,6 @@
       <description>Greater capacity and no hourly request quota limits.</description>
       <pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/v2/Azure-App-Configuration-Premium-pricing-plan-now-generally-available</guid>
-    </item>
-    <item>
-      <title>Public Preview: Immutable WORM Storage for Backups in Azure Recovery Services Vaults</title>
-      <link>https://azure.microsoft.com/en-us/updates/v2/Immutable-WORM-Storage-for-Backups-in-Azure-Recovery-Services-Vaults</link>
-      <description>With Azure Backup, you can now enable Immutable WORM storage for your backups when you lock immutability on the Recovery Services Vault.</description>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/v2/Immutable-WORM-Storage-for-Backups-in-Azure-Recovery-Services-Vaults</guid>
     </item>
     <item>
       <title>Public Preview: Azure Functions support for Node.js 22</title>
