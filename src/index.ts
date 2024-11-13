@@ -1,12 +1,13 @@
 import fs from 'node:fs';
 import * as core from '@actions/core';
 import * as cheerio from 'cheerio';
+import * as playwright from 'playwright';
 
 const { hrtime } = process;
 
 export type PostsObject = {
   date: string;
-  link: string;
+  linkId: string;
   title: string;
   category: string;
   description: string;
@@ -22,8 +23,7 @@ export interface Config {
   selectors: {
     updateRow: string;
     date: string;
-    link: string;
-    linkAlt: string;
+    linkId: string;
     title: string;
     category: string;
     description: string;
@@ -33,6 +33,7 @@ export interface Config {
   jsonOutputDir: string;
   rssFileName: string;
   rssOutputDir: string;
+  linkPrefix: string;
 }
 
 (async () => {
@@ -42,19 +43,20 @@ export interface Config {
   const config: Config = {
     url: 'https://azure.microsoft.com/en-us/updates/',
     selectors: {
-      updateRow:
-        '#layout-container-uidc0d6 > div > div > div.col.text-md-left.no-gutters.col-12.col-md-9 > div',
-      date: '#areaheading-oc925a > div > div.col-12.col-md-8.col-xl-6 > div > p',
-      link: 'h3 > span > a',
-      linkAlt: 'section h3 > a',
-      title: 'h3',
-      category: '#richtext-oc8284 > div',
-      description: '#richtext-oc7ca0 > div > p',
+      updateRow: 'ul#accordion-container > li',
+      date: 'div.updated_dates > div.modified_date > span',
+      linkId:
+        'div.all_sections.col-sm-9.pl-0 > div.roadMapId_section > div.value',
+      title: 'button > div.ocr-faq-item__header--title > p.lead',
+      category:
+        'div.all_sections.col-sm-9.pl-0 > div.platforms_section > div.value',
+      description: 'div.accordion-item.col-xl-8',
     },
     jsonFileName: 'index.json',
     jsonOutputDir: 'docs/json/',
     rssFileName: 'feed.rss',
     rssOutputDir: 'docs/rss/',
+    linkPrefix: 'https://azure.microsoft.com/en-us/updates/?id=',
   };
 
   // read in previous results to use for comparison
@@ -62,17 +64,11 @@ export interface Config {
     fs.readFileSync(`${config.jsonOutputDir}${config.jsonFileName}`, 'utf-8')
   );
 
-  // make http call to fetch html of updates page
-  const markup = await fetch(config.url).then((response) => response.text());
-
   // object to hold JSON items
   const updatesList: ResultsObject = {
     lastUpdated: undefined,
     posts: [],
   };
-
-  // instantiate cheerio with markup from earlier http request
-  const $ = cheerio.load(markup);
 
   // array to hold RSS items
   const rssItems: string[] = [];
@@ -84,44 +80,57 @@ export interface Config {
     });
   };
 
+  // instantiate playwright
+  const browser = await playwright.chromium.launch({ headless: true });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  // go to URL and wait for content to load
+  await page.goto(config.url);
+  await page.waitForLoadState('domcontentloaded');
+  await page.waitForSelector(config.selectors.updateRow);
+
+  // get page content
+  const markup = await page.content();
+
+  // close browser
+  await browser.close();
+
+  // instantiate cheerio with markup from earlier http request
+  const $ = cheerio.load(markup);
+
   // loop over updates and add to array in results object
+  console.log($(config.selectors.updateRow).length);
   $(config.selectors.updateRow).each((i, elem) => {
-    let date = $(elem).find(config.selectors.date).text().trim();
-    date = `${date}, ${new Date().getFullYear()}`;
-
-    let link = $(elem).find(config.selectors.link).attr('href');
-    if (link === undefined) {
-      link = $(elem).find(config.selectors.linkAlt).attr('href');
-    }
-
+    const date = $(elem).find(config.selectors.date).text().trim();
+    const linkId = $(elem).find(config.selectors.linkId).text().trim();
     const title = $(elem).find(config.selectors.title).text().trim();
     const category = $(elem).find(config.selectors.category).text().trim();
     const description = $(elem)
       .find(config.selectors.description)
       .text()
       .trim();
-
     // if all data is present, add to results objects
     if (
       date?.length &&
-      link?.length &&
+      linkId?.length &&
       category?.length &&
       title?.length &&
       description?.length
     ) {
       updatesList.posts.push({
         date,
-        link,
+        linkId,
         title,
         category,
         description,
       });
       const rssItem = `    <item>
       <title>${encodeHtmlEntities(title)}</title>
-      <link>${link}</link>
+      <link>${config.linkPrefix}${linkId}</link>
       <description>${encodeHtmlEntities(description)}</description>
       <pubDate>${new Date(date).toUTCString()}</pubDate>
-      <guid>${link}</guid>
+      <guid>${config.linkPrefix}${linkId}</guid>
     </item>`;
       rssItems.push(rssItem);
     } else {
@@ -130,7 +139,7 @@ export interface Config {
         'Missing data for update:\n',
         `date: ${date}\n`,
         `title: ${title}\n`,
-        `link: ${link}\n`,
+        `linkId: ${linkId}\n`,
         `category: ${category}\n`,
         `description: ${description}\n`,
         'full element:',
@@ -159,10 +168,6 @@ export interface Config {
   const rssEnd = `  </channel>
 </rss>
 `;
-
-  // console.log(rssStart);
-  // console.log(rssItems.join('\n'));
-  // console.log(rssEnd);
 
   // set var indicating if there are updates to process+
   const hasUpdates =
