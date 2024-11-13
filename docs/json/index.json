@@ -1,4 +1,145 @@
 {
-  "lastUpdated": "Wed, 13 Nov 2024 12:02:34 GMT",
-  "posts": []
+  "lastUpdated": "Wed, 13 Nov 2024 18:12:19 GMT",
+  "posts": [
+    {
+      "date": "11/13/2024",
+      "linkId": "466855",
+      "title": "Generally Available: Azure Cosmos DB vector database integration with LangChain.js",
+      "category": "Features",
+      "description": "We’re excited to introduce LangChain.js integration with Azure Cosmos DB. You can use this powerful combination to efficiently manage fast and accurate data retrieval with greater ease in your JavaScript applications. The new LangChain.js integration makes the most of Azure Cosmos DB scalability and efficient vector search capabilities, simplifying applications development and large language model (LLM) orchestration tasks. Learn more."
+    },
+    {
+      "date": "11/13/2024",
+      "linkId": "467620",
+      "title": "Generally Available: Single prefix enhancement to seamless gateway migration",
+      "category": "Features",
+      "description": "With the Gateway migration experience, customers can use the Azure Portal or PowerShell scripts to deploy a second Virtual Network Gateway within the same GatewaySubnet of the Virtual Network. During the migration phase, once initiated by the customer, Azure will transfer both the control plane and data path configurations from the existing gateway to the newly deployed one. This process will result in two operational Gateways within the same Gateway Subnet. After the migration is successfully completed, customers can remove the original Gateway, leaving the new Gateway in place for continued Private Connectivity. Previously, ExpressRoute Gateway customers needed to create a second address prefix to pass the validation stage of migrating their gateway. With this enhancement, customers can now migrate with a single prefix, eliminating the previous requirement to create a second address prefix in the Gateway. This feature is designed to support migrations with minimal downtime.To learn more, see:About migrating to an availability zone-enabled ExpressRoute virtual network gateway - Azure ExpressRoute | Microsoft LearnMigrate to an availability zone-enabled ExpressRoute virtual network gateway in Azure portal - Azure ExpressRoute | Microsoft Learn"
+    },
+    {
+      "date": "11/13/2024",
+      "linkId": "467714",
+      "title": "Generally Available: Azure Chaos Studio now supports faults for AKS clusters using managed identity authentication",
+      "category": "Features, Management, Services",
+      "description": "Azure Chaos Studio’s faults for Azure Kubernetes Service clusters\nnow work with managed identity authentication. Previously, local authentication\nthrough the Kubernetes API server was the only supported authentication method.\nTo enable customers with an enhanced security posture for AKS clusters to\nperform fault injection, the Version 2.2 AKS Chaos Mesh faults now also support\nmanaged identity authentication. Customers using Version 2.1 faults will need\nto enable the new capabilities and modify the relevant experiments to use the\nnew versions. Version 2.1 faults will be unavailable in the Chaos Studio user\ninterface on or after January 31, 2025, but remain runnable in experiments\nuntil further notice. Learn more at this link: Using Microsoft Entra authentication with Chaos Studio AKS\nfaults. For more information about Azure Chaos Studio, see Azure Chaos Studio documentation."
+    },
+    {
+      "date": "11/13/2024",
+      "linkId": "466779",
+      "title": "Retirement: Azure Health Data Services will be retired on October 31, 2025 in the Qatar Central region",
+      "category": "Retirements",
+      "description": "Because we're consolidating resources and there is low usage in the region, we'll be retiring Azure Health Data Services the Qatar Central region on October 31, 2025. Please ensure that you migrate to another available Azure Health Data Services region by that date.Until October 31, 2025, you can continue to use Azure Health Data Services without disruption. However, on October 31, 2025, all workloads running Azure Health Data Services in the Qatar Central region will be deleted, and associated application data will be lost. Below are resources to assist you with your migration.Required actionPlease transition your workloads to another Azure Health Data Services region before October 31, 2025.View the regions where Azure Health Data Services are available here.Help and supportIf you have questions, you can get answers from community experts in Microsoft Q&A. If you have a support plan and need technical assistance, please create a support request.Azure Health Data Services from the Qatar Central region is retiring as of October 31, 2024. We are asking customers to utilize one of our other regions or remove/backup data they wish to retain before retirement.Customers may use one of our other regions."
+    },
+    {
+      "date": "11/12/2024",
+      "linkId": "466985",
+      "title": "Generally Available: Advanced Container Networking Services",
+      "category": "Features",
+      "description": "Advanced\nContainer Networking Services (ACNS) is now generally available. ACNS includes\nAdvanced Network Observability, providing pod-level metrics, DNS insights, and\nenhanced troubleshooting tools for network debugging in AKS.  Additionally,\nFQDN filtering is also generally available, simplifying network policy\nmanagement by using domain names instead of IP addresses. This reduces the need\nfor frequent updates and minimizes configuration errors. Both features are\nintegrated with Azure Monitor, enabling customizable metrics and pre-built\ndashboards in Azure Managed Grafana, improving network management and security\nfor AKS environments.  Learn more."
+    },
+    {
+      "date": "11/12/2024",
+      "linkId": "466990",
+      "title": "Generally Available: Delete a specific machine",
+      "category": "Features",
+      "description": "It is now possible\nto specifically choose which VM to delete and remove when scaling down a node\npool in AKS. This provides greater control and flexibility in managing\nresources within the node pool.  Learn more."
+    },
+    {
+      "date": "11/12/2024",
+      "linkId": "466995",
+      "title": "Generally Available: Ignore PDBs on node pool deletion",
+      "category": "Features",
+      "description": "Node pools in AKS can now be\ndeleted even if there are pods monitored by a PodDisruptionBudget (PDB) –\npreviously, the deletion of the node pool could fail due to an unsatisfied PDB.\nThis enhancement allows the deletion to proceed by ignoring the PDB error that\nwould previously block the deletion from continuing. Learn more."
+    },
+    {
+      "date": "11/12/2024",
+      "linkId": "467013",
+      "title": "Generally Available: Fleet OSS announcements",
+      "category": "Open Source",
+      "description": "Microsoft Azure\nKubernetes Fleet Manager upstream team is making new multi-cluster features\navailable to any Kubernetes operator.For core multi-cluster workload placement\nthere is a v1alpha1 release of staged release pipelines\n(ClusterStagedUpdateRun) which represents a stage-by-stage update process that\napplies ClusterResourcePlacement selected resources to specified clusters. Additionally,\nwork has started on adding support to the fleet upstream project for\nsig-multicluster's ClusterProfile API (KEP-4322).  In the networking\nspace, the upstream team is also announcing the v1alpha1 release of\nmulti-cluster network traffic shifting for public-facing multi-cluster services\nusing a new  TrafficManagerProfile custom\nresource. This new custom resource provides a cloud native method for\ninteracting with Azure Traffic Manager profiles and related backends via the\nTrafficManagerBackend custom resource. Azure Traffic Manager can provide\nDNS-based traffic load balancing for endpoints hosted on any public IP,\nregardless of where that IP is hosted."
+    },
+    {
+      "date": "11/12/2024",
+      "linkId": "467018",
+      "title": "Public Preview: Static egress gateway for AKS",
+      "category": "Features, Security",
+      "description": "Static egress gateway for Azure\nKubernetes Service (AKS) is now in public preview. This feature allows AKS\ncustomers to configure a fixed source IP for out-of-cluster communications\nwithout incurring the significant cost of deploying a dedicated node pool with\na NAT gateway. The static egress gateway enables precise control over egress\ntraffic, simplifying integration with external systems and enhancing network\nsecurity. Learn more."
+    },
+    {
+      "date": "11/12/2024",
+      "linkId": "467023",
+      "title": "Public Preview: Azure Linux 3.0 on Azure Kubernetes Service v1.31",
+      "category": "Features",
+      "description": "Azure Linux 3.0, the next major version\nrelease of the Azure Linux container host for Azure Kubernetes Service (AKS),\nis now available in preview on AKS version 1.31. Azure Linux 3.0 offers\nincreased package availability and versions, an updated kernel, and\nimprovements to performance, security, and tooling and developer experience. Learn\nmore and get started with the Azure Linux 3.0 preview here."
+    },
+    {
+      "date": "11/12/2024",
+      "linkId": "467028",
+      "title": "Public Preview: SeccompDefault support in AKS",
+      "category": "Features, Security",
+      "description": "SeccompDefault is available in public preview as a new parameter through\ncustom node configuration.  Secure\ncomputing mode (seccomp) is used to restrict a container’s syscalls that can be\nsent to the kernel. This establishes an extra layer of protection against\ncommon system call vulnerabilities exploited by malicious actors and allows you to specify a\ndefault seccomp profile for all workloads in the node.   There\nare two allowed values for SeccompDefault: Unconfined is the default parameter\nvalue which does not block any syscalls. RuntimeDefault will block restricted\nsyscalls in the containerd seccomp profile. \n The\nRuntimeDefault profile allows a common set of syscalls while blocking those\nthat are less likely to be used or potentially unsafe in a containerized\napplication. This profile aims to provide a reliable set of security defaults\nwhile maintaining the functionality of the workload. Learn more."
+    },
+    {
+      "date": "11/12/2024",
+      "linkId": "467668",
+      "title": "Public Preview: Azure Front Door WebSocket",
+      "category": "Features",
+      "description": "We are announcing the public preview of WebSocket on Azure\nFront Door Standard and Premium. WebSocket is enabled by default without\ncustomer configurations on Azure Front Door. \n\nWebSocket enables full duplex communication between a server\nand a client over a long-running TCP connection. It eliminates the needs for\npolling as required in HTTP, avoids some of the overhead of HTTP, and can reuse\nthe same TCP connection for multiple request/responses resulting in a more\nefficient utilization of resources. This enables more interactive and real-time\nscenarios.  \n\nWebSocket can be used for apps or websites which require\nreal-time updates/communications or continuous streams of data, such as chats,\ndashboard, finance stock info update, GPS, online education, live streaming and\ngame apps. \n\nFor more details, please refer to Azure\nFront Door WebSocket documentation."
+    },
+    {
+      "date": "11/11/2024",
+      "linkId": "467709",
+      "title": "Generally Available: Azure Chaos Studio is now available in Canada Central region",
+      "category": "Features, Services, Regions & Datacenters, Management",
+      "description": "Azure Chaos Studio is a managed service that uses chaos engineering to help measure, understand, and improve cloud applicaion and service resilience. Azure Chaos Studio Resource Targeting is now available in Canada Central region. For complete list of regions, see list of regions Azure Chaos Studio is available.For more information about Azure Chaos Studio, see Azure Chaos Studio documentation."
+    },
+    {
+      "date": "11/07/2024",
+      "linkId": "467610",
+      "title": "Generally Available: Azure Load Balancer now supports Health Status",
+      "category": "Features",
+      "description": "Announcing the general availability of Azure Load Balancer Health Status, a powerful feature designed to provide detailed information about the health of backend instances in your Azure Load Balancer backend pool.The Health Status feature offers valuable insights into the state of health of your backend instances and specific reasons for their health status, including:User-triggered issuesPlatform-triggered reason codesWith this feature, you can now monitor and manage the health of your backend instances through detailed status reports. This improved visibility into the health of backend pool instances allows for easier troubleshooting and more efficient management of issues with your Load Balancer.Learn more about health status via our public documentation or recent blog."
+    },
+    {
+      "date": "11/07/2024",
+      "linkId": "467615",
+      "title": "Generally Available: Azure Virtual Network Manager user-defined route (UDR) management",
+      "category": "Features, Management, Services",
+      "description": "We’re announcing the general availability of User-Defined Route (UDR) Management in Azure Virtual Network Manager. This new feature simplifies managing complex routing behaviors by automating UDR orchestration. Through Azure Virtual Network Manager’s UDR management, users can easily set up routing configurations that define routing rules, allowing automatic deployment across virtual networks. This means users no longer need to manually create UDRs or use custom scripts—reducing errors and simplifying routing at scale.The UDR Management feature enables users to structure routing rules into collections, each associated with specific network groups, making routing configurations reusable and consistent across subnets or virtual networks. Users can implement custom routing behaviors, such as directing traffic within a hub-and-spoke topology or routing specific traffic types through Azure Firewall. UDR Management thus ensures seamless, flexible routing that adapts to network changes without manual intervention. To explore this new feature and its capabilities and its regional availability, please see the documentation."
+    },
+    {
+      "date": "11/07/2024",
+      "linkId": "467625",
+      "title": "Generally Available: Azure Load Balancer now supports Admin State",
+      "category": "Features",
+      "description": "Announcing the general availability of Azure Load Balancer Administrative State (Admin State), which simplifies managing backend pool instances.Admin State enables you to override the health probe behavior for each instance without additional configuration changes to your Load Balancer such as changing network security rules or closing ports.This makes management, especially during maintenance easy, allowing you to set instances as up or down and control connection behavior with no additional overhead.Learn more about admin state via our public documentation or blog."
+    },
+    {
+      "date": "11/07/2024",
+      "linkId": "467630",
+      "title": "Public Preview: Azure SQL Database Hyperscale performance enhancements",
+      "category": "Features",
+      "description": "We are thrilled to announce some exciting performance enhancements for Azure SQL Database Hyperscale. Our latest updates push the boundaries of what's possible in relational data storage, delivering even greater speed, efficiency, and reliability.One key improvement is the increased log generation rate, now boasting an impressive 150 MB/s, up from the previous 100 MB/s. This significant boost means faster data processing and greater throughput for your most demanding workloads.We're also introducing the new continuous priming feature. This innovative caching mechanism ensures consistent performance levels even after a database failover. With continuous priming, you can expect minimal disruption and maximum efficiency, keeping your operations running smoothly.These advancements reinforce our commitment to providing cutting-edge solutions that help you achieve your business goals. Explore the new capabilities of Azure SQL Database Hyperscale and experience the future of data management today.Learn more."
+    },
+    {
+      "date": "11/07/2024",
+      "linkId": "467635",
+      "title": "Public Preview: New vector data type and functions in Azure SQL",
+      "category": "Features",
+      "description": "Easily enable your data for enterprise AI workloads thanks to the newly introduced support for vectors in the Azure SQL family of databases. Store embeddings and run vector similarity searchs right in Azure SQL using the new vector type and the related vector functions.Learn more."
+    },
+    {
+      "date": "11/07/2024",
+      "linkId": "467640",
+      "title": "Public Preview: SDK-style SQL projects in Visual Studio",
+      "category": "Features",
+      "description": "Now available in both Visual Studio and Visual Studio Code, Microsoft.Build.Sql projects are a database development and deployment toolkit for SQL Server, the Azure SQL family, and Fabric Data Warehouse. This update adds SQL projects based on the Microsoft.Build.Sql SDK, which brings cross-platform support and improved package references to SQL Server Data Tools (SSDT) projects. With less verbose project files and database reference to NuGet packages, your teams can more efficiently collaborate on large databases in a single project or compile multiple sets of objects from several projects.You can automate database deployments from a Microsoft.Build.Sql project in Windows and Linux environments where the Microsoft.SqlPackage dotnet tool publishes the build artifact (.dacpac) from the SQL project. The Microsoft.Build.Sql project SDK is open source and developed on GitHub.Learn more."
+    },
+    {
+      "date": "11/07/2024",
+      "linkId": "467649",
+      "title": "Generally Available: Azure Resource Manager API for vCore-based Azure Cosmos DB for MongoDB",
+      "category": "Features",
+      "description": "Now generally available: vCore-based Azure Cosmos DB for MongoDB with an API for cluster management, offering you scalable, high-performance clusters on Azure. With this release, you can programmatically manage your vCore-based Azure Cosmos DB for MongoDB clusters with ease through the Azure Resource Manager (ARM) API and Terraform.Learn more."
+    }
+  ]
 }
