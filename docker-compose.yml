@@ -7,8 +7,6 @@ services:
       target: dev
     environment:
       NODE_ENV: development
-    env_file:
-      - .env
     ports:
       - 9229:9229 # for node debug
     command: ["npm", "run", "dev"]
