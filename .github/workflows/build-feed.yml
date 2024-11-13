@@ -50,7 +50,10 @@ jobs:
 
       - name: ⬆️  Update npm and install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: npm i --location=global npm && npm install && npx playwright install
+        run: npm i --location=global npm && npm install
+
+      - name: 🌐  Setup Playwright for Chromium
+        run: npx playwright install chromium --with-deps
 
       - name: 🛠️  Run script to create RSS feed
         run: npm start
