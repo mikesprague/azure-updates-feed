@@ -6,7 +6,248 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Nov 2024 12:03:54 GMT</pubDate>
+    <pubDate>Sun, 17 Nov 2024 12:02:40 GMT</pubDate>
+    <item>
+      <title>Private Preview: Web Application Firewall (WAF) running on Application Gateway for Containers</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=468587</link>
+      <description>Application Gateway for
+Containers now supports Web Application Firewall (WAF) in private preview. WAF&#8217;s
+Default Ruleset provides Azure Kubernetes Service (AKS) users with centralized
+protection against malicious attacks and exploits such as:&#160;
+ Cross-site scripting&#160;
+ Java attacks&#160;
+ Local file inclusion&#160;
+ PHP injection attacks&#160;
+ Remote command execution&#160;
+ Remote file inclusion&#160;
+ Session fixation&#160;
+ SQL injection protection&#160;
+ Protocol attacks&#160;Additionally, Application
+Gateway for Containers WAF also supports protection against malicious bot
+activity via the bot manager rulesets.&#160;If you&#8217;re interested
+in signing up for this private preview, please fill out this intake form to start the
+onboarding process.</description>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=468587</guid>
+    </item>
+    <item>
+      <title>Generally Available: Entra ID support for SSH connections in portal</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=entra-id-support-for-ssh-connections-in-portal-is-now-generally-available</link>
+      <description>We are announcing that Azure Bastion now supports Microsoft Entra ID authentication for SSH connections in the portal. With Microsoft Entra ID authentication, there are two main benefits to users connecting to their virtual machines. First, it eliminates the need for local authentication mechanisms, reducing a point of attack for malicious actors.&#160; Second, with Microsoft Entra ID authentication set as the authentication mechanism, instead of providing additional authentication to connect, users can experience a one-click sign-on into their virtual machines.Learn more about Microsoft Entra IDLearn to configure Entra ID for SSH connections</description>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=entra-id-support-for-ssh-connections-in-portal-is-now-generally-available</guid>
+    </item>
+    <item>
+      <title>Public Preview: Network isolated cluster in AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=466980</link>
+      <description>Today you can
+control an AKS cluster's egress traffic using Azure Firewall. While this
+configuration is intended to isolate the cluster to protect sensitive business
+or customer data, it adds an additional layer of management complexity and
+cost. &#160;AKS now provides the
+option to use network isolated clusters to simplify the process of restricting
+network access and reduce the risk of unintentional exposure of the cluster's
+public endpoints to prevent security breaches. &#160;Learn more.</description>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=466980</guid>
+    </item>
+    <item>
+      <title>Public Preview: Azure API Center Plugin for GitHub Copilot for Azure</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=469053</link>
+      <description>GitHub Copilot has rapidly become a favorite among developers, thanks to its conversational chat interface and seamless IDE integration. Recently, GitHub Copilot for Azure&#160;was introduced to streamline development on the Azure platform, making it an excellent choice for Azure-related tasks.&#160;We are thrilled to announce the public preview of an Azure API Center&#160;plugin for GitHub Copilot for Azure&#160;(@azure)!&#160;&#160;With the public preview of the API Center plugin, you can now leverage GitHub Copilot for Azure for a variety of API-related tasks:&#160;Generating API Specifications: Simply describe your requirements in natural language, and GitHub Copilot for Azure will create new API specifications tailored to your needs. It can also help you register these APIs into the API Center swiftly.&#160;Designing Compliant APIs: Use GitHub Copilot for Azure to design API specifications that comply with API Center governance. The AI assistance ensures that your APIs are designed according to best practices and standards&#160;&#160;We invite you to explore the public preview and experience how the Azure API Center plugin for GitHub Copilot for Azure can enhance your development workflow. Join us in this exciting journey to make API development smarter and more efficient!</description>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=469053</guid>
+    </item>
+    <item>
+      <title>Generally Available: Advanced Container Networking Services</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=466985</link>
+      <description>We&#8217;re announcing&#160;the general availability of Advanced Container Networking Service&#160;for Azure Kubernetes Service (AKS), a cloud native purpose-built&#160;solution to enhance security and observability for Kubernetes and containerized environments.&#160;Advanced Container Networking Service focuses on delivering a seamless and integrated experience that enables you to maintain robust security postures, ensure comprehensive compliance and gain deep insights into your network traffic and application performance.&#160;&#160;Advanced Container Networking Service delivers observability features tailored specifically for AKS. Advanced Container Networking Service offers network metrics at&#160;node-level, pod-level, and at L4 with DNS and TCP statistics&#160;ensuring that no aspect of your network goes unnoticed. These metrics are critical for identifying performance bottlenecks and resolving network issues before they impact your services.&#160;This is in addition to&#160;Hubble&#160;Flow Logs,&#160;which&#160;gives you end to end visibility into workload communication&#160;to understand how&#160;microservices are communicating with&#160;each other. Using Hubble UI,&#160;you can visualize the traffic by creating&#160;a service-dependency&#160;graph.&#160;&#160;&#160;On the security side,&#160;Advanced Container Networking Service provides FQDN filtering capabilities for network policy, designed specifically to simplify and strengthen external communication security.&#160;&#160;Learn more.</description>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=466985</guid>
+    </item>
+    <item>
+      <title>Generally Available: Extension of limited-time promotional discounts on Azure Databricks Serverless Compute Services</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467457</link>
+      <description>We&#8217;re excited to announce the extension of the promotional discounts on serverless compute for Notebooks, Jobs, and Pipelines (Delta Live Tables). You will continue to get 50% off serverless compute for Jobs and Pipelines and 30% off serverless compute for Notebooks, until&#160;January 31, 2025.&#160;Serverless compute provides rapid workload startup, automatic infrastructure scaling, and seamless version upgrades of the Azure Databricks runtime.&#160;Learn more.</description>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467457</guid>
+    </item>
+    <item>
+      <title>Retirement: End of Support Announcement for Azure Load Balancer numberOfProbes property on September 1, 2027.</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=end-of-support-announcement-for-azure-load-balancer-numberofprobes-property-on-1-september-2027</link>
+      <description>Support for Azure Load Balancer numberOfProbes property ends on September 1, 2027. To avoid service disruption, upgrade your apps to API version 2022-05-01 or higher and start using Azure Load Balancer probeThreshold property. We will not be supporting the property numberOfProbes after September 1, 2027.Required actionBefore September 1, 2027, stop using the property numberOfProbes and/or migrate to probeThreshold property.Learn more about updating your API.</description>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=end-of-support-announcement-for-azure-load-balancer-numberofprobes-property-on-1-september-2027</guid>
+    </item>
+    <item>
+      <title>TLS 1.2 to become the minimum TLS version for Azure Storage</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=tls-12-to-become-the-minimum-tls-version-for-azure-storage</link>
+      <description>To respond to evolving technology and regulatory standards, Azure Storage will remove support for TLS version 1.1 and 1.0, and the minimum supported version will be TLS1.2 starting November 1, 2025. TLS 1.2 is more secure and faster than older TLS versions. TLS 1.0 and 1.1 do not support modern cryptographic algorithms and cipher suites.&#160;&#160;
 
+This change impacts existing and new storage accounts using TLS 1.0 and 1.1 in all clouds. To avoid disruptions to your applications connecting to Azure Storage, you must migrate to TLS 1.2 and remove dependencies on TLS version 1.0 and 1.1.&#160;
+
+Azure Storage already supports TLS 1.2 which is set as the default. Customers using TLS 1.2 will not be impacted by the removal of support for TLS 1.0 and 1.1. For customers using TLS 1.0 or 1.1, to maintain your connections to Azure Storage, please update your operating systems, development libraries, frameworks, and all other solutions to their latest versions to support TLS 1.2 and update your clients to TLS 1.2 no later than Oct 31st, 2025.&#8239;&#160;
+
+We have compiled a series of recommendations and resources to help with your migration:&#160;Navigate here for more information</description>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=tls-12-to-become-the-minimum-tls-version-for-azure-storage</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Cosmos DB vector database integration with LangChain.js</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=466855</link>
+      <description>We&#8217;re&#160;excited to introduce LangChain.js integration with Azure Cosmos DB. You can use this powerful combination to efficiently manage fast and accurate&#160;data retrieval with greater ease in your JavaScript applications. The new LangChain.js integration makes the most of Azure Cosmos DB scalability and efficient vector search capabilities, simplifying applications development and large language model (LLM) orchestration tasks.&#160;Learn more.</description>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=466855</guid>
+    </item>
+    <item>
+      <title>Generally Available: Single prefix enhancement to seamless gateway migration</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467620</link>
+      <description>With the Gateway migration experience, customers can use the Azure Portal or PowerShell scripts to deploy a second Virtual Network Gateway within the same GatewaySubnet of the Virtual Network. During the migration phase, once initiated by the customer, Azure will transfer both the control plane and data path configurations from the existing gateway to the newly deployed one. This process will result in two operational Gateways within the same Gateway Subnet. After the migration is successfully completed, customers can remove the original Gateway, leaving the new Gateway in place for continued Private Connectivity.&#160;Previously, ExpressRoute Gateway customers needed to create a second address prefix to pass the validation stage of migrating their gateway. With this enhancement, customers can now migrate with a single prefix, eliminating the previous requirement to create a second address prefix in the Gateway. This feature is designed to support migrations with minimal downtime.To learn more, see:About migrating to an availability zone-enabled ExpressRoute virtual network gateway - Azure ExpressRoute | Microsoft LearnMigrate to an availability zone-enabled ExpressRoute virtual network gateway in Azure portal - Azure ExpressRoute | Microsoft Learn</description>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467620</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Chaos Studio now supports faults for AKS clusters using managed identity authentication</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467714</link>
+      <description>Azure Chaos Studio&#8217;s faults for Azure Kubernetes Service clusters
+now work with managed identity authentication. Previously, local authentication
+through the Kubernetes API server was the only supported authentication method.
+To enable customers with an enhanced security posture for AKS clusters to
+perform fault injection, the Version 2.2 AKS Chaos Mesh faults now also support
+managed identity authentication. Customers using Version 2.1 faults will need
+to enable the new capabilities and modify the relevant experiments to use the
+new versions. Version 2.1 faults will be unavailable in the Chaos Studio user
+interface on or after January 31, 2025, but remain runnable in experiments
+until further notice. Learn more at this link: Using Microsoft Entra authentication with Chaos Studio AKS
+faults.&#160;For more information about Azure Chaos Studio, see&#160;Azure Chaos Studio documentation.</description>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467714</guid>
+    </item>
+    <item>
+      <title>Retirement: Azure Health Data Services will be retired on October 31, 2025 in the Qatar Central region</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=466779</link>
+      <description>Because we're consolidating resources and there is low usage in the region, we'll be retiring Azure Health Data Services the Qatar Central region on&#160;October 31, 2025. Please ensure that you migrate to another available Azure Health Data Services region by that date.Until October 31, 2025, you can continue to use Azure Health Data Services without disruption. However, on October 31, 2025, all workloads running Azure Health Data Services in the Qatar Central region will be deleted, and associated application data will be lost. Below are resources to assist you with your migration.Required actionPlease transition your workloads to another Azure Health Data Services region&#160;before October 31, 2025.View the regions where Azure Health Data Services are available&#160;here.Help and supportIf you have questions, you can get answers from community experts in&#160;Microsoft Q&#38;A. If you have a support plan and need technical assistance, please create a&#160;support request.Azure Health Data Services from the Qatar Central region is retiring as of October 31, 2024. We are asking customers to utilize one of our other regions or remove/backup data they wish to retain before retirement.Customers may use one of our other regions.</description>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=466779</guid>
+    </item>
+    <item>
+      <title>Generally Available: Delete a specific machine</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=466990</link>
+      <description>It is now possible
+to specifically choose which VM to delete and remove when scaling down a node
+pool in AKS. This provides greater control and flexibility in managing
+resources within the node pool.&#160;&#160;Learn more.</description>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=466990</guid>
+    </item>
+    <item>
+      <title>Generally Available: Ignore PDBs on node pool deletion</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=466995</link>
+      <description>Node pools in AKS can now be
+deleted even if there are pods monitored by a PodDisruptionBudget (PDB) &#8211;
+previously, the deletion of the node pool could fail due to an unsatisfied PDB.
+This enhancement allows the deletion to proceed by ignoring the PDB error that
+would previously block the deletion from continuing.&#160;Learn more.</description>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=466995</guid>
+    </item>
+    <item>
+      <title>Generally Available: Fleet OSS announcements</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467013</link>
+      <description>Microsoft Azure
+Kubernetes Fleet Manager upstream team is making new multi-cluster features
+available to any Kubernetes operator.For core multi-cluster workload placement
+there is a v1alpha1 release of staged release pipelines
+(ClusterStagedUpdateRun) which represents a stage-by-stage update process that
+applies ClusterResourcePlacement selected resources to specified clusters. Additionally,
+work has started on adding support to the fleet upstream project for
+sig-multicluster's ClusterProfile API (KEP-4322).&#160;&#160;In the networking
+space, the upstream team is also announcing the v1alpha1 release of
+multi-cluster network traffic shifting for public-facing multi-cluster services
+using a new&#160; TrafficManagerProfile custom
+resource. This new custom resource provides a cloud native method for
+interacting with Azure Traffic Manager profiles and related backends via the
+TrafficManagerBackend custom resource. Azure Traffic Manager can provide
+DNS-based traffic load balancing for endpoints hosted on any public IP,
+regardless of where that IP is hosted.</description>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467013</guid>
+    </item>
+    <item>
+      <title>Public Preview: Static egress gateway for AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467018</link>
+      <description>Static egress gateway for Azure
+Kubernetes Service (AKS) is now in public preview. This feature allows AKS
+customers to configure a fixed source IP for out-of-cluster communications
+without incurring the significant cost of deploying a dedicated node pool with
+a NAT gateway. The static egress gateway enables precise control over egress
+traffic, simplifying integration with external systems and enhancing network
+security.&#160;Learn more.</description>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467018</guid>
+    </item>
+    <item>
+      <title>Public Preview: Azure Linux 3.0 on Azure Kubernetes Service v1.31</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467023</link>
+      <description>Azure Linux 3.0, the next major version
+release of the Azure Linux container host for Azure Kubernetes Service (AKS),
+is now available in preview on AKS version 1.31. Azure Linux 3.0 offers
+increased package availability and versions, an updated kernel, and
+improvements to performance, security, and tooling and developer experience.&#160;Learn
+more and get started with the Azure Linux 3.0 preview here.</description>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467023</guid>
+    </item>
+    <item>
+      <title>Public Preview: SeccompDefault support in AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467028</link>
+      <description>SeccompDefault is available in public preview as a new parameter through
+custom node configuration. &#160;Secure
+computing mode (seccomp) is used to restrict a container&#8217;s syscalls that can be
+sent to the kernel. This establishes an extra layer of protection against
+common system call vulnerabilities exploited by malicious actors and allows you to specify a
+default seccomp profile for all workloads in the node. &#160;&#160;There
+are two allowed values for SeccompDefault:&#160;Unconfined is the default parameter
+value which does not block any syscalls.&#160;RuntimeDefault will block restricted
+syscalls in the containerd seccomp profile.&#160;
+&#160;The
+RuntimeDefault profile allows a common set of syscalls while blocking those
+that are less likely to be used or potentially unsafe in a containerized
+application. This profile aims to provide a reliable set of security defaults
+while maintaining the functionality of the workload.&#160;Learn more.</description>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467028</guid>
+    </item>
+    <item>
+      <title>Public Preview: Azure Front Door WebSocket</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467668</link>
+      <description>We are announcing the public preview of WebSocket on Azure
+Front Door Standard and Premium. WebSocket is enabled by default without
+customer configurations on Azure Front Door.&#160;
+
+WebSocket enables full duplex communication between a server
+and a client over a long-running TCP connection. It eliminates the needs for
+polling as required in HTTP, avoids some of the overhead of HTTP, and can reuse
+the same TCP connection for multiple request/responses resulting in a more
+efficient utilization of resources. This enables more interactive and real-time
+scenarios. &#160;
+
+WebSocket can be used for apps or websites which require
+real-time updates/communications or continuous streams of data, such as chats,
+dashboard, finance stock info update, GPS, online education, live streaming and
+game apps.&#160;
+
+For more details, please refer to Azure
+Front Door WebSocket&#160;documentation.</description>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467668</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Chaos Studio is now available in Canada Central region</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467709</link>
+      <description>Azure Chaos Studio is a managed service that uses chaos engineering to help measure, understand, and improve cloud applicaion and service resilience. Azure Chaos Studio Resource Targeting is now available in Canada Central region. For complete list of regions, see&#160;list of regions Azure Chaos Studio is available.For more information about Azure Chaos Studio, see&#160;Azure Chaos Studio documentation.</description>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467709</guid>
+    </item>
   </channel>
 </rss>
