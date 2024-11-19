@@ -1,6 +1,76 @@
 {
-  "lastUpdated": "Sun, 17 Nov 2024 12:02:40 GMT",
+  "lastUpdated": "Tue, 19 Nov 2024 12:02:53 GMT",
   "posts": [
+    {
+      "date": "11/19/2024",
+      "linkId": "467783",
+      "title": "Generally Available: Jumpstart Drops",
+      "category": "MicrosoftBuild, Microsoft Ignite, Open Source",
+      "description": "Jumpstart Drops has officially reached general availability, marking a major milestone in simplifying workflows and empowering users exploring Microsoft technologies.  Since its Public Preview debut at Microsoft Build 2024, Jumpstart Drops has grown into a thriving resource, with dozens of unique Drops, hundreds of downloads, and thousands of views contributed by our growing community.  This launch introduces exciting new features, including a Drops Creation Wizard for seamless contributions, enhanced labeling for improved navigation, and various UI enhancements inspired by user feedback.  To celebrate contributors who have gone above and beyond, we are also introducing \"The Giver\", a new badge in the Jumpstart Community Badges program, recognizing exceptional contributions that go above and beyond.  Explore, contribute, and share Jumpstart Drops today to help drive innovation and success across your teams.Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467788",
+      "title": "Generally Available: Jumpstart Agora Contoso Hypermarket",
+      "category": "Microsoft Ignite, MicrosoftBuild, Open Source",
+      "description": "Jumpstart Agora Contoso Hypermarket has officially reached general availability, showcasing how Azure Arc and Azure AI services empower digital transformation in the retail industry.  This scenario brings next-gen innovations to life, such as AI-powered shopper analytics for real-time customer behavior insights, computer vision for enhanced store efficiency, and predictive inventory management with Microsoft Copilot.  By simulating Contoso Hypermarket operations, users can explore cutting-edge solutions like natural language querying, edge-to-cloud data pipelines, and IoT-driven operational analytics, all designed to enhance customer experiences and streamline retail workflows.  Dive into this scenario today to discover how Azure technologies can transform retail operations and help businesses thrive in an evolving market.Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467828",
+      "title": "Generally Available: Windows Server 2025",
+      "category": "OperatingSystem, Microsoft Ignite",
+      "description": "Windows Server 2025 is generally available. The latest Windows Server helps organizations optimize for the future while delivering the security, performance, and flexibility they need today. Drive productivity with seamless hybrid, multicloud and edge capabilities that adapt to business imperatives on-premises and in the cloud. Get ahead of what’s next with forward-looking threat protection, improved scalability and agility, and GPU partitioning that can enable ML and AI workloads. Improve performance while staying secure through features including: virtualization-based security (VBS) enclaves and key protection; security baselines with drift protection; increased scalability for Active Directory, and hotpatching to streamline security updates.* Get increased performance with GPU partitioning across VMs, larger VMs with support 240 TB of RAM and 2048 virtual processors, and software-defined storage enhancements including ReFS (Resilient File System) optimized deduplication. *Hotpatching for on-premises and multicloud Windows Server VMs is in preview. It will require an Azure Arc connection and subscription. Hotpatching in Windows Server Datacenter: Azure Edition continues to be free of charge.  Learn more: \n\nProduct page  Seismic\npage  Blog\npost  Documentation"
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467857",
+      "title": "Public Preview: Hotpatching for Windows Server 2025",
+      "category": "Microsoft Ignite, OperatingSystem",
+      "description": "Windows Server 2025 Standard and Datacenter edition server hotpatching - security updates without reboots - is ready for your evaluation in preview. This feature will be a game changer; simpler change control, shorter patch windows, easier orchestration Hotpatches are OS security updates that don’t require a reboot. It works by patching the in-memory code of running processes without the need to restart the process. This gives you benefits like: Lower workload impact with fewer reboots. Instead of 12 mandatory reboots a year you’ll now only have quarterly scheduled reboots (with the rare possibility of reboots being required in a nominal Hotpatch month). Fewer binaries mean updates download and install faster while consuming fewer disk and CPU resources. Easier patch orchestration and change control. Integrated with the optional Azure Update Manager. *Hotpatching for on-premises and multicloud Windows Server VMs is in preview, and will be no additional charge while in preview. It will require an Azure Arc connection and, once GA, will be offered by subscription. Hotpatching in Windows Server Datacenter: Azure Edition continues to be free of charge."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "469298",
+      "title": "Public Preview: Network security perimeter",
+      "category": "Microsoft Ignite, Services",
+      "description": "Network security perimeter restricts communication to resources within the perimeter, and it allows non-perimeter public traffic through inbound and outbound access rules. With network security perimeter, administrators can: Create a secure boundary around PaaS resources. Prevent data exfiltration by associating PaaS resources to the perimeter. Enable access rules to grant access outside the secure perimeter. Manage access rules for all the PaaS resources within the network security perimeter in a single pane of glass. Enable diagnostic settings to generate access logs of PaaS resources within the perimeter for Audit and Compliance. Allow private endpoint traffic without additional access rules.Learn more."
+    },
+    {
+      "date": "11/18/2024",
+      "linkId": "467763",
+      "title": "Generally Available: Da/Ea/Fav6 series AMD based Azure Virtual Machines (VMs)",
+      "category": "Features, Microsoft Ignite, Pricing & Offerings, Services",
+      "description": "Microsoft is announcing the general availability of the new Da/Ea/Fav6 series AMD based virtual machines (VMs). These VMs consist of our new general purpose Dasv6-series and Dalsv6-series, our new memory optimized Easv6-series VM series, and our new compute optimized Falsv6, Fasv6 and Famsv6 VM series. They offer better performance and better price-performance than our previous generation AMD based VMs, making them an attractive option for a wide range of workloads, including data analytics, web and application servers, databases, caches, and more.    These VMs come with the NVMe interface for local and remote disks. Many workloads will benefit from improvements over the previous generation of AMD based with up to: 80% better remote storage performance 400% faster local storage speeds 20% networking bandwidth improvement 45% higher NVMe SSD capacity per vCPU for Daldsv6, Dadsv6, Eadsv6-series VMs with local disks Learn more."
+    },
+    {
+      "date": "11/18/2024",
+      "linkId": "467509",
+      "title": "Public Preview: On-demand backups for Azure Database for PostgreSQL - Flexible Server",
+      "category": "Features, Microsoft Ignite",
+      "description": "Now you can create physical snapshots of Azure Database for PostgreSQL - Flexible Server based on your business needs. This feature complements the scheduled automated backups offered by the service, while adding the flexibility to delete the on-demand backups to help you manage costs effectively.  Learn more."
+    },
+    {
+      "date": "11/18/2024",
+      "linkId": "467524",
+      "title": "Public Preview: Introducing Apache AGE graph support in Azure Database for PostgreSQL",
+      "category": "Features, Microsoft Ignite",
+      "description": "We’re excited to announce new Apache AGE support in Azure Database for PostgreSQL, a significant advancement in graph processing capabilities within the PostgreSQL ecosystem. You can now take full advantage of a powerful set of graph database tools using the robust enterprise features of Azure Database for PostgreSQL. Apache AGE enables you to move beyond baseline Retrieval Augmented Generation (RAG) application patterns to GraphRAG powered by Azure Database for PostgreSQL.   Apache AGE provides graph database functionality, enabling you to store and query graph data efficiently within PostgreSQL. Using the intuitive openCypher query language, you can easily write expressive graph queries. In addition, you can manage and analyze complex relationships within your data, uncovering insights that traditional relational databases and even semantic search might miss.   Learn more."
+    },
+    {
+      "date": "11/18/2024",
+      "linkId": "467738",
+      "title": "Generally Available: Default zone resilience in Azure Database for MySQL – Flexible Server Business Critical service tier",
+      "category": "Features, Microsoft Ignite",
+      "description": "In the face of zonal outages, ensuring seamless server recovery is critical for maintaining business continuity. With this new enhancement in Dec 2024, your mission-critical MySQL workloads on Azure Database for MySQL – Flexible Server Business Critical service tier are now zone-resilient by default—at no additional cost. Even if you don’t configure high availability (HA), Flexible Server will host your data and log files in zone-redundant storage by default. Existing servers configured for zone-redundant HA continue to benefit from the 99.99% uptime service level agreement (SLA) provided by built-in zonal redundancy and hot standby. In addition, servers configured for same-zone HA and non-HA also benefit—they can recover quickly from zonal outages using the zone-redundant backups.   Learn more."
+    },
+    {
+      "date": "11/18/2024",
+      "linkId": "468335",
+      "title": "Generally Available: Standby Pools for Virtual Machine Scale Sets with Flexible Orchestration",
+      "category": "Features, Microsoft Connect",
+      "description": "Standby Pools for Virtual Machine Scale Sets with Flexible\nOrchestration is now generally available.  Standby pools for Virtual Machine Scale Sets enables you to\nincrease scaling performance by creating a pool of pre-provisioned virtual\nmachines. The virtual machines in the standby pool complete all post\nprovisioning processes such as installing applications, downloading data\npackages, etc. Once the virtual machines have been fully provisioned, they can\nbe maintained in a running or a stopped (deallocated) state. When your scale\nset requires more instances, the instances in the standby pool are automatically\nmoved into the scale set. A standby pool significantly reduces the time it\ntakes to scale out a Virtual Machine Scale Set. Learn more."
+    },
     {
       "date": "11/15/2024",
       "linkId": "468587",
@@ -70,76 +140,6 @@
       "title": "Generally Available: Single prefix enhancement to seamless gateway migration",
       "category": "Features",
       "description": "With the Gateway migration experience, customers can use the Azure Portal or PowerShell scripts to deploy a second Virtual Network Gateway within the same GatewaySubnet of the Virtual Network. During the migration phase, once initiated by the customer, Azure will transfer both the control plane and data path configurations from the existing gateway to the newly deployed one. This process will result in two operational Gateways within the same Gateway Subnet. After the migration is successfully completed, customers can remove the original Gateway, leaving the new Gateway in place for continued Private Connectivity. Previously, ExpressRoute Gateway customers needed to create a second address prefix to pass the validation stage of migrating their gateway. With this enhancement, customers can now migrate with a single prefix, eliminating the previous requirement to create a second address prefix in the Gateway. This feature is designed to support migrations with minimal downtime.To learn more, see:About migrating to an availability zone-enabled ExpressRoute virtual network gateway - Azure ExpressRoute | Microsoft LearnMigrate to an availability zone-enabled ExpressRoute virtual network gateway in Azure portal - Azure ExpressRoute | Microsoft Learn"
-    },
-    {
-      "date": "11/13/2024",
-      "linkId": "467714",
-      "title": "Generally Available: Azure Chaos Studio now supports faults for AKS clusters using managed identity authentication",
-      "category": "Features, Management, Services",
-      "description": "Azure Chaos Studio’s faults for Azure Kubernetes Service clusters\nnow work with managed identity authentication. Previously, local authentication\nthrough the Kubernetes API server was the only supported authentication method.\nTo enable customers with an enhanced security posture for AKS clusters to\nperform fault injection, the Version 2.2 AKS Chaos Mesh faults now also support\nmanaged identity authentication. Customers using Version 2.1 faults will need\nto enable the new capabilities and modify the relevant experiments to use the\nnew versions. Version 2.1 faults will be unavailable in the Chaos Studio user\ninterface on or after January 31, 2025, but remain runnable in experiments\nuntil further notice. Learn more at this link: Using Microsoft Entra authentication with Chaos Studio AKS\nfaults. For more information about Azure Chaos Studio, see Azure Chaos Studio documentation."
-    },
-    {
-      "date": "11/13/2024",
-      "linkId": "466779",
-      "title": "Retirement: Azure Health Data Services will be retired on October 31, 2025 in the Qatar Central region",
-      "category": "Retirements",
-      "description": "Because we're consolidating resources and there is low usage in the region, we'll be retiring Azure Health Data Services the Qatar Central region on October 31, 2025. Please ensure that you migrate to another available Azure Health Data Services region by that date.Until October 31, 2025, you can continue to use Azure Health Data Services without disruption. However, on October 31, 2025, all workloads running Azure Health Data Services in the Qatar Central region will be deleted, and associated application data will be lost. Below are resources to assist you with your migration.Required actionPlease transition your workloads to another Azure Health Data Services region before October 31, 2025.View the regions where Azure Health Data Services are available here.Help and supportIf you have questions, you can get answers from community experts in Microsoft Q&A. If you have a support plan and need technical assistance, please create a support request.Azure Health Data Services from the Qatar Central region is retiring as of October 31, 2024. We are asking customers to utilize one of our other regions or remove/backup data they wish to retain before retirement.Customers may use one of our other regions."
-    },
-    {
-      "date": "11/12/2024",
-      "linkId": "466990",
-      "title": "Generally Available: Delete a specific machine",
-      "category": "Features",
-      "description": "It is now possible\nto specifically choose which VM to delete and remove when scaling down a node\npool in AKS. This provides greater control and flexibility in managing\nresources within the node pool.  Learn more."
-    },
-    {
-      "date": "11/12/2024",
-      "linkId": "466995",
-      "title": "Generally Available: Ignore PDBs on node pool deletion",
-      "category": "Features",
-      "description": "Node pools in AKS can now be\ndeleted even if there are pods monitored by a PodDisruptionBudget (PDB) –\npreviously, the deletion of the node pool could fail due to an unsatisfied PDB.\nThis enhancement allows the deletion to proceed by ignoring the PDB error that\nwould previously block the deletion from continuing. Learn more."
-    },
-    {
-      "date": "11/12/2024",
-      "linkId": "467013",
-      "title": "Generally Available: Fleet OSS announcements",
-      "category": "Open Source",
-      "description": "Microsoft Azure\nKubernetes Fleet Manager upstream team is making new multi-cluster features\navailable to any Kubernetes operator.For core multi-cluster workload placement\nthere is a v1alpha1 release of staged release pipelines\n(ClusterStagedUpdateRun) which represents a stage-by-stage update process that\napplies ClusterResourcePlacement selected resources to specified clusters. Additionally,\nwork has started on adding support to the fleet upstream project for\nsig-multicluster's ClusterProfile API (KEP-4322).  In the networking\nspace, the upstream team is also announcing the v1alpha1 release of\nmulti-cluster network traffic shifting for public-facing multi-cluster services\nusing a new  TrafficManagerProfile custom\nresource. This new custom resource provides a cloud native method for\ninteracting with Azure Traffic Manager profiles and related backends via the\nTrafficManagerBackend custom resource. Azure Traffic Manager can provide\nDNS-based traffic load balancing for endpoints hosted on any public IP,\nregardless of where that IP is hosted."
-    },
-    {
-      "date": "11/12/2024",
-      "linkId": "467018",
-      "title": "Public Preview: Static egress gateway for AKS",
-      "category": "Features, Security",
-      "description": "Static egress gateway for Azure\nKubernetes Service (AKS) is now in public preview. This feature allows AKS\ncustomers to configure a fixed source IP for out-of-cluster communications\nwithout incurring the significant cost of deploying a dedicated node pool with\na NAT gateway. The static egress gateway enables precise control over egress\ntraffic, simplifying integration with external systems and enhancing network\nsecurity. Learn more."
-    },
-    {
-      "date": "11/12/2024",
-      "linkId": "467023",
-      "title": "Public Preview: Azure Linux 3.0 on Azure Kubernetes Service v1.31",
-      "category": "Features",
-      "description": "Azure Linux 3.0, the next major version\nrelease of the Azure Linux container host for Azure Kubernetes Service (AKS),\nis now available in preview on AKS version 1.31. Azure Linux 3.0 offers\nincreased package availability and versions, an updated kernel, and\nimprovements to performance, security, and tooling and developer experience. Learn\nmore and get started with the Azure Linux 3.0 preview here."
-    },
-    {
-      "date": "11/12/2024",
-      "linkId": "467028",
-      "title": "Public Preview: SeccompDefault support in AKS",
-      "category": "Features, Security",
-      "description": "SeccompDefault is available in public preview as a new parameter through\ncustom node configuration.  Secure\ncomputing mode (seccomp) is used to restrict a container’s syscalls that can be\nsent to the kernel. This establishes an extra layer of protection against\ncommon system call vulnerabilities exploited by malicious actors and allows you to specify a\ndefault seccomp profile for all workloads in the node.   There\nare two allowed values for SeccompDefault: Unconfined is the default parameter\nvalue which does not block any syscalls. RuntimeDefault will block restricted\nsyscalls in the containerd seccomp profile. \n The\nRuntimeDefault profile allows a common set of syscalls while blocking those\nthat are less likely to be used or potentially unsafe in a containerized\napplication. This profile aims to provide a reliable set of security defaults\nwhile maintaining the functionality of the workload. Learn more."
-    },
-    {
-      "date": "11/12/2024",
-      "linkId": "467668",
-      "title": "Public Preview: Azure Front Door WebSocket",
-      "category": "Features",
-      "description": "We are announcing the public preview of WebSocket on Azure\nFront Door Standard and Premium. WebSocket is enabled by default without\ncustomer configurations on Azure Front Door. \n\nWebSocket enables full duplex communication between a server\nand a client over a long-running TCP connection. It eliminates the needs for\npolling as required in HTTP, avoids some of the overhead of HTTP, and can reuse\nthe same TCP connection for multiple request/responses resulting in a more\nefficient utilization of resources. This enables more interactive and real-time\nscenarios.  \n\nWebSocket can be used for apps or websites which require\nreal-time updates/communications or continuous streams of data, such as chats,\ndashboard, finance stock info update, GPS, online education, live streaming and\ngame apps. \n\nFor more details, please refer to Azure\nFront Door WebSocket documentation."
-    },
-    {
-      "date": "11/11/2024",
-      "linkId": "467709",
-      "title": "Generally Available: Azure Chaos Studio is now available in Canada Central region",
-      "category": "Features, Services, Regions & Datacenters, Management",
-      "description": "Azure Chaos Studio is a managed service that uses chaos engineering to help measure, understand, and improve cloud applicaion and service resilience. Azure Chaos Studio Resource Targeting is now available in Canada Central region. For complete list of regions, see list of regions Azure Chaos Studio is available.For more information about Azure Chaos Studio, see Azure Chaos Studio documentation."
     }
   ]
 }
