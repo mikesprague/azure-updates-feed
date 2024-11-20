@@ -1,145 +1,145 @@
 {
-  "lastUpdated": "Tue, 19 Nov 2024 12:02:53 GMT",
+  "lastUpdated": "Wed, 20 Nov 2024 12:03:09 GMT",
   "posts": [
     {
       "date": "11/19/2024",
-      "linkId": "467783",
-      "title": "Generally Available: Jumpstart Drops",
-      "category": "MicrosoftBuild, Microsoft Ignite, Open Source",
-      "description": "Jumpstart Drops has officially reached general availability, marking a major milestone in simplifying workflows and empowering users exploring Microsoft technologies.  Since its Public Preview debut at Microsoft Build 2024, Jumpstart Drops has grown into a thriving resource, with dozens of unique Drops, hundreds of downloads, and thousands of views contributed by our growing community.  This launch introduces exciting new features, including a Drops Creation Wizard for seamless contributions, enhanced labeling for improved navigation, and various UI enhancements inspired by user feedback.  To celebrate contributors who have gone above and beyond, we are also introducing \"The Giver\", a new badge in the Jumpstart Community Badges program, recognizing exceptional contributions that go above and beyond.  Explore, contribute, and share Jumpstart Drops today to help drive innovation and success across your teams.Learn more."
+      "linkId": "469776",
+      "title": "Generally Available: Enhancements on Azure Container Storage for performance, scalability, and operational insights",
+      "category": "Features, Services, Pricing & Offerings",
+      "description": "We are excited to unveil key advancements in Azure Container Storage, our purpose-built storage solution for stateful containers on Azure Kubernetes Service (AKS). These updates bring increased performance and improved reliability to support even the most demanding containerized applications. We have optimized ephemeral disk performance to improve read and write IOPS. These enhancements include updates to local NVMe performance both with and without replication, detailed here:  Optimize performance when using local NVMe without replication. Optimize performance when using local NVMe with replication.   To learn more about our latest version release, check out the Release notes. With these new capabilities, Azure Container Storage empowers you to achieve optimal performance, visibility, and resilience, making it an even stronger choice for deploying scalable, containerized applications in the cloud. Join us at Ignite to explore how these updates can elevate your cloud storage strategy!"
     },
     {
       "date": "11/19/2024",
-      "linkId": "467788",
-      "title": "Generally Available: Jumpstart Agora Contoso Hypermarket",
-      "category": "Microsoft Ignite, MicrosoftBuild, Open Source",
-      "description": "Jumpstart Agora Contoso Hypermarket has officially reached general availability, showcasing how Azure Arc and Azure AI services empower digital transformation in the retail industry.  This scenario brings next-gen innovations to life, such as AI-powered shopper analytics for real-time customer behavior insights, computer vision for enhanced store efficiency, and predictive inventory management with Microsoft Copilot.  By simulating Contoso Hypermarket operations, users can explore cutting-edge solutions like natural language querying, edge-to-cloud data pipelines, and IoT-driven operational analytics, all designed to enhance customer experiences and streamline retail workflows.  Dive into this scenario today to discover how Azure technologies can transform retail operations and help businesses thrive in an evolving market.Learn more."
+      "linkId": "469519",
+      "title": "Generally Available: Kubernetes Metadata and Logs Filtering in Azure Monitor - Container Insights",
+      "category": "Microsoft Ignite, Features",
+      "description": "We are excited to announce the general availability of\nKubernetes Metadata and Logs Filtering in Azure Monitor – Container Insights!\nThis enhancement adds Kubernetes metadata to the ContainerLogsV2 schema,\nincluding PodLabels, PodAnnotations, PodUid, Image, ImageID, ImageRepo, and\nImageTag. Users can customize metadata fields via ConfigMap, and all fields are\ncollected by default. The new Logs Filtering feature allows for precise\nfiltering of both workload and system pods/containers. Additionally, the enhanced\nContainerLogV2 schema includes log level information to assess application\nhealth with color-coded severity levels. A Grafana Dashboard is available for\nvisualizing log levels, log volume, rate, records, and more, empowering\nin-depth analysis and real-time monitoring. These advancements provide users\nwith richer context and improved visibility into their workloads.  To learn more and enable the Kubernetes Logs Metadata and Filtering\nexperience, follow the steps here. If you have any questions or feedback on Kubernetes Logs Metadata and\nFiltering, please reach out to ibraraslam@microsoft.com or fill out this survey!"
     },
     {
       "date": "11/19/2024",
-      "linkId": "467828",
-      "title": "Generally Available: Windows Server 2025",
-      "category": "OperatingSystem, Microsoft Ignite",
-      "description": "Windows Server 2025 is generally available. The latest Windows Server helps organizations optimize for the future while delivering the security, performance, and flexibility they need today. Drive productivity with seamless hybrid, multicloud and edge capabilities that adapt to business imperatives on-premises and in the cloud. Get ahead of what’s next with forward-looking threat protection, improved scalability and agility, and GPU partitioning that can enable ML and AI workloads. Improve performance while staying secure through features including: virtualization-based security (VBS) enclaves and key protection; security baselines with drift protection; increased scalability for Active Directory, and hotpatching to streamline security updates.* Get increased performance with GPU partitioning across VMs, larger VMs with support 240 TB of RAM and 2048 virtual processors, and software-defined storage enhancements including ReFS (Resilient File System) optimized deduplication. *Hotpatching for on-premises and multicloud Windows Server VMs is in preview. It will require an Azure Arc connection and subscription. Hotpatching in Windows Server Datacenter: Azure Edition continues to be free of charge.  Learn more: \n\nProduct page  Seismic\npage  Blog\npost  Documentation"
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467857",
-      "title": "Public Preview: Hotpatching for Windows Server 2025",
-      "category": "Microsoft Ignite, OperatingSystem",
-      "description": "Windows Server 2025 Standard and Datacenter edition server hotpatching - security updates without reboots - is ready for your evaluation in preview. This feature will be a game changer; simpler change control, shorter patch windows, easier orchestration Hotpatches are OS security updates that don’t require a reboot. It works by patching the in-memory code of running processes without the need to restart the process. This gives you benefits like: Lower workload impact with fewer reboots. Instead of 12 mandatory reboots a year you’ll now only have quarterly scheduled reboots (with the rare possibility of reboots being required in a nominal Hotpatch month). Fewer binaries mean updates download and install faster while consuming fewer disk and CPU resources. Easier patch orchestration and change control. Integrated with the optional Azure Update Manager. *Hotpatching for on-premises and multicloud Windows Server VMs is in preview, and will be no additional charge while in preview. It will require an Azure Arc connection and, once GA, will be offered by subscription. Hotpatching in Windows Server Datacenter: Azure Edition continues to be free of charge."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "469298",
-      "title": "Public Preview: Network security perimeter",
-      "category": "Microsoft Ignite, Services",
-      "description": "Network security perimeter restricts communication to resources within the perimeter, and it allows non-perimeter public traffic through inbound and outbound access rules. With network security perimeter, administrators can: Create a secure boundary around PaaS resources. Prevent data exfiltration by associating PaaS resources to the perimeter. Enable access rules to grant access outside the secure perimeter. Manage access rules for all the PaaS resources within the network security perimeter in a single pane of glass. Enable diagnostic settings to generate access logs of PaaS resources within the perimeter for Audit and Compliance. Allow private endpoint traffic without additional access rules.Learn more."
-    },
-    {
-      "date": "11/18/2024",
-      "linkId": "467763",
-      "title": "Generally Available: Da/Ea/Fav6 series AMD based Azure Virtual Machines (VMs)",
-      "category": "Features, Microsoft Ignite, Pricing & Offerings, Services",
-      "description": "Microsoft is announcing the general availability of the new Da/Ea/Fav6 series AMD based virtual machines (VMs). These VMs consist of our new general purpose Dasv6-series and Dalsv6-series, our new memory optimized Easv6-series VM series, and our new compute optimized Falsv6, Fasv6 and Famsv6 VM series. They offer better performance and better price-performance than our previous generation AMD based VMs, making them an attractive option for a wide range of workloads, including data analytics, web and application servers, databases, caches, and more.    These VMs come with the NVMe interface for local and remote disks. Many workloads will benefit from improvements over the previous generation of AMD based with up to: 80% better remote storage performance 400% faster local storage speeds 20% networking bandwidth improvement 45% higher NVMe SSD capacity per vCPU for Daldsv6, Dadsv6, Eadsv6-series VMs with local disks Learn more."
-    },
-    {
-      "date": "11/18/2024",
-      "linkId": "467509",
-      "title": "Public Preview: On-demand backups for Azure Database for PostgreSQL - Flexible Server",
-      "category": "Features, Microsoft Ignite",
-      "description": "Now you can create physical snapshots of Azure Database for PostgreSQL - Flexible Server based on your business needs. This feature complements the scheduled automated backups offered by the service, while adding the flexibility to delete the on-demand backups to help you manage costs effectively.  Learn more."
-    },
-    {
-      "date": "11/18/2024",
-      "linkId": "467524",
-      "title": "Public Preview: Introducing Apache AGE graph support in Azure Database for PostgreSQL",
-      "category": "Features, Microsoft Ignite",
-      "description": "We’re excited to announce new Apache AGE support in Azure Database for PostgreSQL, a significant advancement in graph processing capabilities within the PostgreSQL ecosystem. You can now take full advantage of a powerful set of graph database tools using the robust enterprise features of Azure Database for PostgreSQL. Apache AGE enables you to move beyond baseline Retrieval Augmented Generation (RAG) application patterns to GraphRAG powered by Azure Database for PostgreSQL.   Apache AGE provides graph database functionality, enabling you to store and query graph data efficiently within PostgreSQL. Using the intuitive openCypher query language, you can easily write expressive graph queries. In addition, you can manage and analyze complex relationships within your data, uncovering insights that traditional relational databases and even semantic search might miss.   Learn more."
-    },
-    {
-      "date": "11/18/2024",
-      "linkId": "467738",
-      "title": "Generally Available: Default zone resilience in Azure Database for MySQL – Flexible Server Business Critical service tier",
-      "category": "Features, Microsoft Ignite",
-      "description": "In the face of zonal outages, ensuring seamless server recovery is critical for maintaining business continuity. With this new enhancement in Dec 2024, your mission-critical MySQL workloads on Azure Database for MySQL – Flexible Server Business Critical service tier are now zone-resilient by default—at no additional cost. Even if you don’t configure high availability (HA), Flexible Server will host your data and log files in zone-redundant storage by default. Existing servers configured for zone-redundant HA continue to benefit from the 99.99% uptime service level agreement (SLA) provided by built-in zonal redundancy and hot standby. In addition, servers configured for same-zone HA and non-HA also benefit—they can recover quickly from zonal outages using the zone-redundant backups.   Learn more."
-    },
-    {
-      "date": "11/18/2024",
-      "linkId": "468335",
-      "title": "Generally Available: Standby Pools for Virtual Machine Scale Sets with Flexible Orchestration",
-      "category": "Features, Microsoft Connect",
-      "description": "Standby Pools for Virtual Machine Scale Sets with Flexible\nOrchestration is now generally available.  Standby pools for Virtual Machine Scale Sets enables you to\nincrease scaling performance by creating a pool of pre-provisioned virtual\nmachines. The virtual machines in the standby pool complete all post\nprovisioning processes such as installing applications, downloading data\npackages, etc. Once the virtual machines have been fully provisioned, they can\nbe maintained in a running or a stopped (deallocated) state. When your scale\nset requires more instances, the instances in the standby pool are automatically\nmoved into the scale set. A standby pool significantly reduces the time it\ntakes to scale out a Virtual Machine Scale Set. Learn more."
-    },
-    {
-      "date": "11/15/2024",
-      "linkId": "468587",
-      "title": "Private Preview: Web Application Firewall (WAF) running on Application Gateway for Containers",
-      "category": "Features, Services, Security",
-      "description": "Application Gateway for\nContainers now supports Web Application Firewall (WAF) in private preview. WAF’s\nDefault Ruleset provides Azure Kubernetes Service (AKS) users with centralized\nprotection against malicious attacks and exploits such as: \n Cross-site scripting \n Java attacks \n Local file inclusion \n PHP injection attacks \n Remote command execution \n Remote file inclusion \n Session fixation \n SQL injection protection \n Protocol attacks Additionally, Application\nGateway for Containers WAF also supports protection against malicious bot\nactivity via the bot manager rulesets. If you’re interested\nin signing up for this private preview, please fill out this intake form to start the\nonboarding process."
-    },
-    {
-      "date": "11/15/2024",
-      "linkId": "entra-id-support-for-ssh-connections-in-portal-is-now-generally-available",
-      "title": "Generally Available: Entra ID support for SSH connections in portal",
-      "category": "Security, Services, Features",
-      "description": "We are announcing that Azure Bastion now supports Microsoft Entra ID authentication for SSH connections in the portal. With Microsoft Entra ID authentication, there are two main benefits to users connecting to their virtual machines. First, it eliminates the need for local authentication mechanisms, reducing a point of attack for malicious actors.  Second, with Microsoft Entra ID authentication set as the authentication mechanism, instead of providing additional authentication to connect, users can experience a one-click sign-on into their virtual machines.Learn more about Microsoft Entra IDLearn to configure Entra ID for SSH connections"
-    },
-    {
-      "date": "11/14/2024",
-      "linkId": "466980",
-      "title": "Public Preview: Network isolated cluster in AKS",
-      "category": "Features, Security",
-      "description": "Today you can\ncontrol an AKS cluster's egress traffic using Azure Firewall. While this\nconfiguration is intended to isolate the cluster to protect sensitive business\nor customer data, it adds an additional layer of management complexity and\ncost.  AKS now provides the\noption to use network isolated clusters to simplify the process of restricting\nnetwork access and reduce the risk of unintentional exposure of the cluster's\npublic endpoints to prevent security breaches.  Learn more."
-    },
-    {
-      "date": "11/14/2024",
-      "linkId": "469053",
-      "title": "Public Preview: Azure API Center Plugin for GitHub Copilot for Azure",
-      "category": "Features, Services",
-      "description": "GitHub Copilot has rapidly become a favorite among developers, thanks to its conversational chat interface and seamless IDE integration. Recently, GitHub Copilot for Azure was introduced to streamline development on the Azure platform, making it an excellent choice for Azure-related tasks. We are thrilled to announce the public preview of an Azure API Center plugin for GitHub Copilot for Azure (@azure)!  With the public preview of the API Center plugin, you can now leverage GitHub Copilot for Azure for a variety of API-related tasks: Generating API Specifications: Simply describe your requirements in natural language, and GitHub Copilot for Azure will create new API specifications tailored to your needs. It can also help you register these APIs into the API Center swiftly. Designing Compliant APIs: Use GitHub Copilot for Azure to design API specifications that comply with API Center governance. The AI assistance ensures that your APIs are designed according to best practices and standards  We invite you to explore the public preview and experience how the Azure API Center plugin for GitHub Copilot for Azure can enhance your development workflow. Join us in this exciting journey to make API development smarter and more efficient!"
-    },
-    {
-      "date": "11/14/2024",
-      "linkId": "466985",
-      "title": "Generally Available: Advanced Container Networking Services",
+      "linkId": "mdb-vcore-repl",
+      "title": "Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB",
       "category": "Features",
-      "description": "We’re announcing the general availability of Advanced Container Networking Service for Azure Kubernetes Service (AKS), a cloud native purpose-built solution to enhance security and observability for Kubernetes and containerized environments. Advanced Container Networking Service focuses on delivering a seamless and integrated experience that enables you to maintain robust security postures, ensure comprehensive compliance and gain deep insights into your network traffic and application performance.  Advanced Container Networking Service delivers observability features tailored specifically for AKS. Advanced Container Networking Service offers network metrics at node-level, pod-level, and at L4 with DNS and TCP statistics ensuring that no aspect of your network goes unnoticed. These metrics are critical for identifying performance bottlenecks and resolving network issues before they impact your services. This is in addition to Hubble Flow Logs, which gives you end to end visibility into workload communication to understand how microservices are communicating with each other. Using Hubble UI, you can visualize the traffic by creating a service-dependency graph.   On the security side, Advanced Container Networking Service provides FQDN filtering capabilities for network policy, designed specifically to simplify and strengthen external communication security.  Learn more."
+      "description": "With new support for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster in another region. This cluster replica is continuously updated with the data written in the primary region. In the rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster.     You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region.     When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.  Learn more."
     },
     {
-      "date": "11/14/2024",
-      "linkId": "467457",
-      "title": "Generally Available: Extension of limited-time promotional discounts on Azure Databricks Serverless Compute Services",
-      "category": "Pricing & Offerings",
-      "description": "We’re excited to announce the extension of the promotional discounts on serverless compute for Notebooks, Jobs, and Pipelines (Delta Live Tables). You will continue to get 50% off serverless compute for Jobs and Pipelines and 30% off serverless compute for Notebooks, until January 31, 2025. Serverless compute provides rapid workload startup, automatic infrastructure scaling, and seamless version upgrades of the Azure Databricks runtime. Learn more."
-    },
-    {
-      "date": "11/13/2024",
-      "linkId": "end-of-support-announcement-for-azure-load-balancer-numberofprobes-property-on-1-september-2027",
-      "title": "Retirement: End of Support Announcement for Azure Load Balancer numberOfProbes property on September 1, 2027.",
-      "category": "Retirements",
-      "description": "Support for Azure Load Balancer numberOfProbes property ends on September 1, 2027. To avoid service disruption, upgrade your apps to API version 2022-05-01 or higher and start using Azure Load Balancer probeThreshold property. We will not be supporting the property numberOfProbes after September 1, 2027.Required actionBefore September 1, 2027, stop using the property numberOfProbes and/or migrate to probeThreshold property.Learn more about updating your API."
-    },
-    {
-      "date": "11/13/2024",
-      "linkId": "tls-12-to-become-the-minimum-tls-version-for-azure-storage",
-      "title": "TLS 1.2 to become the minimum TLS version for Azure Storage",
-      "category": "Compliance, Security",
-      "description": "To respond to evolving technology and regulatory standards, Azure Storage will remove support for TLS version 1.1 and 1.0, and the minimum supported version will be TLS1.2 starting November 1, 2025. TLS 1.2 is more secure and faster than older TLS versions. TLS 1.0 and 1.1 do not support modern cryptographic algorithms and cipher suites.  \n\nThis change impacts existing and new storage accounts using TLS 1.0 and 1.1 in all clouds. To avoid disruptions to your applications connecting to Azure Storage, you must migrate to TLS 1.2 and remove dependencies on TLS version 1.0 and 1.1. \n\nAzure Storage already supports TLS 1.2 which is set as the default. Customers using TLS 1.2 will not be impacted by the removal of support for TLS 1.0 and 1.1. For customers using TLS 1.0 or 1.1, to maintain your connections to Azure Storage, please update your operating systems, development libraries, frameworks, and all other solutions to their latest versions to support TLS 1.2 and update your clients to TLS 1.2 no later than Oct 31st, 2025.  \n\nWe have compiled a series of recommendations and resources to help with your migration: Navigate here for more information"
-    },
-    {
-      "date": "11/13/2024",
-      "linkId": "466855",
-      "title": "Generally Available: Azure Cosmos DB vector database integration with LangChain.js",
+      "date": "11/19/2024",
+      "linkId": "mdb-vcore-sharding",
+      "title": "Generally Available: vCore-based Azure Cosmos DB for MongoDB multishard clusters",
       "category": "Features",
-      "description": "We’re excited to introduce LangChain.js integration with Azure Cosmos DB. You can use this powerful combination to efficiently manage fast and accurate data retrieval with greater ease in your JavaScript applications. The new LangChain.js integration makes the most of Azure Cosmos DB scalability and efficient vector search capabilities, simplifying applications development and large language model (LLM) orchestration tasks. Learn more."
+      "description": "You can now use up to five physical shards on your vCore-based Azure Cosmos DB for MongoDB clusters. An increased number of shards in a cluster enables you to host larger workloads and get elevated performance through higher concurrency.     When you create a vCore-based Azure Cosmos DB for MongoDB cluster, you can select from one to five shards. As before, each physical shard gets the same compute (vCore count and amount of RAM) and storage (GiB and IOPS) configuration.    Using a greater number of physical shards can also help increase cluster performance for larger workloads that require multishard clusters because of better parallelization.  Learn more"
     },
     {
-      "date": "11/13/2024",
-      "linkId": "467620",
-      "title": "Generally Available: Single prefix enhancement to seamless gateway migration",
+      "date": "11/19/2024",
+      "linkId": "vcore-based-azure-cosmos-db-for-mongodb-up-to-32-tib-storage",
+      "title": "Generally Available: vCore-based Azure Cosmos DB for MongoDB—up to 32 TiB storage",
       "category": "Features",
-      "description": "With the Gateway migration experience, customers can use the Azure Portal or PowerShell scripts to deploy a second Virtual Network Gateway within the same GatewaySubnet of the Virtual Network. During the migration phase, once initiated by the customer, Azure will transfer both the control plane and data path configurations from the existing gateway to the newly deployed one. This process will result in two operational Gateways within the same Gateway Subnet. After the migration is successfully completed, customers can remove the original Gateway, leaving the new Gateway in place for continued Private Connectivity. Previously, ExpressRoute Gateway customers needed to create a second address prefix to pass the validation stage of migrating their gateway. With this enhancement, customers can now migrate with a single prefix, eliminating the previous requirement to create a second address prefix in the Gateway. This feature is designed to support migrations with minimal downtime.To learn more, see:About migrating to an availability zone-enabled ExpressRoute virtual network gateway - Azure ExpressRoute | Microsoft LearnMigrate to an availability zone-enabled ExpressRoute virtual network gateway in Azure portal - Azure ExpressRoute | Microsoft Learn"
+      "description": "Higher capacity storage with higher IOPS enables you to host larger workloads on your vCore-based Azure Cosmos DB for MongoDB cluster. Now when you provision new clusters, you can help elevate performance by choosing from 8 TiB, 16 TiB, and 32 TiB with 16,000 IOPS, 18,000 IOPS, and 20,000 IOPS respectively. You can also scale up existing clusters using any of the new storage sizes as your workloads grow.   When you combine these new options with multiple physical shards in your vCore-based Azure Cosmos DB for MongoDB cluster, your large storage capacity can comfortably handle hundreds of terabytes of data.  Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "diskann-indexing-on-azure-database-for-postgresql",
+      "title": "Public Preview: DiskANN indexing on Azure Database for PostgreSQL",
+      "category": "Features",
+      "description": "We're thrilled to announce the preview of DiskANN, one of the fastest vector indexing algorithms on the market, which is now available for Azure Database for PostgreSQL. Developed at Microsoft Research, DiskANN is used extensively at Microsoft in global services such as Bing and Microsoft 365.DiskANN enables you to build highly accurate, performant, and scalable generative AI applications that surpass pgvector’s HNSW and IVFFlat indexes in both speed and accuracy. DiskANN also overcomes a long-standing limitation of pgvector in filtered vector search, where it occasionally returns incorrect results.Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "public-preview-azure-sql-database-mirroring-in-microsoft-fabric",
+      "title": "Generally Available: Mirroring Azure SQL Database in Fabric",
+      "category": "Features",
+      "description": "We are excited to announce the general availability of Mirroring Azure SQL Database in Fabric. Mirroring is a simple, free, and frictionless way to replicate a snapshot of incremental data changes in Azure SQL Database to Fabric OneLake. Delta tables keep your data in sync in near-real time. Mirroring is a low-cost, zero-code, zero-ETL solution that brings data together, driving faster time to insight.  Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467485",
+      "title": "Public Preview: Data API in vCore-based Azure Cosmos DB for MongoDB",
+      "category": "Features, Microsoft Ignite",
+      "description": "We’re excited to announce the public preview of the Data API for vCore-based Azure Cosmos DB for MongoDB. The Data API provides a flexible and powerful way to interact with your database through HTTP-based API calls.  Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "468062",
+      "title": "Public Preview: Empowering teams with new features in Microsoft Dev Box",
+      "category": "Features, Microsoft Ignite",
+      "description": "We're announcing new features in Dev Box that make it\neasier to configure task-based workstations for development teams and enhance project\nguardrails.  Cloud-based development environment for teams Team customizations: Dev team leads can create project-based\nconfigurations for their entire team, with the tools, packages and settings in\na single config file. (Preview) Run-as-user support for team\ncustomizations enable team leads to execute as-user customizations for more\nready-to-code dev boxes. Imaging: Dev team leads can now convert team\ncustomizations into images, reducing provisioning time for new dev boxes,\nremoving the need for custom image pipelines, and enabling automatic upstream OS\nupdates. (Preview) Dev\nBox customizations and imaging now support secrets and variables,\nenabling teams to reuse centralized secrets stored in Azure Key Vault, private\nrepos, or private artifact servers, and work more securely.     Built for enterprise trust Project Policy. IT\nAdmins can set up guardrails around resources that projects can and cannot\naccess, such as images, SKUs, and network connections. (Preview) Learn more in our announcement blog, tune in to the breakout\nTuesday, November 19 at 1:30 PM Central time: Beyond VDI: Get secure cloud dev environment with Dev Box, and get started today!"
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467434",
+      "title": "Public Preview: DiskANN vector indexing and search in vCore-based Azure Cosmos DB for MongoDB",
+      "category": "Microsoft Ignite, Features",
+      "description": "We’re excited to announce the public preview of DiskANN with filtering in vCore-based Azure Cosmos DB for MongoDB. With DiskANN, you can perform large-scale vector searches while reducing memory usage by up to 10 times compared to other algorithms like IVFFlat and HNSW—making recommendation engines, fraud detection, and other AI applications more cost-effective and scalable. Enjoy low-latency, high-availability performance, even with billions of vectors. Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467753",
+      "title": "Private Preview: Azure Confidential Clean Rooms",
+      "category": "Compliance, Features, Microsoft Ignite, Security, Services",
+      "description": "Microsoft is announcing the gated preview of Azure Confidential Clean Rooms, a cutting-edge solution designed for organizations that require secure multi-party data collaboration. With Confidential Clean Rooms, you can share privacy sensitive data such as personally identifiable information (PII), protected health information (PHI) and cryptographic secrets confidently, thanks to robust trust guarantees that safeguard your data throughout its lifecycle from other collaborators and from Azure operators. This secure data sharing is powered by confidential computing, which protects data in-use by performing computations in hardware-based, attested Trusted Execution Environments (TEEs). These TEEs help prevent unauthorized access or modification of application code and data during use. Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467290",
+      "title": "Generally Available: .NET 9",
+      "category": "Microsoft Ignite, Open Source, SdkAndTools, Features",
+      "description": "As of November 12, 2024, NET 9 is now generally available for download. Azure PaaS services, including Azure App Service, Azure Functions, Azure Container Apps, and more, now fully support .NET 9.Customers can now leverage the enhanced capabilities of .NET 9, such as significant performance improvements, adaptive garbage collection, and support for ARM64 optimizations, to build and deploy cloud-native and AI-powered applications more efficiently. They can also take advantage of seamless integration with Azure services to scale and manage their .NET 9 applications with improved observability and reduced cloud costs.Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467748",
+      "title": "Generally Available: Azure NetApp Files cool access support for large volumes",
+      "category": "Pricing & Offerings, Features",
+      "description": "Announcing the general availability of cool access feature support with large volumes. This allows tiering of infrequently accessed data on large volumes under standard, premium or ultra storage, to a lower-cost storage tier.  This allows your large capacity workloads to take advantage of cost savings for the inactive data. The seamless integration with all service levels extends the capabilities of cool access to large data repositories that must be kept online for compliance/business processes, providing major cost optimization in Oil &Gas, Manufacturing and HealthCare areas. All the features supported with cool access can now be used with large volumes of size ranging anywhere from 50 TiB to 1 PiB (up to 2 PiB on request). This capability will be supported only in the ANF regions where large volumes are supported.Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "468359",
+      "title": "Public Preview: Spot Placement Score",
+      "category": "Microsoft Ignite, Features",
+      "description": "Today, we are announcing the public preview of Azure Spot\nPlacement Score, a feature designed to help you assess the likelihood of\nsuccess for your Spot VM deployments. \nGiven that Spot availability can fluctuate based on SKU size, location,\navailability zones, or time of day, Spot Placement Score provides the ability\nto evaluate the chance of deployment success by assigning a rating of High,\nMedium, or Low to a Spot VM size before deployment.  This feature provides increased clarity and\ncontrol, enabling you to make more informed decisions about which Spot VMs to\ndeploy and where.Using Spot Placement Score, you can achieve the following:  A clear evaluation of how likely your Spot deployments is\nto succeed based on specified parameters.  Identify the most suitable combination of regions and VM\nsizes to maximize Spot VM availability and survivability based on placement\nscores.  Improve the overall success rate of deploying Spot VMs by\nleveraging data-driven placement scores, reducing the risk of capacity issues\nor failures during deployment. You can sign up for access in the and learn more in the blog and documentation."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "public-preview-index-recommendations-in-azure-database-for-postgresql-flexible-server",
+      "title": "Generally Available: Index tuning in Azure Database for PostgreSQL - Flexible Server",
+      "category": "Features, Microsoft Build",
+      "description": "Now you can use index tuning to analyze the most resource intensive set of queries in your workload and produce recommendations of indexes that, once created, improve the performance of those queries. Index tuning also recommends indexes you can drop if they are identified as duplicates or are considered irrelevant for lack of use.   The new index tuning feature builds on query store in Azure Database for PostgreSQL - Flexible Server, which captures and retains a history of queries executed in your workload and the runtime statistics of those queries.   Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467264",
+      "title": "Public Preview: Azure Managed Redis",
+      "category": "Microsoft Ignite, Features",
+      "description": "As your applications scale, fast and reliable data access becomes critical. Now in public preview, Azure Managed Redis brings the latest Redis innovations with enhanced availability while being more cost-effective. Azure Managed Redis boosts AI application performance, supports session management, and interoperates seamlessly with various Azure services.  With four new tiers, you can now customize your Redis solution to match specific performance and memory requirements. Azure Managed Redis also delivers up to 99.999% availability* for uninterrupted access to mission-critical apps, while offering enterprise-level security and password-free authentication through Microsoft Entra ID.  *Up to 99.999% availability is planned for general availability of Azure Managed Redis.  Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467425",
+      "title": "Public Preview: Full text and hybrid search in Azure Cosmos DB for NoSQL",
+      "category": "Features, Microsoft Ignite",
+      "description": "Now you can use Azure Cosmos DB for NoSQL to power more generative AI scenarios and to build applications with advanced search capabilities. We are thrilled to announce three new search features in Azure Cosmos DB for NoSQL, now available in public preview: Full-text search: Perform efficient text searches on your data with advanced text analysis capabilities, including tokenization and stemming. Currently supports English, with more languages coming soon. BM25 text ranking: Enhance your text search relevance with BM25 ranking, which considers term frequency, document length, and term importance to find the most relevant documents in a text search Hybrid search: Combine your vector searches with BM25-based text ranking for highly accurate and contextually relevant results. This feature uses Reciprocal Rank Fusion (RRF) to merge and rank the results for improved relevancy. Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467533",
+      "title": "Public Preview: Solution Accelerator for building a legal research copilot using GraphRAG on Azure Database for PostgreSQL",
+      "category": "Features, Microsoft Ignite",
+      "description": "Accuracy of the information retrieval pipeline plays a key role in the quality of Retrieval Augmented Generation (RAG) applications. GraphRAG is one of the advanced RAG techniques that improves accuracy of the information retrieval using graph-like relationships in your data. This solution accelerator shows you how to build a legal research copilot using this advanced technique on top of Azure Database for PostgreSQL.   This solution accelerator integrates GraphRAG with PostgreSQL graph query capabilities, providing a complete GraphRAG platform with a minimal number of platform components. The solution accelerator uses a semantic ranker for relevance boosting, the Apache AGE extension for graph queries, and the azure_ai extension for integration with Azure AI Services, including Azure OpenAI.   Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467538",
+      "title": "Generally Available: Semantic Ranker Solution Accelerator on Azure Database for PostgreSQL",
+      "category": "Features, Microsoft Ignite",
+      "description": "Accuracy of the information retrieval pipeline plays a key role in the quality of advanced Retrieval Augmented Generation (RAG) applications. Using the new Semantic Ranker Solution Accelerator, you can extend Azure Database for PostgreSQL with a semantic ranker model and use it directly in PostgreSQL queries to boost accuracy of the vector search results.   This solution accelerator provides automated deployment scripts that you can use to provision a semantic ranker model as an Azure Machine Learning inference endpoint. It also includes SQL user-defined functions for PostgreSQL that you can use to integrate the semantic ranker model into SQL queries.   This solution accelerator requires azure_ai extension.  Learn more."
+    },
+    {
+      "date": "11/19/2024",
+      "linkId": "467543",
+      "title": "Generally Available: Vector search in Azure Cosmos DB for NoSQL",
+      "category": "Microsoft Ignite, Features",
+      "description": "Now generally available in Azure Cosmos DB for NoSQL, vector search enables your applications to perform high-dimensional vector similarity searches. You can take advantage of advanced AI scenarios including semantic search, Retrieval Augmented Generation (RAG), semantic caching, and anomaly detection. This release also improves performance, including faster vector ingestion and lower search latencies, and offers compatibility with popular Azure Cosmos DB for NoSQL capabilities, such as customer-managed keys, continuous backup, point-in-time restore, and Fabric mirroring. Operational and vector data stays together and in sync, simplifying your data management, AI application architectures, and vector-based operations.  Learn more."
     }
   ]
 }
