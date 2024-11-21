@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "Wed, 20 Nov 2024 12:03:09 GMT",
+  "lastUpdated": "Thu, 21 Nov 2024 12:02:54 GMT",
   "posts": [
+    {
+      "date": "11/20/2024",
+      "linkId": "468560",
+      "title": "Public Preview: Azure DNS Support for DNSSEC",
+      "category": "Microsoft Ignite, Features, Services, Security",
+      "description": "Azure DNS now supports DNSSEC (Domain\nName System Security Extensions) in our azure public cloud, a significant\nenhancement to our DNS services. This new feature provides an additional layer\nof security to your domain names, ensuring the integrity and authenticity of\nyour DNS data. API, CLI and PowerShell is available today, with portal being\ndeployed over the next 2 weeks. For more information, please refer to our Azure DNSSEC documentation.  What is DNSSEC? DNSSEC is a suite of extensions to DNS that adds security to\nthe domain name system. It helps protect against certain types of attacks, such\nas cache poisoning and man-in-the-middle attacks, by enabling DNS responses to\nbe verified for authenticity. With DNSSEC, you can be confident that the DNS\nresponses you receive are exactly what the domain owner intended. Key Benefits of DNSSEC on Azure DNS \n Enhanced\n     Security: DNSSEC helps prevent attackers from manipulating or\n     poisoning DNS responses, ensuring that users are directed to the correct\n     websites. \n Data\n     Integrity: By signing DNS data, DNSSEC ensures that the information\n     received from a DNS query has not been altered in transit. \n Trust\n     and Authenticity: DNSSEC provides a chain of trust from the root DNS\n     servers down to your domain, verifying the authenticity of DNS data. For detailed instructions,\nplease refer to our Azure DNSSEC\ndocumentation."
+    },
+    {
+      "date": "11/20/2024",
+      "linkId": "467743",
+      "title": "Public Preview: Azure SQL updates for mid-November 2024",
+      "category": "Features, Microsoft Ignite",
+      "description": "In mid-November 2024, the following updates and enhancements were made to Azure SQL:  You can now set up a network security perimeter (NSP) in Azure SQL Database. An NSP defines a boundary around a group of platform as a service (PaaS) resources, providing implicit trust access between each resource. The perimeter enforces egress control, trusted communication between services, and visibility into PaaS-to-PaaS communication. SQL Database is one of the 16 services that support NSP. Learn moreNetwork\nsecurity perimeter"
+    },
+    {
+      "date": "11/20/2024",
+      "linkId": "467269",
+      "title": "Public Preview: Network security perimeter with Azure Cosmos DB",
+      "category": "Features, Microsoft Ignite",
+      "description": "Network security perimeter allows Azure PaaS resources to communicate within an explicit trusted boundary. External access can be limited based on network controls defined across all private link resources within a perimeter.  All resources inside a perimeter can communicate with any other resource within the perimeter.  Public inbound access can be approved using the network and identity attributes of the client, such as source IP addresses or subscriptions.  Public outbound can be approved using fully qualified domain names of the external destinations.   Learn more."
+    },
+    {
+      "date": "11/20/2024",
+      "linkId": "467439",
+      "title": "Public Preview: Autoscale in vCore based Azure Cosmos DB for MongoDB",
+      "category": "Features, Microsoft Ignite",
+      "description": "Now you can handle peak loads effortlessly without overprovisioning using the new autoscale capability, currently available in preview for vCore-based Azure Cosmos DB for MongoDB. Autoscaling gives you instantaneous scalability—your database can quickly adapt to changes in demand and peak loads without delays. Resources are available when your application needs them. Additionally, you pay only for the resources you use, giving you more flexibility to control costs.  Learn more."
+    },
+    {
+      "date": "11/20/2024",
+      "linkId": "467444",
+      "title": "Public Preview: New Linux-based Azure Cosmos DB Emulator",
+      "category": "Microsoft Ignite, Features",
+      "description": "Check out the new Azure Cosmos DB Emulator for Mac developers and give us your feedback. The emulator supports Mac ARM64 and x86 architectures and is optimized for Linux-based continuous improvement and continuous deployment (CI/CD) systems—giving you a great development experience with faster startup times. This preview release includes a select subset of Azure Cosmos DB features.   Learn more."
+    },
+    {
+      "date": "11/20/2024",
+      "linkId": "467490",
+      "title": "Public Preview: Change streams on vCore-based Azure Cosmos DB for MongoDB",
+      "category": "Features, Microsoft Ignite",
+      "description": "We are excited to introduce change streams for vCore-based Azure Cosmos DB for MongoDB. This new feature enables you to track real-time updates, inserts, and deletions in your database collections, facilitating the development of responsive, event-driven applications.   You can synchronize data effortlessly across services, trigger automated workflows based on data changes, and instantly enhance your application's data monitoring and processing capabilities.  Learn more."
+    },
+    {
+      "date": "11/20/2024",
+      "linkId": "467504",
+      "title": "Generally Available: Azure Database for PostgreSQL support for oracle_fdw extension",
+      "category": "Features, Microsoft Ignite",
+      "description": "Azure Database for PostgreSQL - Flexible Server now supports the oracle_fdw extension. This foreign data wrapper gives you easy access to your Oracle databases via foreign tables.   Learn more"
+    },
+    {
+      "date": "11/20/2024",
+      "linkId": "467514",
+      "title": "Public Preview: Elastic clusters on Azure Database for PostgreSQL - Flexible Server",
+      "category": "Features, Microsoft Ignite",
+      "description": "Now you can use elastic clusters to horizontally scale Azure Database for PostgreSQL - Flexible Server through row-based and schema-based sharding. Elastic clusters make it easy to build multitenant apps by offloading shard management and operations—such as tenant isolation, split, or online rebalancing of shards—to the service. Row-based sharding is ideal for multitenant software as a service (SaaS) deployments, as it splits tenants into rows within a cluster-distributed table, enhancing density and improving margins per tenant. By contrast, schema-based sharding suits microservices and lift-and-shift migrations of existing applications, offering more customization of schemas for each tenant.  Learn more."
+    },
+    {
+      "date": "11/20/2024",
+      "linkId": "467519",
+      "title": "Public Preview: Managed Service Identity for Azure Storage extension in Azure Database for PostgreSQL",
+      "category": "Features, Microsoft Ignite",
+      "description": "You can now use Managed Service Identity to authenticate the Azure Storage extension in Azure Database for PostgreSQL – Flexible Server against Azure Blob Storage accounts. The Azure Storage extension enables interactions with Azure Blob Storage accounts from within Azure Database for PostgreSQL - Flexible Server. The extension supports both reading from and writing to Azure Blob Storage accounts, including the built-in COPY command of PostgreSQL.  With this change, you no longer need to store access keys and shared access signature (SAS) tokens within your database.  Learn more."
+    },
     {
       "date": "11/19/2024",
       "linkId": "469776",
@@ -77,69 +140,6 @@
       "title": "Private Preview: Azure Confidential Clean Rooms",
       "category": "Compliance, Features, Microsoft Ignite, Security, Services",
       "description": "Microsoft is announcing the gated preview of Azure Confidential Clean Rooms, a cutting-edge solution designed for organizations that require secure multi-party data collaboration. With Confidential Clean Rooms, you can share privacy sensitive data such as personally identifiable information (PII), protected health information (PHI) and cryptographic secrets confidently, thanks to robust trust guarantees that safeguard your data throughout its lifecycle from other collaborators and from Azure operators. This secure data sharing is powered by confidential computing, which protects data in-use by performing computations in hardware-based, attested Trusted Execution Environments (TEEs). These TEEs help prevent unauthorized access or modification of application code and data during use. Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467290",
-      "title": "Generally Available: .NET 9",
-      "category": "Microsoft Ignite, Open Source, SdkAndTools, Features",
-      "description": "As of November 12, 2024, NET 9 is now generally available for download. Azure PaaS services, including Azure App Service, Azure Functions, Azure Container Apps, and more, now fully support .NET 9.Customers can now leverage the enhanced capabilities of .NET 9, such as significant performance improvements, adaptive garbage collection, and support for ARM64 optimizations, to build and deploy cloud-native and AI-powered applications more efficiently. They can also take advantage of seamless integration with Azure services to scale and manage their .NET 9 applications with improved observability and reduced cloud costs.Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467748",
-      "title": "Generally Available: Azure NetApp Files cool access support for large volumes",
-      "category": "Pricing & Offerings, Features",
-      "description": "Announcing the general availability of cool access feature support with large volumes. This allows tiering of infrequently accessed data on large volumes under standard, premium or ultra storage, to a lower-cost storage tier.  This allows your large capacity workloads to take advantage of cost savings for the inactive data. The seamless integration with all service levels extends the capabilities of cool access to large data repositories that must be kept online for compliance/business processes, providing major cost optimization in Oil &Gas, Manufacturing and HealthCare areas. All the features supported with cool access can now be used with large volumes of size ranging anywhere from 50 TiB to 1 PiB (up to 2 PiB on request). This capability will be supported only in the ANF regions where large volumes are supported.Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "468359",
-      "title": "Public Preview: Spot Placement Score",
-      "category": "Microsoft Ignite, Features",
-      "description": "Today, we are announcing the public preview of Azure Spot\nPlacement Score, a feature designed to help you assess the likelihood of\nsuccess for your Spot VM deployments. \nGiven that Spot availability can fluctuate based on SKU size, location,\navailability zones, or time of day, Spot Placement Score provides the ability\nto evaluate the chance of deployment success by assigning a rating of High,\nMedium, or Low to a Spot VM size before deployment.  This feature provides increased clarity and\ncontrol, enabling you to make more informed decisions about which Spot VMs to\ndeploy and where.Using Spot Placement Score, you can achieve the following:  A clear evaluation of how likely your Spot deployments is\nto succeed based on specified parameters.  Identify the most suitable combination of regions and VM\nsizes to maximize Spot VM availability and survivability based on placement\nscores.  Improve the overall success rate of deploying Spot VMs by\nleveraging data-driven placement scores, reducing the risk of capacity issues\nor failures during deployment. You can sign up for access in the and learn more in the blog and documentation."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "public-preview-index-recommendations-in-azure-database-for-postgresql-flexible-server",
-      "title": "Generally Available: Index tuning in Azure Database for PostgreSQL - Flexible Server",
-      "category": "Features, Microsoft Build",
-      "description": "Now you can use index tuning to analyze the most resource intensive set of queries in your workload and produce recommendations of indexes that, once created, improve the performance of those queries. Index tuning also recommends indexes you can drop if they are identified as duplicates or are considered irrelevant for lack of use.   The new index tuning feature builds on query store in Azure Database for PostgreSQL - Flexible Server, which captures and retains a history of queries executed in your workload and the runtime statistics of those queries.   Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467264",
-      "title": "Public Preview: Azure Managed Redis",
-      "category": "Microsoft Ignite, Features",
-      "description": "As your applications scale, fast and reliable data access becomes critical. Now in public preview, Azure Managed Redis brings the latest Redis innovations with enhanced availability while being more cost-effective. Azure Managed Redis boosts AI application performance, supports session management, and interoperates seamlessly with various Azure services.  With four new tiers, you can now customize your Redis solution to match specific performance and memory requirements. Azure Managed Redis also delivers up to 99.999% availability* for uninterrupted access to mission-critical apps, while offering enterprise-level security and password-free authentication through Microsoft Entra ID.  *Up to 99.999% availability is planned for general availability of Azure Managed Redis.  Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467425",
-      "title": "Public Preview: Full text and hybrid search in Azure Cosmos DB for NoSQL",
-      "category": "Features, Microsoft Ignite",
-      "description": "Now you can use Azure Cosmos DB for NoSQL to power more generative AI scenarios and to build applications with advanced search capabilities. We are thrilled to announce three new search features in Azure Cosmos DB for NoSQL, now available in public preview: Full-text search: Perform efficient text searches on your data with advanced text analysis capabilities, including tokenization and stemming. Currently supports English, with more languages coming soon. BM25 text ranking: Enhance your text search relevance with BM25 ranking, which considers term frequency, document length, and term importance to find the most relevant documents in a text search Hybrid search: Combine your vector searches with BM25-based text ranking for highly accurate and contextually relevant results. This feature uses Reciprocal Rank Fusion (RRF) to merge and rank the results for improved relevancy. Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467533",
-      "title": "Public Preview: Solution Accelerator for building a legal research copilot using GraphRAG on Azure Database for PostgreSQL",
-      "category": "Features, Microsoft Ignite",
-      "description": "Accuracy of the information retrieval pipeline plays a key role in the quality of Retrieval Augmented Generation (RAG) applications. GraphRAG is one of the advanced RAG techniques that improves accuracy of the information retrieval using graph-like relationships in your data. This solution accelerator shows you how to build a legal research copilot using this advanced technique on top of Azure Database for PostgreSQL.   This solution accelerator integrates GraphRAG with PostgreSQL graph query capabilities, providing a complete GraphRAG platform with a minimal number of platform components. The solution accelerator uses a semantic ranker for relevance boosting, the Apache AGE extension for graph queries, and the azure_ai extension for integration with Azure AI Services, including Azure OpenAI.   Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467538",
-      "title": "Generally Available: Semantic Ranker Solution Accelerator on Azure Database for PostgreSQL",
-      "category": "Features, Microsoft Ignite",
-      "description": "Accuracy of the information retrieval pipeline plays a key role in the quality of advanced Retrieval Augmented Generation (RAG) applications. Using the new Semantic Ranker Solution Accelerator, you can extend Azure Database for PostgreSQL with a semantic ranker model and use it directly in PostgreSQL queries to boost accuracy of the vector search results.   This solution accelerator provides automated deployment scripts that you can use to provision a semantic ranker model as an Azure Machine Learning inference endpoint. It also includes SQL user-defined functions for PostgreSQL that you can use to integrate the semantic ranker model into SQL queries.   This solution accelerator requires azure_ai extension.  Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467543",
-      "title": "Generally Available: Vector search in Azure Cosmos DB for NoSQL",
-      "category": "Microsoft Ignite, Features",
-      "description": "Now generally available in Azure Cosmos DB for NoSQL, vector search enables your applications to perform high-dimensional vector similarity searches. You can take advantage of advanced AI scenarios including semantic search, Retrieval Augmented Generation (RAG), semantic caching, and anomaly detection. This release also improves performance, including faster vector ingestion and lower search latencies, and offers compatibility with popular Azure Cosmos DB for NoSQL capabilities, such as customer-managed keys, continuous backup, point-in-time restore, and Fabric mirroring. Operational and vector data stays together and in sync, simplifying your data management, AI application architectures, and vector-based operations.  Learn more."
     }
   ]
 }
