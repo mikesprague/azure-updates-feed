@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "Thu, 21 Nov 2024 12:02:54 GMT",
+  "lastUpdated": "Fri, 22 Nov 2024 12:02:56 GMT",
   "posts": [
+    {
+      "date": "11/21/2024",
+      "linkId": "470131",
+      "title": "Retirement: Azure PostgreSQL migration extension in Azure Data Studio (ADS)",
+      "category": "Retirements",
+      "description": "The Azure PostgreSQL migration extension in Azure Data Studio (ADS) will be officially retired on November 15, 2024. As part of our commitment to providing you with the most advanced and reliable tools, we are phasing out this extension in Azure Data Studio. The Azure PostgreSQL migration extension currently offers limited functionality and lacks support for the latest Azure Database for PostgreSQL SKUs, making it less effective for your migration needs. By retiring the extension in Azure Data Studio, we aim to focus on improving and supporting the tools that will offer you the most value in your migration journey. If you continue to use the Azure PostgreSQL migration extension after November 15, 2024, it will no longer be enhanced or supported, and will not have the latest security and compliance features. We encourage you to transition to the enhanced migration services available in the Azure portal as a feature of Azure Database for PostgreSQL – Flexible server or through Azure CLI. These services include pre-migration validation and are designed to better support your migration projects, ensuring a smoother and more efficient transition to Azure."
+    },
+    {
+      "date": "11/21/2024",
+      "linkId": "467600",
+      "title": "Retirement: Support for TLS 1.0/1.1 in Application Insights Availability Tests will be retired",
+      "category": "Retirements",
+      "description": "On May 1, 2025, in alignment with the Azure-wide legacy TLS retirement announcement, TLS 1.0/1.1 protocol versions and TLS 1.2/1.3 Legacy Cipher Suites and Elliptical Curves will be retired for Application Insights Availability Tests. If you’re using any of the listed TLS Configurations, your tests may stop working after May 1, 2025.Required actionTo ensure your Availability Tests continue to work after May 1, 2025, we recommend ensuring that any remote endpoint your Availability Test is configured to interact with supports at least one of the supported TLS combinations.For information on how to find out what TLS combinations your servers currently support, please visit here. If you have questions about common issues, please visit the FAQ for answers."
+    },
+    {
+      "date": "11/21/2024",
+      "linkId": "470092",
+      "title": "Generally Available: Da/Ea/Fav6 series AMD based Azure Virtual Machines (VMs)",
+      "category": "Features, Microsoft Ignite, Pricing & Offerings, Services",
+      "description": "Microsoft is announcing the general availability of the new Da/Ea/Fav6 series AMD based virtual machines (VMs). These VMs consist of our new general purpose Dasv6-series and Dalsv6-series, our new memory optimized Easv6-series VM series, and our new compute optimized Falsv6, Fasv6 and Famsv6 VM series. They offer better performance and better price-performance than our previous generation AMD based VMs, making them an attractive option for a wide range of workloads, including data analytics, web and application servers, databases, caches, and more.    These VMs come with the NVMe interface for local and remote disks. Many workloads will benefit from improvements over the previous generation of AMD based with up to: 80% better remote storage performance 400% faster local storage speeds 20% networking bandwidth improvement 45% higher NVMe SSD capacity per vCPU for Daldsv6, Dadsv6, Eadsv6-series VMs with local disks Learn more."
+    },
+    {
+      "date": "11/21/2024",
+      "linkId": "470097",
+      "title": "Public Preview: Visual Studio Code extension for Azure Cosmos DB",
+      "category": "Features, Microsoft Ignite",
+      "description": "We’re excited to announce a new VS Code extension for Azure Cosmos DB. Now you can connect, query, and manage your Azure Cosmos DB resources directly within VS Code, streamlining your workflow.  Learn more."
+    },
+    {
+      "date": "11/21/2024",
+      "linkId": "470102",
+      "title": "Public Preview: Read and read/write privileges for secondary users in vCore-based Azure Cosmos DB for MongoDB",
+      "category": "Features, Microsoft Ignite",
+      "description": "Now vCore-based Azure Cosmos DB for MongoDB supports the integration of role-based access control (RBAC) to grant secondary users read/read-write privileges. Administrators have more granular access control. They can assign specific roles to users who require access to secondary databases, ensuring that they can perform necessary read operations without compromising the integrity of their primary data.   Learn more."
+    },
     {
       "date": "11/20/2024",
       "linkId": "468560",
@@ -105,41 +140,6 @@
       "title": "Public Preview: DiskANN indexing on Azure Database for PostgreSQL",
       "category": "Features",
       "description": "We're thrilled to announce the preview of DiskANN, one of the fastest vector indexing algorithms on the market, which is now available for Azure Database for PostgreSQL. Developed at Microsoft Research, DiskANN is used extensively at Microsoft in global services such as Bing and Microsoft 365.DiskANN enables you to build highly accurate, performant, and scalable generative AI applications that surpass pgvector’s HNSW and IVFFlat indexes in both speed and accuracy. DiskANN also overcomes a long-standing limitation of pgvector in filtered vector search, where it occasionally returns incorrect results.Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "public-preview-azure-sql-database-mirroring-in-microsoft-fabric",
-      "title": "Generally Available: Mirroring Azure SQL Database in Fabric",
-      "category": "Features",
-      "description": "We are excited to announce the general availability of Mirroring Azure SQL Database in Fabric. Mirroring is a simple, free, and frictionless way to replicate a snapshot of incremental data changes in Azure SQL Database to Fabric OneLake. Delta tables keep your data in sync in near-real time. Mirroring is a low-cost, zero-code, zero-ETL solution that brings data together, driving faster time to insight.  Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467485",
-      "title": "Public Preview: Data API in vCore-based Azure Cosmos DB for MongoDB",
-      "category": "Features, Microsoft Ignite",
-      "description": "We’re excited to announce the public preview of the Data API for vCore-based Azure Cosmos DB for MongoDB. The Data API provides a flexible and powerful way to interact with your database through HTTP-based API calls.  Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "468062",
-      "title": "Public Preview: Empowering teams with new features in Microsoft Dev Box",
-      "category": "Features, Microsoft Ignite",
-      "description": "We're announcing new features in Dev Box that make it\neasier to configure task-based workstations for development teams and enhance project\nguardrails.  Cloud-based development environment for teams Team customizations: Dev team leads can create project-based\nconfigurations for their entire team, with the tools, packages and settings in\na single config file. (Preview) Run-as-user support for team\ncustomizations enable team leads to execute as-user customizations for more\nready-to-code dev boxes. Imaging: Dev team leads can now convert team\ncustomizations into images, reducing provisioning time for new dev boxes,\nremoving the need for custom image pipelines, and enabling automatic upstream OS\nupdates. (Preview) Dev\nBox customizations and imaging now support secrets and variables,\nenabling teams to reuse centralized secrets stored in Azure Key Vault, private\nrepos, or private artifact servers, and work more securely.     Built for enterprise trust Project Policy. IT\nAdmins can set up guardrails around resources that projects can and cannot\naccess, such as images, SKUs, and network connections. (Preview) Learn more in our announcement blog, tune in to the breakout\nTuesday, November 19 at 1:30 PM Central time: Beyond VDI: Get secure cloud dev environment with Dev Box, and get started today!"
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467434",
-      "title": "Public Preview: DiskANN vector indexing and search in vCore-based Azure Cosmos DB for MongoDB",
-      "category": "Microsoft Ignite, Features",
-      "description": "We’re excited to announce the public preview of DiskANN with filtering in vCore-based Azure Cosmos DB for MongoDB. With DiskANN, you can perform large-scale vector searches while reducing memory usage by up to 10 times compared to other algorithms like IVFFlat and HNSW—making recommendation engines, fraud detection, and other AI applications more cost-effective and scalable. Enjoy low-latency, high-availability performance, even with billions of vectors. Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "467753",
-      "title": "Private Preview: Azure Confidential Clean Rooms",
-      "category": "Compliance, Features, Microsoft Ignite, Security, Services",
-      "description": "Microsoft is announcing the gated preview of Azure Confidential Clean Rooms, a cutting-edge solution designed for organizations that require secure multi-party data collaboration. With Confidential Clean Rooms, you can share privacy sensitive data such as personally identifiable information (PII), protected health information (PHI) and cryptographic secrets confidently, thanks to robust trust guarantees that safeguard your data throughout its lifecycle from other collaborators and from Azure operators. This secure data sharing is powered by confidential computing, which protects data in-use by performing computations in hardware-based, attested Trusted Execution Environments (TEEs). These TEEs help prevent unauthorized access or modification of application code and data during use. Learn more."
     }
   ]
 }

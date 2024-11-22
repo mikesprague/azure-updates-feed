@@ -6,7 +6,42 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Nov 2024 12:02:54 GMT</pubDate>
+    <pubDate>Fri, 22 Nov 2024 12:02:56 GMT</pubDate>
+    <item>
+      <title>Retirement: Azure PostgreSQL migration extension in Azure Data Studio (ADS)</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470131</link>
+      <description>The Azure PostgreSQL migration extension in Azure Data Studio&#160;(ADS)&#160;will be officially retired on November&#160;15, 2024. As part of our commitment to providing you with the most advanced and reliable tools, we are phasing out this extension&#160;in Azure Data Studio. The Azure PostgreSQL migration extension&#160;currently offers limited functionality and lacks support for the latest Azure Database for PostgreSQL SKUs, making it less effective for your migration needs.&#160;By retiring the extension in Azure Data Studio, we aim to focus on improving and supporting the tools that will offer you the most value in your migration journey.&#160;If you continue to use the Azure PostgreSQL migration extension after November&#160;15, 2024,&#160;it will no longer be enhanced or supported, and will not have the latest security and compliance features. We encourage you to&#160;transition&#160;to the enhanced migration services&#160;available in the Azure portal as a feature of Azure Database for PostgreSQL &#8211; Flexible server or through Azure CLI.&#160;These services&#160;include pre-migration validation and are designed to better support your migration projects, ensuring a smoother and more efficient transition to Azure.</description>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470131</guid>
+    </item>
+    <item>
+      <title>Retirement: Support for TLS 1.0/1.1 in Application Insights Availability Tests will be retired</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467600</link>
+      <description>On May 1, 2025, in alignment with the&#160;Azure-wide legacy TLS retirement announcement, TLS 1.0/1.1 protocol versions and TLS 1.2/1.3 Legacy Cipher Suites and Elliptical Curves will be retired for Application Insights Availability Tests. If you&#8217;re using any of the listed&#160;TLS Configurations, your tests may stop working after&#160;May 1, 2025.Required actionTo ensure your Availability Tests continue to work after May 1, 2025, we recommend ensuring that any remote endpoint your Availability Test is configured to interact with supports at least one of the&#160;supported TLS combinations.For information on how to find out what TLS combinations your servers currently support, please visit&#160;here. If you have questions about common issues, please visit the&#160;FAQ&#160;for answers.</description>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467600</guid>
+    </item>
+    <item>
+      <title>Generally Available: Da/Ea/Fav6 series AMD based Azure Virtual Machines (VMs)</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470092</link>
+      <description>Microsoft is announcing the general availability&#160;of the new Da/Ea/Fav6 series AMD based&#160;virtual machines (VMs). These&#160;VMs consist of our new general purpose Dasv6-series and Dalsv6-series, our new memory optimized Easv6-series VM series, and our new compute&#160;optimized Falsv6, Fasv6 and Famsv6 VM series. They offer better performance and better price-performance than our previous&#160;generation AMD based VMs, making them an attractive option&#160;for a wide range of workloads, including data analytics, web&#160;and application servers, databases, caches, and more.&#160;&#160;&#160;&#160;These VMs come with the NVMe&#160;interface for local and remote disks. Many workloads will benefit&#160;from improvements over the previous&#160;generation of AMD based with up to:&#160;80% better remote storage performance&#160;400% faster local storage speeds&#160;20% networking bandwidth improvement&#160;45% higher NVMe&#160;SSD capacity per vCPU for Daldsv6, Dadsv6, Eadsv6-series VMs with local disks&#160;Learn more.</description>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470092</guid>
+    </item>
+    <item>
+      <title>Public Preview: Visual Studio Code extension for Azure Cosmos DB</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470097</link>
+      <description>We&#8217;re&#160;excited to announce a new VS Code extension for Azure Cosmos DB.&#160;Now you can connect, query, and manage your Azure Cosmos DB resources&#160;directly within VS Code, streamlining your workflow.&#160;&#160;Learn more.</description>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470097</guid>
+    </item>
+    <item>
+      <title>Public Preview: Read and read/write privileges for secondary users in vCore-based Azure Cosmos DB for MongoDB</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470102</link>
+      <description>Now vCore-based Azure Cosmos DB for MongoDB supports the integration of role-based access control (RBAC)&#160;to grant secondary users read/read-write privileges. Administrators have more granular access control. They can assign specific roles to users who require access to secondary databases, ensuring that they can perform necessary read operations without compromising the integrity of their primary data.&#160;&#160;&#160;Learn more.</description>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470102</guid>
+    </item>
     <item>
       <title>Public Preview: Azure DNS Support for DNSSEC</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=468560</link>
@@ -146,56 +181,6 @@ Filtering, please reach out to ibraraslam@microsoft.com or fill out this survey!
       <description>We're thrilled to announce the preview of DiskANN, one of the fastest vector indexing algorithms on the market, which is now available for Azure Database for PostgreSQL. Developed at Microsoft Research, DiskANN is used extensively at Microsoft in global services such as Bing and Microsoft 365.DiskANN enables you to build highly accurate, performant, and scalable generative AI applications that surpass pgvector&#8217;s HNSW and IVFFlat indexes in both speed and accuracy. DiskANN also overcomes a long-standing limitation of pgvector in filtered vector search, where it occasionally returns incorrect results.Learn more.</description>
       <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=diskann-indexing-on-azure-database-for-postgresql</guid>
-    </item>
-    <item>
-      <title>Generally Available: Mirroring Azure SQL Database in Fabric</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=public-preview-azure-sql-database-mirroring-in-microsoft-fabric</link>
-      <description>We are excited to announce the general availability of Mirroring Azure SQL Database in Fabric. Mirroring is a simple, free,&#160;and frictionless way to replicate a snapshot of incremental data changes in Azure SQL Database to Fabric OneLake.&#160;Delta tables keep your data in sync&#160;in near-real time. Mirroring is a low-cost, zero-code, zero-ETL solution&#160;that brings data together, driving faster time to insight.&#160;&#160;Learn more.</description>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=public-preview-azure-sql-database-mirroring-in-microsoft-fabric</guid>
-    </item>
-    <item>
-      <title>Public Preview: Data API in vCore-based Azure Cosmos DB for MongoDB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467485</link>
-      <description>We&#8217;re&#160;excited to announce the public preview of the Data API for vCore-based Azure Cosmos DB for MongoDB. The Data&#160;API provides a flexible and powerful way to interact with your database through HTTP-based API calls.&#160;&#160;Learn more.</description>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467485</guid>
-    </item>
-    <item>
-      <title>Public Preview: Empowering teams with new features in Microsoft Dev Box</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=468062</link>
-      <description>We're announcing new features in Dev Box that make it
-easier to configure task-based workstations for development teams and enhance project
-guardrails. &#160;Cloud-based development environment for teams&#160;Team customizations: Dev team leads can create project-based
-configurations for their entire team, with the tools, packages and settings in
-a single config file. (Preview)&#160;Run-as-user support for team
-customizations enable team leads to execute as-user customizations for more
-ready-to-code dev boxes.&#160;Imaging: Dev team leads can now convert team
-customizations into images, reducing provisioning time for new dev boxes,
-removing the need for custom image pipelines, and enabling automatic upstream OS
-updates. (Preview)&#160;Dev
-Box customizations and imaging now support secrets and variables,
-enabling teams to reuse centralized secrets stored in Azure Key Vault, private
-repos, or private artifact servers, and work more securely.&#160;&#160;&#160; &#160;Built for enterprise trust&#160;Project Policy. IT
-Admins can set up guardrails around resources that projects can and cannot
-access, such as images, SKUs, and network connections. (Preview)&#160;Learn more in our announcement blog, tune in to the breakout
-Tuesday, November 19 at 1:30 PM Central time: Beyond VDI: Get secure cloud dev environment with Dev Box, and get started today!</description>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=468062</guid>
-    </item>
-    <item>
-      <title>Public Preview: DiskANN vector indexing and search in vCore-based Azure Cosmos DB for MongoDB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467434</link>
-      <description>We&#8217;re&#160;excited to announce the public preview of DiskANN&#160;with filtering&#160;in vCore-based Azure Cosmos DB for MongoDB. With DiskANN, you can perform large-scale vector searches while reducing memory usage by up to 10&#160;times&#160;compared to other algorithms&#160;like IVFFlat&#160;and HNSW&#8212;making recommendation engines,&#160;fraud detection, and other AI applications&#160;more cost-effective and scalable. Enjoy low-latency, high-availability performance, even with billions of vectors.&#160;Learn more.</description>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467434</guid>
-    </item>
-    <item>
-      <title>Private Preview: Azure Confidential Clean Rooms</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467753</link>
-      <description>Microsoft is announcing the gated preview of&#160;Azure Confidential Clean Rooms, a cutting-edge&#160;solution designed for organizations that require secure multi-party data collaboration. With Confidential Clean Rooms, you can share privacy sensitive data such as personally identifiable information (PII), protected health information (PHI) and cryptographic secrets confidently, thanks to robust trust guarantees that safeguard your data throughout its lifecycle from other collaborators and from Azure operators. This secure data sharing is powered by confidential computing, which protects data in-use by performing computations in hardware-based, attested Trusted Execution Environments (TEEs). These TEEs help prevent unauthorized access or modification of application code and data during use.&#160;Learn more.</description>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467753</guid>
     </item>
   </channel>
 </rss>
