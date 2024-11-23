@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "Fri, 22 Nov 2024 12:02:56 GMT",
+  "lastUpdated": "Sat, 23 Nov 2024 12:02:37 GMT",
   "posts": [
     {
-      "date": "11/21/2024",
-      "linkId": "470131",
+      "date": "11/22/2024",
+      "linkId": "470309",
+      "title": "Public Preview: New graph operators in Kusto",
+      "category": "Features",
+      "description": "We are excited to announce the release of two powerful new graph operators in Kusto: graph-shortest-path and graph-mark-components. The graph-shortest-paths operator is designed to streamline the process of finding the shortest paths between nodes in a graph. This operator efficiently identifies the shortest routes between a set of source nodes and a set of target nodes, returning a table with the. In addition, the graph-mark-components operator is designed to mark all connected components of a graph and assign each node with a unique component identifier.  Both operators are now available in public preview, offering users the opportunity to explore and utilize these powerful tools in their graph analysis tasks. We invite you to try out these new features and experience the enhanced capabilities they bring. Learn more: Visit the documentation of graph-shortest-paths.  Visit the documentation of graph-mark-components."
+    },
+    {
+      "date": "11/22/2024",
+      "linkId": "470314",
+      "title": "Generally Available: Star pattern and default node identifier in Kusto",
+      "category": "Features",
+      "description": "We are announcing the general availability of two powerful new features in Kusto Graph Semantics.  The star pattern allows users to express nonlinear patterns using comma-delimited sequences, making it particularly useful for describing connections where different sequences share one or more variable names of a node. Additionally, the new approach for defining the default node identifier simplifies the process of creating a graph from a tabular expression of edges. By setting a default node identifier in make-graph, it is readily available for the constraints section of the subsequent graph-match operator. These features are now generally available.Learn more:About star pattern in our documentation. About default node identifier in our documentation. Read Azure Data Explorer blog."
+    },
+    {
+      "date": "11/22/2024",
+      "linkId": "469695",
+      "title": "Generally Available: Regional Disaster Recovery by Azure Backup for AKS",
+      "category": "Features",
+      "description": "In today’s digital landscape, cloud administrators face the challenge of ensuring data and applications remain protected, compliant, and resilient amidst evolving cyber threats. We’re excited to announce the general availability (GA) of Vaulted Backup support in Azure Backup for Azure Kubernetes Service (AKS). This new feature helps organizations meet compliance requirements, enhance operational resilience, and protect cloud-native applications from regional disasters. Key Benefits for Azure Customers: Disaster Recovery Across Regions: Cross-Region Restore supports critical failover capabilities, ensuring business continuity and disaster recovery compliance Regulatory Compliance: Achieve long-term retention (LTR) for up to 10 years to meet global compliance frameworks. Enhanced Security & Cyber Resilience: Immutable vaults and role-based access control protect backup data from ransomware and unauthorized access. With GA support for Vaulted backups of AKS, Azure Backup simplifies compliance, strengthens security, and improves resilience for cloud-native environments. Activate Azure Backup for your AKS clusters today to enable robust, compliant data protection. Learn more."
+    },
+    {
+      "date": "11/22/2024",
+      "linkId": "azure-postgresql-migration-extension-in-azure-data-studio-1",
       "title": "Retirement: Azure PostgreSQL migration extension in Azure Data Studio (ADS)",
-      "category": "Retirements",
-      "description": "The Azure PostgreSQL migration extension in Azure Data Studio (ADS) will be officially retired on November 15, 2024. As part of our commitment to providing you with the most advanced and reliable tools, we are phasing out this extension in Azure Data Studio. The Azure PostgreSQL migration extension currently offers limited functionality and lacks support for the latest Azure Database for PostgreSQL SKUs, making it less effective for your migration needs. By retiring the extension in Azure Data Studio, we aim to focus on improving and supporting the tools that will offer you the most value in your migration journey. If you continue to use the Azure PostgreSQL migration extension after November 15, 2024, it will no longer be enhanced or supported, and will not have the latest security and compliance features. We encourage you to transition to the enhanced migration services available in the Azure portal as a feature of Azure Database for PostgreSQL – Flexible server or through Azure CLI. These services include pre-migration validation and are designed to better support your migration projects, ensuring a smoother and more efficient transition to Azure."
+      "category": "Retirements, Features",
+      "description": "The Azure PostgreSQL migration extension in Azure Data Studio (ADS) will be officially retired on November 15, 2024. As part of our commitment to providing you with the most advanced and reliable tools, we are phasing out this extension in Azure Data Studio. The Azure PostgreSQL migration extension currently offers limited functionality and lacks support for the latest Azure Database for PostgreSQL SKUs, making it less effective for your migration needs. By retiring the extension in Azure Data Studio, we aim to focus on improving and supporting the tools that will offer you the most value in your migration journey.If you continue to use the Azure PostgreSQL migration extension after November 15, 2024 it will no longer be enhanced or supported, and will not have the latest security and compliance features. We encourage you to transition to the enhanced migration services available in the Azure portal as a feature of Azure Database for PostgreSQL – Flexible server or through Azure CLI. These services include pre-migration validation and are designed to better support your migration projects, ensuring a smoother and more efficient transition to Azure."
     },
     {
       "date": "11/21/2024",
@@ -119,27 +140,6 @@
       "title": "Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB",
       "category": "Features",
       "description": "With new support for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster in another region. This cluster replica is continuously updated with the data written in the primary region. In the rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster.     You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region.     When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.  Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "mdb-vcore-sharding",
-      "title": "Generally Available: vCore-based Azure Cosmos DB for MongoDB multishard clusters",
-      "category": "Features",
-      "description": "You can now use up to five physical shards on your vCore-based Azure Cosmos DB for MongoDB clusters. An increased number of shards in a cluster enables you to host larger workloads and get elevated performance through higher concurrency.     When you create a vCore-based Azure Cosmos DB for MongoDB cluster, you can select from one to five shards. As before, each physical shard gets the same compute (vCore count and amount of RAM) and storage (GiB and IOPS) configuration.    Using a greater number of physical shards can also help increase cluster performance for larger workloads that require multishard clusters because of better parallelization.  Learn more"
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "vcore-based-azure-cosmos-db-for-mongodb-up-to-32-tib-storage",
-      "title": "Generally Available: vCore-based Azure Cosmos DB for MongoDB—up to 32 TiB storage",
-      "category": "Features",
-      "description": "Higher capacity storage with higher IOPS enables you to host larger workloads on your vCore-based Azure Cosmos DB for MongoDB cluster. Now when you provision new clusters, you can help elevate performance by choosing from 8 TiB, 16 TiB, and 32 TiB with 16,000 IOPS, 18,000 IOPS, and 20,000 IOPS respectively. You can also scale up existing clusters using any of the new storage sizes as your workloads grow.   When you combine these new options with multiple physical shards in your vCore-based Azure Cosmos DB for MongoDB cluster, your large storage capacity can comfortably handle hundreds of terabytes of data.  Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "diskann-indexing-on-azure-database-for-postgresql",
-      "title": "Public Preview: DiskANN indexing on Azure Database for PostgreSQL",
-      "category": "Features",
-      "description": "We're thrilled to announce the preview of DiskANN, one of the fastest vector indexing algorithms on the market, which is now available for Azure Database for PostgreSQL. Developed at Microsoft Research, DiskANN is used extensively at Microsoft in global services such as Bing and Microsoft 365.DiskANN enables you to build highly accurate, performant, and scalable generative AI applications that surpass pgvector’s HNSW and IVFFlat indexes in both speed and accuracy. DiskANN also overcomes a long-standing limitation of pgvector in filtered vector search, where it occasionally returns incorrect results.Learn more."
     }
   ]
 }
