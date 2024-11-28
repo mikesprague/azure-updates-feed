@@ -6,7 +6,19 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Nov 2024 12:02:37 GMT</pubDate>
+    <pubDate>Thu, 28 Nov 2024 12:02:57 GMT</pubDate>
+    <item>
+      <title>Public preview: Upgrade algorithm improvements in AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467872</link>
+      <description>AKS upgrades currently fail when encountering a Pod drain failure. To
+improve upgrade efficiency, a new algorithm is being introduced. It allows you
+to configure upgrades so that if a node is blocked, AKS will use any available surge
+capacity to continue upgrading other nodes, labeling the blocked node as 'quarantined'.
+Failure error messages are updated to reflect the post-upgrade status
+accurately.&#160;Learn more.</description>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467872</guid>
+    </item>
     <item>
       <title>Public Preview: New graph operators in Kusto</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=470309</link>
@@ -174,13 +186,6 @@ experience, follow the steps here.&#160;If you have any questions or feedback on
 Filtering, please reach out to ibraraslam@microsoft.com or fill out this survey!</description>
       <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=469519</guid>
-    </item>
-    <item>
-      <title>Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-repl</link>
-      <description>With new support&#160;for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster&#160;in another region. This cluster replica is continuously updated with the data written in the primary region. In the&#160;rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster. &#160;&#160; &#160;You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region. &#160;&#160; &#160;When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining&#160;a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.&#160;&#160;Learn more.</description>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-repl</guid>
     </item>
   </channel>
 </rss>

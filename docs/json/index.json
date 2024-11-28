@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "Sat, 23 Nov 2024 12:02:37 GMT",
+  "lastUpdated": "Thu, 28 Nov 2024 12:02:57 GMT",
   "posts": [
+    {
+      "date": "11/26/2024",
+      "linkId": "467872",
+      "title": "Public preview: Upgrade algorithm improvements in AKS",
+      "category": "Features, Microsoft Ignite",
+      "description": "AKS upgrades currently fail when encountering a Pod drain failure. To\nimprove upgrade efficiency, a new algorithm is being introduced. It allows you\nto configure upgrades so that if a node is blocked, AKS will use any available surge\ncapacity to continue upgrading other nodes, labeling the blocked node as 'quarantined'.\nFailure error messages are updated to reflect the post-upgrade status\naccurately. Learn more."
+    },
     {
       "date": "11/22/2024",
       "linkId": "470309",
@@ -133,13 +140,6 @@
       "title": "Generally Available: Kubernetes Metadata and Logs Filtering in Azure Monitor - Container Insights",
       "category": "Microsoft Ignite, Features",
       "description": "We are excited to announce the general availability of\nKubernetes Metadata and Logs Filtering in Azure Monitor – Container Insights!\nThis enhancement adds Kubernetes metadata to the ContainerLogsV2 schema,\nincluding PodLabels, PodAnnotations, PodUid, Image, ImageID, ImageRepo, and\nImageTag. Users can customize metadata fields via ConfigMap, and all fields are\ncollected by default. The new Logs Filtering feature allows for precise\nfiltering of both workload and system pods/containers. Additionally, the enhanced\nContainerLogV2 schema includes log level information to assess application\nhealth with color-coded severity levels. A Grafana Dashboard is available for\nvisualizing log levels, log volume, rate, records, and more, empowering\nin-depth analysis and real-time monitoring. These advancements provide users\nwith richer context and improved visibility into their workloads.  To learn more and enable the Kubernetes Logs Metadata and Filtering\nexperience, follow the steps here. If you have any questions or feedback on Kubernetes Logs Metadata and\nFiltering, please reach out to ibraraslam@microsoft.com or fill out this survey!"
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "mdb-vcore-repl",
-      "title": "Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB",
-      "category": "Features",
-      "description": "With new support for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster in another region. This cluster replica is continuously updated with the data written in the primary region. In the rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster.     You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region.     When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.  Learn more."
     }
   ]
 }
