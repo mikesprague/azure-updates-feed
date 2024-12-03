@@ -6,7 +6,14 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Nov 2024 12:02:57 GMT</pubDate>
+    <pubDate>Tue, 03 Dec 2024 12:02:57 GMT</pubDate>
+    <item>
+      <title>Generally Available: New built-in roles for Azure Chaos Studio</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=469969</link>
+      <description>Azure Chaos Studio Experiment Contributor, Chaos Studio Operator, and Chaos Studio Reader are new Azure built-in roles users can utilize to manage access to Chaos Studio within their organizationsChaos Studio Experiment Contributor: Can create, run, and see details for experiments, onboard targets, and manage capabilities.Chaos Studio Operator: Can run and see details for experiments but cannot create experiments or manage targets and capabilities.Chaos Studio Reader: Can view targets, capabilities, experiments, and experiment details.Learn more.</description>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=469969</guid>
+    </item>
     <item>
       <title>Public preview: Upgrade algorithm improvements in AKS</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=467872</link>
@@ -166,26 +173,6 @@ security perimeter</description>
       <description>We are excited to unveil key advancements in Azure Container Storage, our purpose-built storage solution for stateful containers on Azure Kubernetes Service (AKS). These updates bring increased performance and improved reliability to support even the most demanding containerized applications.&#160;We have optimized&#160;ephemeral disk performance to improve read&#160;and write&#160;IOPS. These enhancements include updates to local NVMe&#160;performance both with and without replication, detailed here:&#160;&#160;Optimize performance when using local NVMe&#160;without replication.&#160;Optimize performance when using local NVMe&#160;with replication. &#160;&#160;To learn more about our latest version release, check out the Release notes.&#160;With these new capabilities, Azure Container Storage empowers you&#160;to achieve optimal&#160;performance, visibility, and resilience, making it an even stronger choice for deploying scalable, containerized applications in the cloud. Join us at Ignite to explore how these updates can elevate your cloud storage strategy!</description>
       <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=469776</guid>
-    </item>
-    <item>
-      <title>Generally Available: Kubernetes Metadata and Logs Filtering in Azure Monitor - Container Insights</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=469519</link>
-      <description>We are excited to announce the general availability of
-Kubernetes Metadata and Logs Filtering in Azure Monitor &#8211; Container Insights!
-This enhancement adds Kubernetes metadata to the ContainerLogsV2 schema,
-including PodLabels, PodAnnotations, PodUid, Image, ImageID, ImageRepo, and
-ImageTag. Users can customize metadata fields via ConfigMap, and all fields are
-collected by default. The new Logs Filtering feature allows for precise
-filtering of both workload and system pods/containers. Additionally, the enhanced
-ContainerLogV2 schema includes log level information to assess application
-health with color-coded severity levels. A Grafana Dashboard is available for
-visualizing log levels, log volume, rate, records, and more, empowering
-in-depth analysis and real-time monitoring. These advancements provide users
-with richer context and improved visibility into their workloads.&#160;&#160;To learn more and enable the Kubernetes Logs Metadata and Filtering
-experience, follow the steps here.&#160;If you have any questions or feedback on Kubernetes Logs Metadata and
-Filtering, please reach out to ibraraslam@microsoft.com or fill out this survey!</description>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=469519</guid>
     </item>
   </channel>
 </rss>

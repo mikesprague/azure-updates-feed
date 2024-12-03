@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "Thu, 28 Nov 2024 12:02:57 GMT",
+  "lastUpdated": "Tue, 03 Dec 2024 12:02:57 GMT",
   "posts": [
+    {
+      "date": "12/02/2024",
+      "linkId": "469969",
+      "title": "Generally Available: New built-in roles for Azure Chaos Studio",
+      "category": "Management, Features",
+      "description": "Azure Chaos Studio Experiment Contributor, Chaos Studio Operator, and Chaos Studio Reader are new Azure built-in roles users can utilize to manage access to Chaos Studio within their organizationsChaos Studio Experiment Contributor: Can create, run, and see details for experiments, onboard targets, and manage capabilities.Chaos Studio Operator: Can run and see details for experiments but cannot create experiments or manage targets and capabilities.Chaos Studio Reader: Can view targets, capabilities, experiments, and experiment details.Learn more."
+    },
     {
       "date": "11/26/2024",
       "linkId": "467872",
@@ -133,13 +140,6 @@
       "title": "Generally Available: Enhancements on Azure Container Storage for performance, scalability, and operational insights",
       "category": "Features, Services, Pricing & Offerings",
       "description": "We are excited to unveil key advancements in Azure Container Storage, our purpose-built storage solution for stateful containers on Azure Kubernetes Service (AKS). These updates bring increased performance and improved reliability to support even the most demanding containerized applications. We have optimized ephemeral disk performance to improve read and write IOPS. These enhancements include updates to local NVMe performance both with and without replication, detailed here:  Optimize performance when using local NVMe without replication. Optimize performance when using local NVMe with replication.   To learn more about our latest version release, check out the Release notes. With these new capabilities, Azure Container Storage empowers you to achieve optimal performance, visibility, and resilience, making it an even stronger choice for deploying scalable, containerized applications in the cloud. Join us at Ignite to explore how these updates can elevate your cloud storage strategy!"
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "469519",
-      "title": "Generally Available: Kubernetes Metadata and Logs Filtering in Azure Monitor - Container Insights",
-      "category": "Microsoft Ignite, Features",
-      "description": "We are excited to announce the general availability of\nKubernetes Metadata and Logs Filtering in Azure Monitor – Container Insights!\nThis enhancement adds Kubernetes metadata to the ContainerLogsV2 schema,\nincluding PodLabels, PodAnnotations, PodUid, Image, ImageID, ImageRepo, and\nImageTag. Users can customize metadata fields via ConfigMap, and all fields are\ncollected by default. The new Logs Filtering feature allows for precise\nfiltering of both workload and system pods/containers. Additionally, the enhanced\nContainerLogV2 schema includes log level information to assess application\nhealth with color-coded severity levels. A Grafana Dashboard is available for\nvisualizing log levels, log volume, rate, records, and more, empowering\nin-depth analysis and real-time monitoring. These advancements provide users\nwith richer context and improved visibility into their workloads.  To learn more and enable the Kubernetes Logs Metadata and Filtering\nexperience, follow the steps here. If you have any questions or feedback on Kubernetes Logs Metadata and\nFiltering, please reach out to ibraraslam@microsoft.com or fill out this survey!"
     }
   ]
 }
