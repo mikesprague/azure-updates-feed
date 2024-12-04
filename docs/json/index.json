@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "Tue, 03 Dec 2024 12:02:57 GMT",
+  "lastUpdated": "Wed, 04 Dec 2024 12:03:22 GMT",
   "posts": [
+    {
+      "date": "12/03/2024",
+      "linkId": "470517",
+      "title": "Generally Available: Azure Health Data Services de-identification service",
+      "category": "Features",
+      "description": "Azure Health Data Services’ de-identification service empowers organizations to securely de-identify clinical data while preserving its clinical relevance and adhering to the strict standards of the HIPAA privacy rule. The service uses natural language processing techniques to find and label, redact, or surrogate Protected Health Information (PHI) in unstructured text, including discharge summaries, clinical notes, clinical trials, messages, and more.Learn more:De-identification Service in Azure Health Data Services (blog post)Overview of the De-identification service in Azure Health Data Services | Microsoft Learn"
+    },
+    {
+      "date": "12/03/2024",
+      "linkId": "471200",
+      "title": "Generally Available: Enhancements on Elastic SAN on resiliency, scalability, and integration with Azure VMWare Solution",
+      "category": "Features, Services, Pricing & Offerings",
+      "description": "We have published an availability Service Level Agreement (SLA). The SLA can be found here, and will provide peace of mind for those of you running mission critical workloads on Elastic SAN.  Additionally, we have enabled CRC protection to help customers maintain the integrity of their data by providing CRC32C checksum verification. If enabled on the client side, Elastic SAN supports checksum verification at the volume group level. This will cause connections that don’t have CRC32C set for both header and data digests to be rejected, to prevent accidental errors during communication or storage of data.    Lastly, we are excited to announce GA of the integration of Elastic SAN with Azure VMware Solution (AVS). Azure Elastic SAN offers AVS customers an Azure deployed, fully managed, VMware certified SAN that can achieve massive scale, is easy to manage, and has redundancy built in at a low TCO. AVS customers now have options to deploy their workloads based on a variety of storage performance and reliability characteristics with Elastic SAN as the native block storage, and Azure NetApp Files for native file storage. Not every workload requires the performance of directly attached storage, and many workloads like backup and disaster recovery use cases or other capacity intensive workloads can benefit from this cost-efficient, extensible storage solution."
+    },
+    {
+      "date": "12/03/2024",
+      "linkId": "469263",
+      "title": "Public Preview: Neon Serverless Postgres - an Azure Native Integration",
+      "category": "Features",
+      "description": "Neon Serverless\nPostgres an Azure Native Integration offers a modern, serverless, and fully\nmanaged Postgres service. Developed through collaboration between Microsoft and\nNeon, this service enables the creation and management of Neon organizations\ndirectly within the Azure Portal, Azure CLI, and SDK. Benefit from unified\nmanagement and access with single sign-on (SSO) through Microsoft Entra ID,\nmaking it easier for developers and teams building reliable, scalable\napplications on Azure.   You can purchase\nthis solution through the Azure Marketplace, receive a unified bill for all\nservices you use on Azure, and leverage existing enterprise agreements.   Additional Resouces Learn\nmore. Get\nit now on Azure Marketplace."
+    },
     {
       "date": "12/02/2024",
       "linkId": "469969",
@@ -119,27 +140,6 @@
       "title": "Generally Available: Azure Database for PostgreSQL support for oracle_fdw extension",
       "category": "Features, Microsoft Ignite",
       "description": "Azure Database for PostgreSQL - Flexible Server now supports the oracle_fdw extension. This foreign data wrapper gives you easy access to your Oracle databases via foreign tables.   Learn more"
-    },
-    {
-      "date": "11/20/2024",
-      "linkId": "467514",
-      "title": "Public Preview: Elastic clusters on Azure Database for PostgreSQL - Flexible Server",
-      "category": "Features, Microsoft Ignite",
-      "description": "Now you can use elastic clusters to horizontally scale Azure Database for PostgreSQL - Flexible Server through row-based and schema-based sharding. Elastic clusters make it easy to build multitenant apps by offloading shard management and operations—such as tenant isolation, split, or online rebalancing of shards—to the service. Row-based sharding is ideal for multitenant software as a service (SaaS) deployments, as it splits tenants into rows within a cluster-distributed table, enhancing density and improving margins per tenant. By contrast, schema-based sharding suits microservices and lift-and-shift migrations of existing applications, offering more customization of schemas for each tenant.  Learn more."
-    },
-    {
-      "date": "11/20/2024",
-      "linkId": "467519",
-      "title": "Public Preview: Managed Service Identity for Azure Storage extension in Azure Database for PostgreSQL",
-      "category": "Features, Microsoft Ignite",
-      "description": "You can now use Managed Service Identity to authenticate the Azure Storage extension in Azure Database for PostgreSQL – Flexible Server against Azure Blob Storage accounts. The Azure Storage extension enables interactions with Azure Blob Storage accounts from within Azure Database for PostgreSQL - Flexible Server. The extension supports both reading from and writing to Azure Blob Storage accounts, including the built-in COPY command of PostgreSQL.  With this change, you no longer need to store access keys and shared access signature (SAS) tokens within your database.  Learn more."
-    },
-    {
-      "date": "11/19/2024",
-      "linkId": "469776",
-      "title": "Generally Available: Enhancements on Azure Container Storage for performance, scalability, and operational insights",
-      "category": "Features, Services, Pricing & Offerings",
-      "description": "We are excited to unveil key advancements in Azure Container Storage, our purpose-built storage solution for stateful containers on Azure Kubernetes Service (AKS). These updates bring increased performance and improved reliability to support even the most demanding containerized applications. We have optimized ephemeral disk performance to improve read and write IOPS. These enhancements include updates to local NVMe performance both with and without replication, detailed here:  Optimize performance when using local NVMe without replication. Optimize performance when using local NVMe with replication.   To learn more about our latest version release, check out the Release notes. With these new capabilities, Azure Container Storage empowers you to achieve optimal performance, visibility, and resilience, making it an even stronger choice for deploying scalable, containerized applications in the cloud. Join us at Ignite to explore how these updates can elevate your cloud storage strategy!"
     }
   ]
 }

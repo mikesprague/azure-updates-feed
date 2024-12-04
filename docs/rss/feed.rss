@@ -6,7 +6,39 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Dec 2024 12:02:57 GMT</pubDate>
+    <pubDate>Wed, 04 Dec 2024 12:03:22 GMT</pubDate>
+    <item>
+      <title>Generally Available: Azure Health Data Services de-identification service</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470517</link>
+      <description>Azure Health Data Services&#8217; de-identification service&#160;empowers organizations to securely de-identify clinical data while preserving its clinical relevance and adhering to the strict standards of the HIPAA privacy rule.&#160;The service uses natural language processing techniques to find and label, redact, or surrogate Protected Health Information (PHI) in unstructured text, including discharge summaries, clinical notes, clinical trials, messages, and more.Learn more:De-identification Service in Azure Health Data Services&#160;(blog post)Overview of the De-identification service in Azure Health Data Services | Microsoft Learn</description>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470517</guid>
+    </item>
+    <item>
+      <title>Generally Available: Enhancements on Elastic SAN on resiliency, scalability, and integration with Azure VMWare Solution</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471200</link>
+      <description>We have published an availability Service Level Agreement (SLA). The SLA can be found here, and will provide peace of mind for those of you running mission critical workloads on Elastic SAN.&#160;&#160;Additionally, we have enabled CRC protection&#160;to help customers maintain the integrity of their data by providing CRC32C checksum verification. If enabled on the client side, Elastic SAN supports checksum verification at the volume group level. This will cause connections that don&#8217;t&#160;have CRC32C set for both header and data digests to be rejected,&#160;to prevent accidental errors during communication or storage of data.&#160;&#160;&#160;&#160;Lastly, we are excited to announce GA of the integration of Elastic SAN with Azure VMware Solution (AVS).&#160;Azure Elastic SAN offers AVS customers an Azure deployed, fully managed, VMware certified SAN that can achieve massive scale, is easy to manage, and has redundancy built in at a low TCO. AVS customers now have options to deploy their workloads based on a variety of storage performance and reliability characteristics with Elastic SAN as the native block storage, and Azure NetApp Files for native file storage. Not every workload requires the performance of directly attached storage, and many workloads like backup and disaster recovery use cases or other capacity&#160;intensive workloads can benefit&#160;from this cost-efficient, extensible storage solution.</description>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471200</guid>
+    </item>
+    <item>
+      <title>Public Preview: Neon Serverless Postgres - an Azure Native Integration</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=469263</link>
+      <description>Neon Serverless
+Postgres an Azure Native Integration offers a modern, serverless, and fully
+managed Postgres service. Developed through collaboration between Microsoft and
+Neon, this service enables the creation and management of Neon organizations
+directly within the Azure Portal, Azure CLI, and SDK. Benefit from unified
+management and access with single sign-on (SSO) through Microsoft Entra ID,
+making it easier for developers and teams building reliable, scalable
+applications on Azure.&#160;&#160;&#160;You can purchase
+this solution through the Azure Marketplace, receive a unified bill for all
+services you use on Azure, and leverage existing enterprise agreements.&#160;&#160;&#160;Additional Resouces&#160;Learn
+more.&#160;Get
+it now&#160;on Azure Marketplace.</description>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=469263</guid>
+    </item>
     <item>
       <title>Generally Available: New built-in roles for Azure Chaos Studio</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=469969</link>
@@ -152,27 +184,6 @@ security perimeter</description>
       <description>Azure Database for PostgreSQL - Flexible Server now supports the oracle_fdw extension.&#160;This foreign data wrapper gives you easy access to your Oracle databases&#160;via foreign tables.&#160;&#160;&#160;Learn more</description>
       <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=467504</guid>
-    </item>
-    <item>
-      <title>Public Preview: Elastic clusters on Azure Database for PostgreSQL - Flexible Server</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467514</link>
-      <description>Now you can use elastic&#160;clusters to horizontally&#160;scale&#160;Azure Database for PostgreSQL - Flexible Server through row-based and schema-based sharding. Elastic clusters make it easy to build multitenant apps by offloading shard management and operations&#8212;such as tenant isolation, split,&#160;or online rebalancing of shards&#8212;to the service. Row-based sharding is ideal for multitenant software as a service (SaaS)&#160;deployments, as it splits tenants into rows within a cluster-distributed table, enhancing density and improving margins per tenant. By contrast, schema-based sharding suits microservices and lift-and-shift migrations of existing applications, offering more customization of schemas for each tenant.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467514</guid>
-    </item>
-    <item>
-      <title>Public Preview: Managed Service Identity for Azure Storage extension in Azure Database for PostgreSQL</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467519</link>
-      <description>You can now use Managed Service Identity to authenticate the Azure Storage extension in Azure Database&#160;for PostgreSQL &#8211; Flexible Server&#160;against Azure Blob Storage accounts. The Azure Storage extension enables interactions with Azure Blob Storage accounts from within Azure Database for PostgreSQL - Flexible Server. The extension supports both reading from and writing to&#160;Azure Blob Storage accounts, including the built-in COPY command of PostgreSQL.&#160;&#160;With this change, you no longer need to store access keys&#160;and shared access signature (SAS)&#160;tokens within your database.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467519</guid>
-    </item>
-    <item>
-      <title>Generally Available: Enhancements on Azure Container Storage for performance, scalability, and operational insights</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=469776</link>
-      <description>We are excited to unveil key advancements in Azure Container Storage, our purpose-built storage solution for stateful containers on Azure Kubernetes Service (AKS). These updates bring increased performance and improved reliability to support even the most demanding containerized applications.&#160;We have optimized&#160;ephemeral disk performance to improve read&#160;and write&#160;IOPS. These enhancements include updates to local NVMe&#160;performance both with and without replication, detailed here:&#160;&#160;Optimize performance when using local NVMe&#160;without replication.&#160;Optimize performance when using local NVMe&#160;with replication. &#160;&#160;To learn more about our latest version release, check out the Release notes.&#160;With these new capabilities, Azure Container Storage empowers you&#160;to achieve optimal&#160;performance, visibility, and resilience, making it an even stronger choice for deploying scalable, containerized applications in the cloud. Join us at Ignite to explore how these updates can elevate your cloud storage strategy!</description>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=469776</guid>
     </item>
   </channel>
 </rss>
