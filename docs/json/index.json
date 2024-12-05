@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "Wed, 04 Dec 2024 12:03:22 GMT",
+  "lastUpdated": "Thu, 05 Dec 2024 12:02:54 GMT",
   "posts": [
+    {
+      "date": "12/04/2024",
+      "linkId": "mdb-vcore-repl",
+      "title": "Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB",
+      "category": "Features",
+      "description": "With new support for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster in another region. This cluster replica is continuously updated with the data written in the primary region. In the rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster.     You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region.     When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.  Learn more."
+    },
+    {
+      "date": "12/04/2024",
+      "linkId": "mdb-vcore-sharding",
+      "title": "Generally Available: vCore-based Azure Cosmos DB for MongoDB multishard clusters",
+      "category": "Features",
+      "description": "You can now use up to five physical shards on your vCore-based Azure Cosmos DB for MongoDB clusters. An increased number of shards in a cluster enables you to host larger workloads and get elevated performance through higher concurrency.     When you create a vCore-based Azure Cosmos DB for MongoDB cluster, you can select from one to five shards. As before, each physical shard gets the same compute (vCore count and amount of RAM) and storage (GiB and IOPS) configuration.    Using a greater number of physical shards can also help increase cluster performance for larger workloads that require multishard clusters because of better parallelization.  Learn more"
+    },
+    {
+      "date": "12/04/2024",
+      "linkId": "vcore-based-azure-cosmos-db-for-mongodb-up-to-32-tib-storage",
+      "title": "Generally Available: vCore-based Azure Cosmos DB for MongoDB—up to 32 TiB storage",
+      "category": "Features",
+      "description": "Higher capacity storage with higher IOPS enables you to host larger workloads on your vCore-based Azure Cosmos DB for MongoDB cluster. Now when you provision new clusters, you can help elevate performance by choosing from 8 TiB, 16 TiB, and 32 TiB with 16,000 IOPS, 18,000 IOPS, and 20,000 IOPS respectively. You can also scale up existing clusters using any of the new storage sizes as your workloads grow.   When you combine these new options with multiple physical shards in your vCore-based Azure Cosmos DB for MongoDB cluster, your large storage capacity can comfortably handle hundreds of terabytes of data.  Learn more."
+    },
+    {
+      "date": "12/04/2024",
+      "linkId": "public-preview-index-recommendations-in-azure-database-for-postgresql-flexible-server",
+      "title": "Generally Available: Index tuning in Azure Database for PostgreSQL - Flexible Server",
+      "category": "Features, Microsoft Build",
+      "description": "Now you can use index tuning to analyze the most resource intensive set of queries in your workload and produce recommendations of indexes that, once created, improve the performance of those queries. Index tuning also recommends indexes you can drop if they are identified as duplicates or are considered irrelevant for lack of use.   The new index tuning feature builds on query store in Azure Database for PostgreSQL - Flexible Server, which captures and retains a history of queries executed in your workload and the runtime statistics of those queries.   Learn more."
+    },
     {
       "date": "12/03/2024",
       "linkId": "470517",
@@ -112,34 +140,6 @@
       "title": "Public Preview: Network security perimeter with Azure Cosmos DB",
       "category": "Features, Microsoft Ignite",
       "description": "Network security perimeter allows Azure PaaS resources to communicate within an explicit trusted boundary. External access can be limited based on network controls defined across all private link resources within a perimeter.  All resources inside a perimeter can communicate with any other resource within the perimeter.  Public inbound access can be approved using the network and identity attributes of the client, such as source IP addresses or subscriptions.  Public outbound can be approved using fully qualified domain names of the external destinations.   Learn more."
-    },
-    {
-      "date": "11/20/2024",
-      "linkId": "467439",
-      "title": "Public Preview: Autoscale in vCore based Azure Cosmos DB for MongoDB",
-      "category": "Features, Microsoft Ignite",
-      "description": "Now you can handle peak loads effortlessly without overprovisioning using the new autoscale capability, currently available in preview for vCore-based Azure Cosmos DB for MongoDB. Autoscaling gives you instantaneous scalability—your database can quickly adapt to changes in demand and peak loads without delays. Resources are available when your application needs them. Additionally, you pay only for the resources you use, giving you more flexibility to control costs.  Learn more."
-    },
-    {
-      "date": "11/20/2024",
-      "linkId": "467444",
-      "title": "Public Preview: New Linux-based Azure Cosmos DB Emulator",
-      "category": "Microsoft Ignite, Features",
-      "description": "Check out the new Azure Cosmos DB Emulator for Mac developers and give us your feedback. The emulator supports Mac ARM64 and x86 architectures and is optimized for Linux-based continuous improvement and continuous deployment (CI/CD) systems—giving you a great development experience with faster startup times. This preview release includes a select subset of Azure Cosmos DB features.   Learn more."
-    },
-    {
-      "date": "11/20/2024",
-      "linkId": "467490",
-      "title": "Public Preview: Change streams on vCore-based Azure Cosmos DB for MongoDB",
-      "category": "Features, Microsoft Ignite",
-      "description": "We are excited to introduce change streams for vCore-based Azure Cosmos DB for MongoDB. This new feature enables you to track real-time updates, inserts, and deletions in your database collections, facilitating the development of responsive, event-driven applications.   You can synchronize data effortlessly across services, trigger automated workflows based on data changes, and instantly enhance your application's data monitoring and processing capabilities.  Learn more."
-    },
-    {
-      "date": "11/20/2024",
-      "linkId": "467504",
-      "title": "Generally Available: Azure Database for PostgreSQL support for oracle_fdw extension",
-      "category": "Features, Microsoft Ignite",
-      "description": "Azure Database for PostgreSQL - Flexible Server now supports the oracle_fdw extension. This foreign data wrapper gives you easy access to your Oracle databases via foreign tables.   Learn more"
     }
   ]
 }

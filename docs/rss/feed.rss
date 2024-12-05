@@ -6,7 +6,35 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Dec 2024 12:03:22 GMT</pubDate>
+    <pubDate>Thu, 05 Dec 2024 12:02:54 GMT</pubDate>
+    <item>
+      <title>Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-repl</link>
+      <description>With new support&#160;for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster&#160;in another region. This cluster replica is continuously updated with the data written in the primary region. In the&#160;rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster. &#160;&#160; &#160;You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region. &#160;&#160; &#160;When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining&#160;a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.&#160;&#160;Learn more.</description>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-repl</guid>
+    </item>
+    <item>
+      <title>Generally Available: vCore-based Azure Cosmos DB for MongoDB multishard clusters</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-sharding</link>
+      <description>You can now use up to five physical shards on your vCore-based Azure Cosmos DB for MongoDB clusters. An increased number of shards&#160;in a cluster enables you to host larger workloads and get elevated performance through higher concurrency.&#160; &#160;&#160;&#160;When you create a vCore-based Azure Cosmos DB for MongoDB cluster, you can select from one to five shards. As before, each physical shard gets the same compute&#160;(vCore&#160;count and amount of RAM) and storage (GiB and IOPS) configuration. &#160;&#160;&#160;Using a greater number of physical shards can also help increase cluster performance for larger workloads that require multishard&#160;clusters because of better parallelization.&#160;&#160;Learn more</description>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-sharding</guid>
+    </item>
+    <item>
+      <title>Generally Available: vCore-based Azure Cosmos DB for MongoDB&#8212;up to 32 TiB storage</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=vcore-based-azure-cosmos-db-for-mongodb-up-to-32-tib-storage</link>
+      <description>Higher capacity&#160;storage with higher IOPS enables you to host larger workloads on your vCore-based Azure Cosmos DB for MongoDB cluster. Now when you provision new clusters, you can help elevate performance by choosing from 8 TiB, 16 TiB, and 32 TiB with 16,000 IOPS, 18,000 IOPS, and 20,000 IOPS&#160;respectively. You can also scale up existing clusters using any of the new storage sizes as your workloads grow. &#160;&#160;When you combine these new options with multiple physical shards in your vCore-based Azure Cosmos DB for MongoDB cluster, your large storage capacity&#160;can comfortably handle hundreds of terabytes of data.&#160;&#160;Learn more.</description>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=vcore-based-azure-cosmos-db-for-mongodb-up-to-32-tib-storage</guid>
+    </item>
+    <item>
+      <title>Generally Available: Index tuning in Azure Database for PostgreSQL - Flexible Server</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=public-preview-index-recommendations-in-azure-database-for-postgresql-flexible-server</link>
+      <description>Now you can use index&#160;tuning to analyze&#160;the most resource intensive set of queries in your workload and produce&#160;recommendations of indexes that, once created, improve the performance of those queries. Index tuning also recommends indexes you can drop if they are identified as duplicates or are considered irrelevant for lack of use.&#160;&#160;&#160;The new index tuning feature builds on query store in Azure Database for PostgreSQL - Flexible Server, which captures and retains&#160;a history of queries executed in your workload and the runtime statistics of those queries.&#160;&#160;&#160;Learn more.</description>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=public-preview-index-recommendations-in-azure-database-for-postgresql-flexible-server</guid>
+    </item>
     <item>
       <title>Generally Available: Azure Health Data Services de-identification service</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=470517</link>
@@ -156,34 +184,6 @@ security perimeter</description>
       <description>Network security perimeter allows Azure PaaS&#8239;resources&#8239;to communicate within an explicit trusted boundary.&#8239;External access can be limited based on network controls defined across all private link resources within a perimeter.&#8239; All resources inside a&#160;perimeter can communicate with any other resource within&#160;the&#160;perimeter.&#8239; Public inbound access can be approved using&#160;the&#160;network and identity attributes of the client,&#160;such as source IP addresses or subscriptions.&#160; Public outbound can be approved using fully qualified domain names of the external destinations.&#160;&#160;&#160;Learn more.</description>
       <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=467269</guid>
-    </item>
-    <item>
-      <title>Public Preview: Autoscale in vCore based Azure Cosmos DB for MongoDB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467439</link>
-      <description>Now you can handle peak loads effortlessly without overprovisioning&#160;using the new&#160;autoscale&#160;capability, currently&#160;available in preview for vCore-based Azure Cosmos DB for MongoDB. Autoscaling gives you instantaneous scalability&#8212;your database can quickly adapt to changes in demand and peak loads without delays. Resources are available when your application needs them. Additionally, you pay only for the resources you use, giving you more flexibility to control costs.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467439</guid>
-    </item>
-    <item>
-      <title>Public Preview: New Linux-based Azure Cosmos DB Emulator</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467444</link>
-      <description>Check out the new Azure Cosmos DB Emulator for Mac developers&#160;and give us your feedback.&#160;The emulator supports&#160;Mac ARM64 and x86 architectures&#160;and is optimized&#160;for Linux-based continuous improvement and continuous deployment (CI/CD)&#160;systems&#8212;giving you&#160;a great development experience with faster&#160;startup times. This preview release includes a select subset of Azure Cosmos DB features.&#160;&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467444</guid>
-    </item>
-    <item>
-      <title>Public Preview: Change streams on vCore-based Azure Cosmos DB for MongoDB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467490</link>
-      <description>We are excited to introduce change streams&#160;for vCore-based Azure Cosmos DB for MongoDB. This new feature enables you to track real-time updates, inserts, and deletions in your database collections, facilitating&#160;the development of responsive, event-driven applications.&#160;&#160;&#160;You can&#160;synchronize data effortlessly across services,&#160;trigger automated workflows based on data changes, and instantly enhance&#160;your application's data monitoring and processing&#160;capabilities.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467490</guid>
-    </item>
-    <item>
-      <title>Generally Available: Azure Database for PostgreSQL support for oracle_fdw extension</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467504</link>
-      <description>Azure Database for PostgreSQL - Flexible Server now supports the oracle_fdw extension.&#160;This foreign data wrapper gives you easy access to your Oracle databases&#160;via foreign tables.&#160;&#160;&#160;Learn more</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467504</guid>
     </item>
   </channel>
 </rss>
