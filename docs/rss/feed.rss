@@ -6,7 +6,44 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Dec 2024 12:02:54 GMT</pubDate>
+    <pubDate>Fri, 06 Dec 2024 12:02:52 GMT</pubDate>
+    <item>
+      <title>Generally Available: High-availability health status monitoring for Azure Database for PostgreSQL &#8211; Flexible Server</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470442</link>
+      <description>With the general availability of high-availability (HA) health status monitoring for Azure Database for PostgreSQL &#8211;&#160;Flexible Server, you can now track and maintain&#160;the health of HA-enabled instances with ease. This feature offers real-time insights into the readiness of your primary and standby replicas, helping you proactively identify&#160;and address any issues impacting&#160;availability or failover capability. Based on the Azure Resource Health Check framework, this monitoring solution enables you to optimize&#160;uptime and minimize potential disruptions to your database services.&#160;&#160;&#160;Learn more.</description>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470442</guid>
+    </item>
+    <item>
+      <title>Public Preview: Azure Database for PostgreSQL &#8211; Flexible Server network monitoring metrics</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470447</link>
+      <description>We are excited to announce the release of new network monitoring metrics in Azure Database for PostgreSQL &#8211; Flexible Server. With these enhancements, you can now gain deeper insights into network activities at the virtual machine&#160;level, helping you effectively identify&#160;and address network-related issues more quickly. These new metrics&#8212;including TCP Connection Backlog and Postmaster Process CPU Usage&#8212;provide actionable data that enhances the stability and reliability of your services. By enabling these features, you can be better equipped to prevent potential service outages and improve overall performance. We encourage you to enable these metrics and start monitoring&#160;today to help ensure your applications run smoothly and efficiently.&#160;&#160;&#160;Learn more.</description>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470447</guid>
+    </item>
+    <item>
+      <title>Generally Available: Performance management server parameters now modifiable in Azure Database for PostgreSQL</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470452</link>
+      <description>We're&#160;thrilled to announce that you can now modify&#160;multiple performance management server parameters in Azure Database for PostgreSQL &#8211; Flexible Server. You can specify the value of hash_mem_multiplier,&#160;wal_sender_timeout,&#160;and wal_receiver_timeout. You can also&#160;modify&#160;log_min_duration_sample, log_parameter_max_length, log_parameter_max_length_on_error, log_statement_sample_rate, vacuum_buffer_usage_limit, vacuum_failsafe_age, vacuum_multixact_failsafe_age&#160;,&#160;log_connections, and log_disconnections.&#160;&#160;Learn more.</description>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470452</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure Database for PostgreSQL &#8211; Flexible Server in Spain Central and Mexico Central regions</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470457</link>
+      <description>Now you can deploy Azure Database for PostgreSQL &#8211; Flexible Server in the Spain Central and Mexico Central regions.&#160;&#160;For a&#160;detailed list of supported regions, see Azure regions.</description>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470457</guid>
+    </item>
+    <item>
+      <title>Generally Available: Azure SQL updates for early-December</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470474</link>
+      <description>In early-December 2024, the following updates and enhancements were made to Azure SQL:&#160;&#160;&#160;Get enhanced monitoring&#160;now that the dynamic management function (DMF)&#160;displays&#160;the component&#160;causing throttling of the primary log generation rate in Azure SQL Database Hyperscale.&#160;Save 35% to 55% on compute&#160;costs with a one-year or three-year reservation for Azure SQL Database, now also available for zone-redundant General Purpose&#160;databases.&#160;&#160;Learn more:&#160;&#160;Azure SQL
+Database Hyperscale&#160;&#160;Azure
+SQL Database compute costs</description>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470474</guid>
+    </item>
     <item>
       <title>Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-repl</link>
@@ -127,63 +164,6 @@ accurately.&#160;Learn more.</description>
       <description>Microsoft is announcing the general availability&#160;of the new Da/Ea/Fav6 series AMD based&#160;virtual machines (VMs). These&#160;VMs consist of our new general purpose Dasv6-series and Dalsv6-series, our new memory optimized Easv6-series VM series, and our new compute&#160;optimized Falsv6, Fasv6 and Famsv6 VM series. They offer better performance and better price-performance than our previous&#160;generation AMD based VMs, making them an attractive option&#160;for a wide range of workloads, including data analytics, web&#160;and application servers, databases, caches, and more.&#160;&#160;&#160;&#160;These VMs come with the NVMe&#160;interface for local and remote disks. Many workloads will benefit&#160;from improvements over the previous&#160;generation of AMD based with up to:&#160;80% better remote storage performance&#160;400% faster local storage speeds&#160;20% networking bandwidth improvement&#160;45% higher NVMe&#160;SSD capacity per vCPU for Daldsv6, Dadsv6, Eadsv6-series VMs with local disks&#160;Learn more.</description>
       <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=470092</guid>
-    </item>
-    <item>
-      <title>Public Preview: Visual Studio Code extension for Azure Cosmos DB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470097</link>
-      <description>We&#8217;re&#160;excited to announce a new VS Code extension for Azure Cosmos DB.&#160;Now you can connect, query, and manage your Azure Cosmos DB resources&#160;directly within VS Code, streamlining your workflow.&#160;&#160;Learn more.</description>
-      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470097</guid>
-    </item>
-    <item>
-      <title>Public Preview: Read and read/write privileges for secondary users in vCore-based Azure Cosmos DB for MongoDB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470102</link>
-      <description>Now vCore-based Azure Cosmos DB for MongoDB supports the integration of role-based access control (RBAC)&#160;to grant secondary users read/read-write privileges. Administrators have more granular access control. They can assign specific roles to users who require access to secondary databases, ensuring that they can perform necessary read operations without compromising the integrity of their primary data.&#160;&#160;&#160;Learn more.</description>
-      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470102</guid>
-    </item>
-    <item>
-      <title>Public Preview: Azure DNS Support for DNSSEC</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=468560</link>
-      <description>Azure DNS now supports DNSSEC (Domain
-Name System Security Extensions) in our azure public cloud, a significant
-enhancement to our DNS services. This new feature provides an additional layer
-of security to your domain names, ensuring the integrity and authenticity of
-your DNS data. API, CLI and PowerShell is available today, with portal being
-deployed over the next 2 weeks. For more information, please refer to our Azure DNSSEC documentation.&#160;&#160;What is DNSSEC?&#160;DNSSEC is a suite of extensions to DNS that adds security to
-the domain name system. It helps protect against certain types of attacks, such
-as cache poisoning and man-in-the-middle attacks, by enabling DNS responses to
-be verified for authenticity. With DNSSEC, you can be confident that the DNS
-responses you receive are exactly what the domain owner intended.&#160;Key Benefits of DNSSEC on Azure DNS&#160;
- Enhanced
-     Security: DNSSEC helps prevent attackers from manipulating or
-     poisoning DNS responses, ensuring that users are directed to the correct
-     websites.&#160;
- Data
-     Integrity: By signing DNS data, DNSSEC ensures that the information
-     received from a DNS query has not been altered in transit.&#160;
- Trust
-     and Authenticity: DNSSEC provides a chain of trust from the root DNS
-     servers down to your domain, verifying the authenticity of DNS data.&#160;For detailed instructions,
-please refer to our Azure DNSSEC
-documentation.</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=468560</guid>
-    </item>
-    <item>
-      <title>Public Preview: Azure SQL updates for mid-November 2024</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467743</link>
-      <description>In&#160;mid-November 2024,&#160;the following updates and enhancements were made to Azure SQL:&#160;&#160;You can now set up a network security perimeter (NSP) in Azure SQL Database. An NSP defines a boundary around a group of platform&#160;as&#160;a&#160;service (PaaS)&#160;resources,&#160;providing implicit trust access between each resource. The perimeter enforces egress control, trusted communication between services,&#160;and visibility into PaaS-to-PaaS communication. SQL Database is one of the 16 services&#160;that support NSP. Learn moreNetwork
-security perimeter</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467743</guid>
-    </item>
-    <item>
-      <title>Public Preview: Network security perimeter with Azure Cosmos DB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467269</link>
-      <description>Network security perimeter allows Azure PaaS&#8239;resources&#8239;to communicate within an explicit trusted boundary.&#8239;External access can be limited based on network controls defined across all private link resources within a perimeter.&#8239; All resources inside a&#160;perimeter can communicate with any other resource within&#160;the&#160;perimeter.&#8239; Public inbound access can be approved using&#160;the&#160;network and identity attributes of the client,&#160;such as source IP addresses or subscriptions.&#160; Public outbound can be approved using fully qualified domain names of the external destinations.&#160;&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467269</guid>
     </item>
   </channel>
 </rss>
