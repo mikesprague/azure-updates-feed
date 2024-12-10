@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "Fri, 06 Dec 2024 12:02:52 GMT",
+  "lastUpdated": "Tue, 10 Dec 2024 12:03:06 GMT",
   "posts": [
+    {
+      "date": "12/09/2024",
+      "linkId": "467688",
+      "title": "Retirement: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired",
+      "category": "Retirements",
+      "description": "All Azure CDN from Edgio customers must migrate their workloads to Azure Front Door or other CDN services before January 15, 2025 as Edgio has advised their platform is currently scheduled to be shut down by that date. Migrate as soon as possible to avoid an imminent service shut-down.Microsoft's flagship CDN product, Azure Front Door Standard or Premium, is our recommended replacement and we encourage you to consider migrating your compatible workloads there. View the comparison between Azure Front Door and Azure CDN from Edgio. Azure Front Door compatible workloads can use these step-by-step instructions.For more details, please visit our learn page here and/or contact Microsoft Support."
+    },
     {
       "date": "12/05/2024",
       "linkId": "470442",
@@ -133,13 +140,6 @@
       "title": "Retirement: Support for TLS 1.0/1.1 in Application Insights Availability Tests will be retired",
       "category": "Retirements",
       "description": "On May 1, 2025, in alignment with the Azure-wide legacy TLS retirement announcement, TLS 1.0/1.1 protocol versions and TLS 1.2/1.3 Legacy Cipher Suites and Elliptical Curves will be retired for Application Insights Availability Tests. If you’re using any of the listed TLS Configurations, your tests may stop working after May 1, 2025.Required actionTo ensure your Availability Tests continue to work after May 1, 2025, we recommend ensuring that any remote endpoint your Availability Test is configured to interact with supports at least one of the supported TLS combinations.For information on how to find out what TLS combinations your servers currently support, please visit here. If you have questions about common issues, please visit the FAQ for answers."
-    },
-    {
-      "date": "11/21/2024",
-      "linkId": "470092",
-      "title": "Generally Available: Da/Ea/Fav6 series AMD based Azure Virtual Machines (VMs)",
-      "category": "Features, Microsoft Ignite, Pricing & Offerings, Services",
-      "description": "Microsoft is announcing the general availability of the new Da/Ea/Fav6 series AMD based virtual machines (VMs). These VMs consist of our new general purpose Dasv6-series and Dalsv6-series, our new memory optimized Easv6-series VM series, and our new compute optimized Falsv6, Fasv6 and Famsv6 VM series. They offer better performance and better price-performance than our previous generation AMD based VMs, making them an attractive option for a wide range of workloads, including data analytics, web and application servers, databases, caches, and more.    These VMs come with the NVMe interface for local and remote disks. Many workloads will benefit from improvements over the previous generation of AMD based with up to: 80% better remote storage performance 400% faster local storage speeds 20% networking bandwidth improvement 45% higher NVMe SSD capacity per vCPU for Daldsv6, Dadsv6, Eadsv6-series VMs with local disks Learn more."
     }
   ]
 }

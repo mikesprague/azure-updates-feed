@@ -6,7 +6,14 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Dec 2024 12:02:52 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 12:03:06 GMT</pubDate>
+    <item>
+      <title>Retirement: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467688</link>
+      <description>All Azure CDN from Edgio customers must migrate their workloads to&#160;Azure Front Door&#160;or other CDN services before January 15, 2025 as Edgio has advised their platform is currently scheduled to be shut down by that date. Migrate as soon as possible to avoid an imminent service shut-down.Microsoft's flagship CDN product, Azure Front Door Standard or Premium, is our recommended replacement and we encourage you to consider migrating your compatible workloads there.&#160;View the comparison&#160;between Azure Front Door and Azure CDN from Edgio. Azure Front Door compatible workloads can use&#160;these step-by-step instructions.For more details, please visit our learn page&#160;here&#160;and/or contact Microsoft Support.</description>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467688</guid>
+    </item>
     <item>
       <title>Generally Available: High-availability health status monitoring for Azure Database for PostgreSQL &#8211; Flexible Server</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=470442</link>
@@ -157,13 +164,6 @@ accurately.&#160;Learn more.</description>
       <description>On May 1, 2025, in alignment with the&#160;Azure-wide legacy TLS retirement announcement, TLS 1.0/1.1 protocol versions and TLS 1.2/1.3 Legacy Cipher Suites and Elliptical Curves will be retired for Application Insights Availability Tests. If you&#8217;re using any of the listed&#160;TLS Configurations, your tests may stop working after&#160;May 1, 2025.Required actionTo ensure your Availability Tests continue to work after May 1, 2025, we recommend ensuring that any remote endpoint your Availability Test is configured to interact with supports at least one of the&#160;supported TLS combinations.For information on how to find out what TLS combinations your servers currently support, please visit&#160;here. If you have questions about common issues, please visit the&#160;FAQ&#160;for answers.</description>
       <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=467600</guid>
-    </item>
-    <item>
-      <title>Generally Available: Da/Ea/Fav6 series AMD based Azure Virtual Machines (VMs)</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470092</link>
-      <description>Microsoft is announcing the general availability&#160;of the new Da/Ea/Fav6 series AMD based&#160;virtual machines (VMs). These&#160;VMs consist of our new general purpose Dasv6-series and Dalsv6-series, our new memory optimized Easv6-series VM series, and our new compute&#160;optimized Falsv6, Fasv6 and Famsv6 VM series. They offer better performance and better price-performance than our previous&#160;generation AMD based VMs, making them an attractive option&#160;for a wide range of workloads, including data analytics, web&#160;and application servers, databases, caches, and more.&#160;&#160;&#160;&#160;These VMs come with the NVMe&#160;interface for local and remote disks. Many workloads will benefit&#160;from improvements over the previous&#160;generation of AMD based with up to:&#160;80% better remote storage performance&#160;400% faster local storage speeds&#160;20% networking bandwidth improvement&#160;45% higher NVMe&#160;SSD capacity per vCPU for Daldsv6, Dadsv6, Eadsv6-series VMs with local disks&#160;Learn more.</description>
-      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470092</guid>
     </item>
   </channel>
 </rss>
