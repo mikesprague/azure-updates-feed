@@ -6,7 +6,166 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Dec 2024 12:03:06 GMT</pubDate>
+    <pubDate>Wed, 11 Dec 2024 12:03:05 GMT</pubDate>
+    <item>
+      <title>Generally Available: Parallel Image Pulls by Default in AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471237</link>
+      <description>There
+are two types of container image pulls: serialized and parallel.&#160;&#160;By default, AKS
+versions earlier than 1.31 use serialized image pulls. Starting with AKS
+version 1.31 preview, AKS defaults to parallel image pulls. Generally,
+serialized image pulls are less performant than parallel pulls, especially when
+dealing with large or numerous container images. This update helps to enhance
+overall system efficiency.Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471237</guid>
+    </item>
+    <item>
+      <title>Public Preview: IMDS restriction support in AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471270</link>
+      <description>Currently, all
+pods on AKS nodes can access the AKS worker node's Azure Instance Metadata
+Service (IMDS) endpoint.&#160;AKS now offers a
+managed solution that restricts IMDS endpoint access for customer pods. Only
+AKS system pods and user pods with host network can access IMDS for retrieving
+information or authentication.&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471270</guid>
+    </item>
+    <item>
+      <title>Public Preview: AKS Communication Manager</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471275</link>
+      <description>The AKS Communication Manager,
+now in public preview, simplifies notifications for all your AKS maintenance
+tasks by leveraging Azure Resource Notification and Azure Resource Graph
+frameworks.&#160;&#160;It provides timely alerts on
+event triggers and outcomes, allowing you to closely monitor your upgrades. In
+case of maintenance failures, it notifies you with the reasons for the failure,
+reducing operational hassles related to observability and follow-ups.&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471275</guid>
+    </item>
+    <item>
+      <title>Public Preview: Windows GPU &#8211; Driver type selection</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471280</link>
+      <description>AKS now supports GPU-enabled
+Windows node pools, in public preview, to run compute-intensive Kubernetes
+workloads. AKS specifies a default GPU driver type for each supported
+GPU-enabled VM. Because workload and driver compatibility are important for
+functioning GPU workloads, you can now specify the driver type for your Windows
+GPU node. &#160;When creating a Windows agent
+pool with GPU support, you have the option to specify the type of GPU driver
+using the --driver-type flag.&#160;The available options are:&#160;GRID: For applications
+requiring virtualization support.&#160;CUDA: Optimized for
+computational tasks in scientific computing and data-intensive applications. &#160;&#160;This feature is currently not
+supported for Linux GPU node pools.&#160;&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471280</guid>
+    </item>
+    <item>
+      <title>Generally Available: Open-source feature update: vLLM model serving in KAITO</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471285</link>
+      <description>KAITO
+now supports high throughput model serving with the open-source vLLM serving
+engine. In the KAITO inference workspace, you can deploy models using vLLM to
+batch process incoming requests, accelerate inference, and optimize your AI
+workload by default, preventing out-of-memory (OOM) errors and minimizing workload
+disruptions.&#160;&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471285</guid>
+    </item>
+    <item>
+      <title>Public Preview: KAITO managed add-on now available in the AKS Visual Studio Code extension</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471290</link>
+      <description>The AI toolchain operator (KAITO) managed add-on is now available in the
+Azure Kubernetes Service (AKS) Visual Studio Code extension. With an intuitive
+and visually engaging UI, this add-on is designed to simplify AI inference development.
+Customers can enable KAITO, browse through the supported options, and choose an
+open-source AI model to deploy to their AKS cluster. Once deployed, they can access model logs,
+test performance, and fully engage with the model workspace directly from
+VSCode.&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471290</guid>
+    </item>
+    <item>
+      <title>Generally Available: Force attach/detach API support in AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471295</link>
+      <description>With the release of Kubernetes v1.30, the Azure Disk
+CSI driver has adopted the force detach capability. This feature allows the driver
+to force detach zone-redundant storage (ZRS) data disks from VM nodes in a
+failed zone and attach them to another VM, reducing the Recovery Time Objective
+(RTO).Stateful workloads in AKS clusters can now quickly
+recover from zone failures by detaching ZRS data disks from affected VM nodes
+and reattaching them to new VMs.&#160;&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471295</guid>
+    </item>
+    <item>
+      <title>Generally Available: Vaulted backup for AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471300</link>
+      <description>Azure Backup now
+supports vaulted backups for AKS, enabling cross-region disaster recovery,
+long-term retention and immutable security. &#160;This simplifies compliance and strengthens
+resilience for cloud-native applications.&#160;Customers can protect
+clusters during a regional disaster recovery, store backup data for up to 10
+years to meet compliance requirements, and secure backup data at an offsite
+location to safeguard against ransomware threats.&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471300</guid>
+    </item>
+    <item>
+      <title>Public Preview: AKS support for private ingress on cluster create or through API</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471309</link>
+      <description>When you enable the application routing add-on with NGINX, it
+creates an ingress controller configured with a public facing Azure Load
+Balancer. Starting with Kubernetes 1.30, you can control this behavior when
+enabling the add-on by choosing if it gets a public or an internal IP.&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471309</guid>
+    </item>
+    <item>
+      <title>Generally Available: AKS automated deployments UI</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471319</link>
+      <description>The AKS automated
+deployments feature has received UI updates designed to make it easier for
+customers to get started with Azure Kubernetes Service. With these new
+improvements, you can now select specific locations for saving autogenerated
+Dockerfiles and Kubernetes manifest files. With automated deployments, you can
+easily get your apps up and running on Azure Kubernetes Service.&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471319</guid>
+    </item>
+    <item>
+      <title>Public Preview: GitHub Copilot for Azure &#8211; AKS plugins</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471324</link>
+      <description>GitHub Copilot for Azure now supports Azure Kubernetes Service (AKS)
+plugins. The extension, which enables AKS plugins for GitHub Copilot for Azure
+(@azure), allows users to perform various tasks related to AKS directly from
+the GitHub Copilot Chat view. These tasks include creating an AKS cluster,
+deploying a manifest to an AKS cluster, and generating Kubectl commands. &#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471324</guid>
+    </item>
+    <item>
+      <title>Generally Available: Enhanced AKS logs with Kubernetes metadata and logs filtering</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471329</link>
+      <description>Azure
+Kubernetes Service (AKS) logs now include detailed metadata, such as PodLabels,
+PodAnnotations, PodUid, Image, ImageID, ImageRepo, and ImageTag. These
+additions provide richer context and improved visibility into workloads, aiding
+in troubleshooting and monitoring. The integration with Grafana further
+enhances this by enabling users to visualize and analyze logs more effectively,
+utilizing Grafana's powerful dashboard capabilities.&#160;&#160;Learn more.</description>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471329</guid>
+    </item>
+    <item>
+      <title>Generally Available: Microsoft Azure now available from new cloud region in New Zealand</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471035</link>
+      <description>The first cloud region in New Zealand is now available&#160;with&#160;Azure&#160;Availability Zones&#160;and provides organizations across the globe with access to scalable, highly available, and resilient Microsoft Cloud services while confirming&#160;its&#160;commitment to promoting digital transformation and sustainable innovation in the country. The New Zealand region connects New Zealand to the largest and trusted global cloud infrastructure, delivering the&#160;highest standards of security, privacy and regulatory-compliant data storage in the country.&#160;For customers looking to leverage the new region and Availability Zones,&#160;Azure&#160;offers region portability for multiple resources with&#160;Azure&#160;Resource Mover.Learn more.</description>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471035</guid>
+    </item>
     <item>
       <title>Retirement: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=467688</link>
@@ -57,113 +216,6 @@ SQL Database compute costs</description>
       <description>With new support&#160;for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster&#160;in another region. This cluster replica is continuously updated with the data written in the primary region. In the&#160;rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster. &#160;&#160; &#160;You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region. &#160;&#160; &#160;When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining&#160;a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.&#160;&#160;Learn more.</description>
       <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-repl</guid>
-    </item>
-    <item>
-      <title>Generally Available: vCore-based Azure Cosmos DB for MongoDB multishard clusters</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-sharding</link>
-      <description>You can now use up to five physical shards on your vCore-based Azure Cosmos DB for MongoDB clusters. An increased number of shards&#160;in a cluster enables you to host larger workloads and get elevated performance through higher concurrency.&#160; &#160;&#160;&#160;When you create a vCore-based Azure Cosmos DB for MongoDB cluster, you can select from one to five shards. As before, each physical shard gets the same compute&#160;(vCore&#160;count and amount of RAM) and storage (GiB and IOPS) configuration. &#160;&#160;&#160;Using a greater number of physical shards can also help increase cluster performance for larger workloads that require multishard&#160;clusters because of better parallelization.&#160;&#160;Learn more</description>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-sharding</guid>
-    </item>
-    <item>
-      <title>Generally Available: vCore-based Azure Cosmos DB for MongoDB&#8212;up to 32 TiB storage</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=vcore-based-azure-cosmos-db-for-mongodb-up-to-32-tib-storage</link>
-      <description>Higher capacity&#160;storage with higher IOPS enables you to host larger workloads on your vCore-based Azure Cosmos DB for MongoDB cluster. Now when you provision new clusters, you can help elevate performance by choosing from 8 TiB, 16 TiB, and 32 TiB with 16,000 IOPS, 18,000 IOPS, and 20,000 IOPS&#160;respectively. You can also scale up existing clusters using any of the new storage sizes as your workloads grow. &#160;&#160;When you combine these new options with multiple physical shards in your vCore-based Azure Cosmos DB for MongoDB cluster, your large storage capacity&#160;can comfortably handle hundreds of terabytes of data.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=vcore-based-azure-cosmos-db-for-mongodb-up-to-32-tib-storage</guid>
-    </item>
-    <item>
-      <title>Generally Available: Index tuning in Azure Database for PostgreSQL - Flexible Server</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=public-preview-index-recommendations-in-azure-database-for-postgresql-flexible-server</link>
-      <description>Now you can use index&#160;tuning to analyze&#160;the most resource intensive set of queries in your workload and produce&#160;recommendations of indexes that, once created, improve the performance of those queries. Index tuning also recommends indexes you can drop if they are identified as duplicates or are considered irrelevant for lack of use.&#160;&#160;&#160;The new index tuning feature builds on query store in Azure Database for PostgreSQL - Flexible Server, which captures and retains&#160;a history of queries executed in your workload and the runtime statistics of those queries.&#160;&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=public-preview-index-recommendations-in-azure-database-for-postgresql-flexible-server</guid>
-    </item>
-    <item>
-      <title>Generally Available: Azure Health Data Services de-identification service</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470517</link>
-      <description>Azure Health Data Services&#8217; de-identification service&#160;empowers organizations to securely de-identify clinical data while preserving its clinical relevance and adhering to the strict standards of the HIPAA privacy rule.&#160;The service uses natural language processing techniques to find and label, redact, or surrogate Protected Health Information (PHI) in unstructured text, including discharge summaries, clinical notes, clinical trials, messages, and more.Learn more:De-identification Service in Azure Health Data Services&#160;(blog post)Overview of the De-identification service in Azure Health Data Services | Microsoft Learn</description>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470517</guid>
-    </item>
-    <item>
-      <title>Generally Available: Enhancements on Elastic SAN on resiliency, scalability, and integration with Azure VMWare Solution</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=471200</link>
-      <description>We have published an availability Service Level Agreement (SLA). The SLA can be found here, and will provide peace of mind for those of you running mission critical workloads on Elastic SAN.&#160;&#160;Additionally, we have enabled CRC protection&#160;to help customers maintain the integrity of their data by providing CRC32C checksum verification. If enabled on the client side, Elastic SAN supports checksum verification at the volume group level. This will cause connections that don&#8217;t&#160;have CRC32C set for both header and data digests to be rejected,&#160;to prevent accidental errors during communication or storage of data.&#160;&#160;&#160;&#160;Lastly, we are excited to announce GA of the integration of Elastic SAN with Azure VMware Solution (AVS).&#160;Azure Elastic SAN offers AVS customers an Azure deployed, fully managed, VMware certified SAN that can achieve massive scale, is easy to manage, and has redundancy built in at a low TCO. AVS customers now have options to deploy their workloads based on a variety of storage performance and reliability characteristics with Elastic SAN as the native block storage, and Azure NetApp Files for native file storage. Not every workload requires the performance of directly attached storage, and many workloads like backup and disaster recovery use cases or other capacity&#160;intensive workloads can benefit&#160;from this cost-efficient, extensible storage solution.</description>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=471200</guid>
-    </item>
-    <item>
-      <title>Public Preview: Neon Serverless Postgres - an Azure Native Integration</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=469263</link>
-      <description>Neon Serverless
-Postgres an Azure Native Integration offers a modern, serverless, and fully
-managed Postgres service. Developed through collaboration between Microsoft and
-Neon, this service enables the creation and management of Neon organizations
-directly within the Azure Portal, Azure CLI, and SDK. Benefit from unified
-management and access with single sign-on (SSO) through Microsoft Entra ID,
-making it easier for developers and teams building reliable, scalable
-applications on Azure.&#160;&#160;&#160;You can purchase
-this solution through the Azure Marketplace, receive a unified bill for all
-services you use on Azure, and leverage existing enterprise agreements.&#160;&#160;&#160;Additional Resouces&#160;Learn
-more.&#160;Get
-it now&#160;on Azure Marketplace.</description>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=469263</guid>
-    </item>
-    <item>
-      <title>Generally Available: New built-in roles for Azure Chaos Studio</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=469969</link>
-      <description>Azure Chaos Studio Experiment Contributor, Chaos Studio Operator, and Chaos Studio Reader are new Azure built-in roles users can utilize to manage access to Chaos Studio within their organizationsChaos Studio Experiment Contributor: Can create, run, and see details for experiments, onboard targets, and manage capabilities.Chaos Studio Operator: Can run and see details for experiments but cannot create experiments or manage targets and capabilities.Chaos Studio Reader: Can view targets, capabilities, experiments, and experiment details.Learn more.</description>
-      <pubDate>Mon, 02 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=469969</guid>
-    </item>
-    <item>
-      <title>Public preview: Upgrade algorithm improvements in AKS</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467872</link>
-      <description>AKS upgrades currently fail when encountering a Pod drain failure. To
-improve upgrade efficiency, a new algorithm is being introduced. It allows you
-to configure upgrades so that if a node is blocked, AKS will use any available surge
-capacity to continue upgrading other nodes, labeling the blocked node as 'quarantined'.
-Failure error messages are updated to reflect the post-upgrade status
-accurately.&#160;Learn more.</description>
-      <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467872</guid>
-    </item>
-    <item>
-      <title>Public Preview: New graph operators in Kusto</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470309</link>
-      <description>We are excited to announce the release of two powerful new graph operators in Kusto: graph-shortest-path&#160;and graph-mark-components.&#160;The graph-shortest-paths&#160;operator is designed to streamline the process of finding the shortest paths between nodes in a graph. This operator efficiently identifies the shortest routes between a set of source nodes and a set of target nodes, returning a table with the.&#160;In addition, the graph-mark-components operator is designed to mark&#160;all connected components of a graph and assign&#160;each node with a unique component identifier.&#160;&#160;Both operators&#160;are now available in public preview, offering users the opportunity to explore and utilize these powerful tools in their graph analysis tasks. We invite you to try out these new features and experience the enhanced capabilities they bring.&#160;Learn more:&#160;Visit the documentation of graph-shortest-paths.&#160;&#160;Visit the documentation of&#160;graph-mark-components.</description>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470309</guid>
-    </item>
-    <item>
-      <title>Generally Available: Star pattern and default node identifier in Kusto</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470314</link>
-      <description>We are announcing&#160;the general availability of two powerful new features in&#160;Kusto Graph Semantics.&#160;&#160;The star pattern&#160;allows users to express nonlinear patterns using comma-delimited sequences, making it particularly useful for describing connections where different sequences share one or more variable names of a node.&#160;Additionally, the new approach for defining the default node identifier&#160;simplifies the process of creating a graph from a tabular expression of edges. By setting a default node identifier in make-graph, it is readily available for the constraints section of the subsequent graph-match&#160;operator.&#160;These features are now generally available.Learn more:About star pattern&#160;in our documentation.&#160;About default node identifier&#160;in our documentation.&#160;Read Azure Data Explorer&#160;blog.</description>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470314</guid>
-    </item>
-    <item>
-      <title>Generally Available: Regional Disaster Recovery by Azure Backup for AKS</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=469695</link>
-      <description>In today&#8217;s digital landscape, cloud administrators face the challenge of ensuring data and applications remain&#160;protected, compliant, and resilient amidst evolving cyber threats. We&#8217;re&#160;excited to announce the general availability (GA) of Vaulted Backup support in Azure Backup for Azure Kubernetes Service (AKS).&#160;This new feature helps organizations meet compliance requirements, enhance operational resilience, and protect cloud-native applications from regional disasters.&#160;Key Benefits for Azure Customers:&#160;Disaster Recovery Across Regions: Cross-Region Restore supports critical failover capabilities, ensuring business continuity and disaster recovery compliance&#160;Regulatory Compliance: Achieve long-term retention (LTR) for up to 10 years to meet global compliance frameworks.&#160;Enhanced Security &#38; Cyber Resilience: Immutable vaults and role-based access control protect backup data from ransomware and unauthorized access.&#160;With GA support for Vaulted backups of AKS, Azure Backup simplifies compliance, strengthens security, and improves resilience for cloud-native environments. Activate Azure Backup for your AKS clusters&#160;today to enable robust, compliant data protection.&#160;Learn more.</description>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=469695</guid>
-    </item>
-    <item>
-      <title>Retirement: Azure PostgreSQL migration extension in Azure Data Studio (ADS)</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=azure-postgresql-migration-extension-in-azure-data-studio-1</link>
-      <description>The Azure PostgreSQL migration extension in Azure Data Studio (ADS) will be officially retired on November 15, 2024. As part of our commitment to providing you with the most advanced and reliable tools, we are phasing out this extension in Azure Data Studio. The Azure PostgreSQL migration extension currently offers limited functionality and lacks support for the latest Azure Database for PostgreSQL SKUs, making it less effective for your migration needs. By retiring the extension in Azure Data Studio, we aim to focus on improving and supporting the tools that will offer you the most value in your migration journey.If you continue to use the Azure PostgreSQL migration extension after November 15, 2024 it will no longer be enhanced or supported, and will not have the latest security and compliance features. We encourage you to transition to the enhanced migration services available in the Azure portal as a feature of Azure Database for PostgreSQL &#8211; Flexible server or through Azure CLI. These services include pre-migration validation and are designed to better support your migration projects, ensuring a smoother and more efficient transition to Azure.</description>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=azure-postgresql-migration-extension-in-azure-data-studio-1</guid>
-    </item>
-    <item>
-      <title>Retirement: Support for TLS 1.0/1.1 in Application Insights Availability Tests will be retired</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=467600</link>
-      <description>On May 1, 2025, in alignment with the&#160;Azure-wide legacy TLS retirement announcement, TLS 1.0/1.1 protocol versions and TLS 1.2/1.3 Legacy Cipher Suites and Elliptical Curves will be retired for Application Insights Availability Tests. If you&#8217;re using any of the listed&#160;TLS Configurations, your tests may stop working after&#160;May 1, 2025.Required actionTo ensure your Availability Tests continue to work after May 1, 2025, we recommend ensuring that any remote endpoint your Availability Test is configured to interact with supports at least one of the&#160;supported TLS combinations.For information on how to find out what TLS combinations your servers currently support, please visit&#160;here. If you have questions about common issues, please visit the&#160;FAQ&#160;for answers.</description>
-      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=467600</guid>
     </item>
   </channel>
 </rss>
