@@ -6,7 +6,82 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Dec 2024 12:03:05 GMT</pubDate>
+    <pubDate>Fri, 13 Dec 2024 12:02:46 GMT</pubDate>
+    <item>
+      <title>Generally Available: Extension of limited-time promotional discounts on Azure Databricks Serverless Compute Services</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467457</link>
+      <description>We&#8217;re excited to announce the extension of the promotional discounts on serverless compute for Notebooks, Jobs, and Pipelines (Delta Live Tables). You will continue to get 50% off serverless compute for Jobs and Pipelines and 30% off serverless compute for Notebooks, until&#160;April 30, 2025.&#160;Serverless compute provides rapid workload startup, automatic infrastructure scaling, and seamless version upgrades of the Azure Databricks runtime.&#160;Learn more.</description>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467457</guid>
+    </item>
+    <item>
+      <title>Generally Available: Storage account default maximum request rate limit increase to 40,000 requests per second</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470595</link>
+      <description>The default maximum request rate for general-purpose v2 and
+Blob storage accounts has been increased from 20,000 to 40,000 requests per
+second in the following regions:&#160;&#160;
+ East Asia&#160;&#160;
+ Southeast Asia&#160;&#160;
+ Australia East&#160;&#160;
+ Brazil South&#160;&#160;
+ Canada Central&#160;&#160;
+ China East 2&#160;&#160;
+ China North 3&#160;&#160;
+ North Europe&#160;&#160;
+ West Europe&#160;&#160;
+ France Central&#160;&#160;
+ Germany West
+     Central&#160;&#160;
+ Central India&#160;&#160;
+ Japan East&#160;&#160;
+ Jio India West&#160;&#160;
+ Korea Central&#160;&#160;
+ Norway East&#160;&#160;
+ South Africa North&#160;&#160;
+ Sweden Central&#160;&#160;
+ UAE North&#160;&#160;
+ UK South&#160;&#160;
+ Central US&#160;&#160;
+ East US&#160;&#160;
+ East US 2&#160;&#160;
+ USGov Virginia&#160;&#160;
+ USGov Arizona&#160;&#160;
+ North Central US&#160;&#160;
+ South Central US&#160;&#160;
+ West US&#160;&#160;
+ West US 2&#160;&#160;
+ West US 3&#160;&#160;This applies to all existing and new storage accounts.&#160;&#160;Learn more.</description>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470595</guid>
+    </item>
+    <item>
+      <title>Private Preview: Azure Automation is revising Service and Subscription limits</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=471605</link>
+      <description>Starting&#8239;January 7th,&#160;2025, Azure Automation will be revising its Service and Subscription limits to ensure fair distribution of cloud resources across all customers. The current Service and Subscription limits for Azure Automation can be found&#8239;here.&#160;&#160;Revised limits:&#160;Resource&#160;Limit&#160;Notes&#160;Maximum number of active Automation accounts in a subscription&#160;10&#160;&#8239;&#160;&#8239;2&#160;&#8239;&#160;&#8239;&#8239;&#160;&#8239;&#160;1&#160;&#8239;&#160;&#8239;&#160;&#8239;&#160;Enterprise and CSP subscriptions&#160;&#160;&#160;Pay-as-you-go, Sponsored, MSDN, MPN, Azure Pass subscriptions&#160;&#160;Free trial, Azure for Student, Azure in Open subscriptions can create only one Automation account per region per subscription, in 6 allowed&#160;regions.&#160;Maximum number of concurrent running jobs at the same instance of time per Automation account&#160;50&#160;&#160;&#8239;10&#160;&#160;&#160;5&#160;Enterprise and CSP subscriptions&#160;&#160;Pay-as-you-go, Sponsored, MSDN, MPN, Azure Pass subscriptions&#160;&#160;Free trial, Azure for Student, Azure in Open subscriptions&#160;Note:&#160;You will be able to check your limits and request for increase by&#160;creating a support request under the category &#8216;Service and Subscription limits (Quotas)&#8217;&#160;-&#62; &#8216;Azure Automation&#8217;.&#8239;This capability is under development and&#160;will be enabled in January 2025.&#160;Your current usage will be honored if it is more than the revised limits. For example,&#160;if&#160;your current usage is 12 Automation accounts and the new limit&#160;is 10, you could continue using all&#160;12 accounts. To create&#160;more accounts, you will have&#160;to request for&#160;quota. Detailed steps for requesting&#160;quota changes would be shared in January 2025.Learn more.</description>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=471605</guid>
+    </item>
+    <item>
+      <title>Public Preview: Network isolated cluster in AKS</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=466980</link>
+      <description>Today you can
+control an AKS cluster's egress traffic using Azure Firewall. While this
+configuration is intended to isolate the cluster to protect sensitive business
+or customer data, it adds an additional layer of management complexity and
+cost. &#160;AKS now provides the
+option to use network isolated clusters to simplify the process of restricting
+network access and reduce the risk of unintentional exposure of the cluster's
+public endpoints to prevent security breaches. &#160;Learn more.</description>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=466980</guid>
+    </item>
+    <item>
+      <title>Public Preview: Introducing security baseline with auto-remediation for Linux hybrid workloads</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=469654</link>
+      <description>The new Azure security baseline for Linux provides enhanced monitoring of compliance status across Linux workloads. It offers more accurate&#160;and detailed compliance information and helps customers meet regulatory requirements faster. Combined with the auto-remediation capabilities, it will offer a holistic approach&#160;across hybrid environments to deal with continuous compliance and hardening on Linux workloads.&#160;Key highlights of the Azure security baseline for Linux:&#160;Provided at no cost,&#160;except for the Azure Arc workloads (on-prem / other CSP).&#160;Enhanced compliance experience with more accurate&#160;state (Public Preview).&#160;Detailed information about the state of compliance (Public Preview)&#160;Fully open-sourced engine for compliance and remediation (Public Preview).&#160;Auto-remediation capabilities against the security baseline (Limited Public Preview).&#160;&#160;The auto-remediation capability&#160;will be&#160;available as a limited public&#160;preview&#160;in selected regions. If you&#160;are interested in participating&#160;in the preview,&#8239;you&#160;can request access&#8239;to get started.&#8239; &#160;Learn more:Read our blog.Refer to the documentation.</description>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=469654</guid>
+    </item>
     <item>
       <title>Generally Available: Parallel Image Pulls by Default in AKS</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=471237</link>
@@ -179,43 +254,6 @@ utilizing Grafana's powerful dashboard capabilities.&#160;&#160;Learn more.</des
       <description>With the general availability of high-availability (HA) health status monitoring for Azure Database for PostgreSQL &#8211;&#160;Flexible Server, you can now track and maintain&#160;the health of HA-enabled instances with ease. This feature offers real-time insights into the readiness of your primary and standby replicas, helping you proactively identify&#160;and address any issues impacting&#160;availability or failover capability. Based on the Azure Resource Health Check framework, this monitoring solution enables you to optimize&#160;uptime and minimize potential disruptions to your database services.&#160;&#160;&#160;Learn more.</description>
       <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=470442</guid>
-    </item>
-    <item>
-      <title>Public Preview: Azure Database for PostgreSQL &#8211; Flexible Server network monitoring metrics</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470447</link>
-      <description>We are excited to announce the release of new network monitoring metrics in Azure Database for PostgreSQL &#8211; Flexible Server. With these enhancements, you can now gain deeper insights into network activities at the virtual machine&#160;level, helping you effectively identify&#160;and address network-related issues more quickly. These new metrics&#8212;including TCP Connection Backlog and Postmaster Process CPU Usage&#8212;provide actionable data that enhances the stability and reliability of your services. By enabling these features, you can be better equipped to prevent potential service outages and improve overall performance. We encourage you to enable these metrics and start monitoring&#160;today to help ensure your applications run smoothly and efficiently.&#160;&#160;&#160;Learn more.</description>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470447</guid>
-    </item>
-    <item>
-      <title>Generally Available: Performance management server parameters now modifiable in Azure Database for PostgreSQL</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470452</link>
-      <description>We're&#160;thrilled to announce that you can now modify&#160;multiple performance management server parameters in Azure Database for PostgreSQL &#8211; Flexible Server. You can specify the value of hash_mem_multiplier,&#160;wal_sender_timeout,&#160;and wal_receiver_timeout. You can also&#160;modify&#160;log_min_duration_sample, log_parameter_max_length, log_parameter_max_length_on_error, log_statement_sample_rate, vacuum_buffer_usage_limit, vacuum_failsafe_age, vacuum_multixact_failsafe_age&#160;,&#160;log_connections, and log_disconnections.&#160;&#160;Learn more.</description>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470452</guid>
-    </item>
-    <item>
-      <title>Generally Available: Azure Database for PostgreSQL &#8211; Flexible Server in Spain Central and Mexico Central regions</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470457</link>
-      <description>Now you can deploy Azure Database for PostgreSQL &#8211; Flexible Server in the Spain Central and Mexico Central regions.&#160;&#160;For a&#160;detailed list of supported regions, see Azure regions.</description>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470457</guid>
-    </item>
-    <item>
-      <title>Generally Available: Azure SQL updates for early-December</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470474</link>
-      <description>In early-December 2024, the following updates and enhancements were made to Azure SQL:&#160;&#160;&#160;Get enhanced monitoring&#160;now that the dynamic management function (DMF)&#160;displays&#160;the component&#160;causing throttling of the primary log generation rate in Azure SQL Database Hyperscale.&#160;Save 35% to 55% on compute&#160;costs with a one-year or three-year reservation for Azure SQL Database, now also available for zone-redundant General Purpose&#160;databases.&#160;&#160;Learn more:&#160;&#160;Azure SQL
-Database Hyperscale&#160;&#160;Azure
-SQL Database compute costs</description>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470474</guid>
-    </item>
-    <item>
-      <title>Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-repl</link>
-      <description>With new support&#160;for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster&#160;in another region. This cluster replica is continuously updated with the data written in the primary region. In the&#160;rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster. &#160;&#160; &#160;You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region. &#160;&#160; &#160;When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining&#160;a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=mdb-vcore-repl</guid>
     </item>
   </channel>
 </rss>

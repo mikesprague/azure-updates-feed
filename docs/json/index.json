@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "Wed, 11 Dec 2024 12:03:05 GMT",
+  "lastUpdated": "Fri, 13 Dec 2024 12:02:46 GMT",
   "posts": [
+    {
+      "date": "12/12/2024",
+      "linkId": "467457",
+      "title": "Generally Available: Extension of limited-time promotional discounts on Azure Databricks Serverless Compute Services",
+      "category": "Pricing & Offerings",
+      "description": "We’re excited to announce the extension of the promotional discounts on serverless compute for Notebooks, Jobs, and Pipelines (Delta Live Tables). You will continue to get 50% off serverless compute for Jobs and Pipelines and 30% off serverless compute for Notebooks, until April 30, 2025. Serverless compute provides rapid workload startup, automatic infrastructure scaling, and seamless version upgrades of the Azure Databricks runtime. Learn more."
+    },
+    {
+      "date": "12/12/2024",
+      "linkId": "470595",
+      "title": "Generally Available: Storage account default maximum request rate limit increase to 40,000 requests per second",
+      "category": "Features, Regions & Datacenters, Services",
+      "description": "The default maximum request rate for general-purpose v2 and\nBlob storage accounts has been increased from 20,000 to 40,000 requests per\nsecond in the following regions:  \n East Asia  \n Southeast Asia  \n Australia East  \n Brazil South  \n Canada Central  \n China East 2  \n China North 3  \n North Europe  \n West Europe  \n France Central  \n Germany West\n     Central  \n Central India  \n Japan East  \n Jio India West  \n Korea Central  \n Norway East  \n South Africa North  \n Sweden Central  \n UAE North  \n UK South  \n Central US  \n East US  \n East US 2  \n USGov Virginia  \n USGov Arizona  \n North Central US  \n South Central US  \n West US  \n West US 2  \n West US 3  This applies to all existing and new storage accounts.  Learn more."
+    },
+    {
+      "date": "12/12/2024",
+      "linkId": "471605",
+      "title": "Private Preview: Azure Automation is revising Service and Subscription limits",
+      "category": "Management",
+      "description": "Starting January 7th, 2025, Azure Automation will be revising its Service and Subscription limits to ensure fair distribution of cloud resources across all customers. The current Service and Subscription limits for Azure Automation can be found here.  Revised limits: Resource Limit Notes Maximum number of active Automation accounts in a subscription 10    2        1       Enterprise and CSP subscriptions   Pay-as-you-go, Sponsored, MSDN, MPN, Azure Pass subscriptions  Free trial, Azure for Student, Azure in Open subscriptions can create only one Automation account per region per subscription, in 6 allowed regions. Maximum number of concurrent running jobs at the same instance of time per Automation account 50   10   5 Enterprise and CSP subscriptions  Pay-as-you-go, Sponsored, MSDN, MPN, Azure Pass subscriptions  Free trial, Azure for Student, Azure in Open subscriptions Note: You will be able to check your limits and request for increase by creating a support request under the category ‘Service and Subscription limits (Quotas)’ -> ‘Azure Automation’. This capability is under development and will be enabled in January 2025. Your current usage will be honored if it is more than the revised limits. For example, if your current usage is 12 Automation accounts and the new limit is 10, you could continue using all 12 accounts. To create more accounts, you will have to request for quota. Detailed steps for requesting quota changes would be shared in January 2025.Learn more."
+    },
+    {
+      "date": "12/12/2024",
+      "linkId": "466980",
+      "title": "Public Preview: Network isolated cluster in AKS",
+      "category": "Features, Security",
+      "description": "Today you can\ncontrol an AKS cluster's egress traffic using Azure Firewall. While this\nconfiguration is intended to isolate the cluster to protect sensitive business\nor customer data, it adds an additional layer of management complexity and\ncost.  AKS now provides the\noption to use network isolated clusters to simplify the process of restricting\nnetwork access and reduce the risk of unintentional exposure of the cluster's\npublic endpoints to prevent security breaches.  Learn more."
+    },
+    {
+      "date": "12/12/2024",
+      "linkId": "469654",
+      "title": "Public Preview: Introducing security baseline with auto-remediation for Linux hybrid workloads",
+      "category": "Features",
+      "description": "The new Azure security baseline for Linux provides enhanced monitoring of compliance status across Linux workloads. It offers more accurate and detailed compliance information and helps customers meet regulatory requirements faster. Combined with the auto-remediation capabilities, it will offer a holistic approach across hybrid environments to deal with continuous compliance and hardening on Linux workloads. Key highlights of the Azure security baseline for Linux: Provided at no cost, except for the Azure Arc workloads (on-prem / other CSP). Enhanced compliance experience with more accurate state (Public Preview). Detailed information about the state of compliance (Public Preview) Fully open-sourced engine for compliance and remediation (Public Preview). Auto-remediation capabilities against the security baseline (Limited Public Preview).  The auto-remediation capability will be available as a limited public preview in selected regions. If you are interested in participating in the preview, you can request access to get started.   Learn more:Read our blog.Refer to the documentation."
+    },
     {
       "date": "12/11/2024",
       "linkId": "471237",
@@ -105,41 +140,6 @@
       "title": "Generally Available: High-availability health status monitoring for Azure Database for PostgreSQL – Flexible Server",
       "category": "Features",
       "description": "With the general availability of high-availability (HA) health status monitoring for Azure Database for PostgreSQL – Flexible Server, you can now track and maintain the health of HA-enabled instances with ease. This feature offers real-time insights into the readiness of your primary and standby replicas, helping you proactively identify and address any issues impacting availability or failover capability. Based on the Azure Resource Health Check framework, this monitoring solution enables you to optimize uptime and minimize potential disruptions to your database services.   Learn more."
-    },
-    {
-      "date": "12/05/2024",
-      "linkId": "470447",
-      "title": "Public Preview: Azure Database for PostgreSQL – Flexible Server network monitoring metrics",
-      "category": "Features",
-      "description": "We are excited to announce the release of new network monitoring metrics in Azure Database for PostgreSQL – Flexible Server. With these enhancements, you can now gain deeper insights into network activities at the virtual machine level, helping you effectively identify and address network-related issues more quickly. These new metrics—including TCP Connection Backlog and Postmaster Process CPU Usage—provide actionable data that enhances the stability and reliability of your services. By enabling these features, you can be better equipped to prevent potential service outages and improve overall performance. We encourage you to enable these metrics and start monitoring today to help ensure your applications run smoothly and efficiently.   Learn more."
-    },
-    {
-      "date": "12/05/2024",
-      "linkId": "470452",
-      "title": "Generally Available: Performance management server parameters now modifiable in Azure Database for PostgreSQL",
-      "category": "Features",
-      "description": "We're thrilled to announce that you can now modify multiple performance management server parameters in Azure Database for PostgreSQL – Flexible Server. You can specify the value of hash_mem_multiplier, wal_sender_timeout, and wal_receiver_timeout. You can also modify log_min_duration_sample, log_parameter_max_length, log_parameter_max_length_on_error, log_statement_sample_rate, vacuum_buffer_usage_limit, vacuum_failsafe_age, vacuum_multixact_failsafe_age , log_connections, and log_disconnections.  Learn more."
-    },
-    {
-      "date": "12/05/2024",
-      "linkId": "470457",
-      "title": "Generally Available: Azure Database for PostgreSQL – Flexible Server in Spain Central and Mexico Central regions",
-      "category": "Features",
-      "description": "Now you can deploy Azure Database for PostgreSQL – Flexible Server in the Spain Central and Mexico Central regions.  For a detailed list of supported regions, see Azure regions."
-    },
-    {
-      "date": "12/05/2024",
-      "linkId": "470474",
-      "title": "Generally Available: Azure SQL updates for early-December",
-      "category": "Features",
-      "description": "In early-December 2024, the following updates and enhancements were made to Azure SQL:   Get enhanced monitoring now that the dynamic management function (DMF) displays the component causing throttling of the primary log generation rate in Azure SQL Database Hyperscale. Save 35% to 55% on compute costs with a one-year or three-year reservation for Azure SQL Database, now also available for zone-redundant General Purpose databases.  Learn more:  Azure SQL\nDatabase Hyperscale  Azure\nSQL Database compute costs"
-    },
-    {
-      "date": "12/04/2024",
-      "linkId": "mdb-vcore-repl",
-      "title": "Generally Available: Cross-region replication in vCore-based Azure Cosmos DB for MongoDB",
-      "category": "Features",
-      "description": "With new support for cross-region disaster recovery in vCore-based Azure Cosmos DB for MongoDB, you can create a replica of a cluster in another region. This cluster replica is continuously updated with the data written in the primary region. In the rare case of an outage in the primary region, you can promote this replica to become the new read-write cluster.     You can also use the cluster replica in another region for reading. This helps offload read operations from the primary cluster and deliver reads with lower latency to applications that are hosted closer to the other region.     When the cluster replica in region B is promoted and becomes the new read-write cluster, it mirrors the original configuration by maintaining a read replica in the former primary region A. The global read-write connection string always points to the cluster available for writes. It allows uninterrupted work with the database after replica cluster promotion.  Learn more."
     }
   ]
 }
