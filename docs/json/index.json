@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "Fri, 13 Dec 2024 12:02:46 GMT",
+  "lastUpdated": "Tue, 17 Dec 2024 12:03:01 GMT",
   "posts": [
+    {
+      "date": "12/17/2024",
+      "linkId": "469221",
+      "title": "Public Preview: Risk and safety evaluations for image and multimodal content in Azure AI Foundry",
+      "category": "Features, Microsoft Ignite",
+      "description": "Risk and safety evaluations for images and multimodal\ncontent are now available in public preview in Azure AI Foundry. These\nevaluations can help organizations assess the frequency and severity of harmful\ncontent in human and AI-generated outputs to prioritize relevant risk\nmitigations in their generative AI applications. For example, these evaluations can help organizations assess content risks in\ncases where 1) text inputs yield image outputs, 2) a combination of image and text inputs produce text outputs, and 3) images containing text (like memes) generate\ntext and/or image outputs. Learn more."
+    },
     {
       "date": "12/12/2024",
       "linkId": "467457",
@@ -133,13 +140,6 @@
       "title": "Retirement: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired",
       "category": "Retirements",
       "description": "All Azure CDN from Edgio customers must migrate their workloads to Azure Front Door or other CDN services before January 15, 2025 as Edgio has advised their platform is currently scheduled to be shut down by that date. Migrate as soon as possible to avoid an imminent service shut-down.Microsoft's flagship CDN product, Azure Front Door Standard or Premium, is our recommended replacement and we encourage you to consider migrating your compatible workloads there. View the comparison between Azure Front Door and Azure CDN from Edgio. Azure Front Door compatible workloads can use these step-by-step instructions.For more details, please visit our learn page here and/or contact Microsoft Support."
-    },
-    {
-      "date": "12/05/2024",
-      "linkId": "470442",
-      "title": "Generally Available: High-availability health status monitoring for Azure Database for PostgreSQL – Flexible Server",
-      "category": "Features",
-      "description": "With the general availability of high-availability (HA) health status monitoring for Azure Database for PostgreSQL – Flexible Server, you can now track and maintain the health of HA-enabled instances with ease. This feature offers real-time insights into the readiness of your primary and standby replicas, helping you proactively identify and address any issues impacting availability or failover capability. Based on the Azure Resource Health Check framework, this monitoring solution enables you to optimize uptime and minimize potential disruptions to your database services.   Learn more."
     }
   ]
 }

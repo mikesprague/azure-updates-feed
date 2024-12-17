@@ -6,7 +6,20 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Dec 2024 12:02:46 GMT</pubDate>
+    <pubDate>Tue, 17 Dec 2024 12:03:01 GMT</pubDate>
+    <item>
+      <title>Public Preview: Risk and safety evaluations for image and multimodal content in Azure AI Foundry</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=469221</link>
+      <description>Risk and safety evaluations for images and multimodal
+content are now available in public preview in Azure AI Foundry. These
+evaluations can help organizations assess the frequency and severity of harmful
+content in human and AI-generated outputs to prioritize relevant risk
+mitigations in their generative AI applications. For example, these evaluations can help organizations assess content risks in
+cases where 1) text inputs yield image outputs, 2) a combination of image and text inputs produce text outputs, and 3) images containing text (like memes) generate
+text and/or image outputs.&#160;Learn more.</description>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=469221</guid>
+    </item>
     <item>
       <title>Generally Available: Extension of limited-time promotional discounts on Azure Databricks Serverless Compute Services</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=467457</link>
@@ -247,13 +260,6 @@ utilizing Grafana's powerful dashboard capabilities.&#160;&#160;Learn more.</des
       <description>All Azure CDN from Edgio customers must migrate their workloads to&#160;Azure Front Door&#160;or other CDN services before January 15, 2025 as Edgio has advised their platform is currently scheduled to be shut down by that date. Migrate as soon as possible to avoid an imminent service shut-down.Microsoft's flagship CDN product, Azure Front Door Standard or Premium, is our recommended replacement and we encourage you to consider migrating your compatible workloads there.&#160;View the comparison&#160;between Azure Front Door and Azure CDN from Edgio. Azure Front Door compatible workloads can use&#160;these step-by-step instructions.For more details, please visit our learn page&#160;here&#160;and/or contact Microsoft Support.</description>
       <pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=467688</guid>
-    </item>
-    <item>
-      <title>Generally Available: High-availability health status monitoring for Azure Database for PostgreSQL &#8211; Flexible Server</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=470442</link>
-      <description>With the general availability of high-availability (HA) health status monitoring for Azure Database for PostgreSQL &#8211;&#160;Flexible Server, you can now track and maintain&#160;the health of HA-enabled instances with ease. This feature offers real-time insights into the readiness of your primary and standby replicas, helping you proactively identify&#160;and address any issues impacting&#160;availability or failover capability. Based on the Azure Resource Health Check framework, this monitoring solution enables you to optimize&#160;uptime and minimize potential disruptions to your database services.&#160;&#160;&#160;Learn more.</description>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=470442</guid>
     </item>
   </channel>
 </rss>
