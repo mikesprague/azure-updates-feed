@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "Tue, 17 Dec 2024 12:03:01 GMT",
+  "lastUpdated": "Thu, 19 Dec 2024 12:03:15 GMT",
   "posts": [
+    {
+      "date": "12/18/2024",
+      "linkId": "472040",
+      "title": "Public Preview: Azure Database for MySQL bindings for Azure Functions",
+      "category": "Features",
+      "description": "We are excited to announce the public preview of Azure Database for MySQL bindings for Azure Functions. With this new feature, Azure Functions can seamlessly interact with Azure Database for MySQL databases using input and output bindings. By simplifying the code required to read from and write to the database, these bindings significantly speed up the development time. You can create scalable, event-driven applications and serverless APIs using popular programming languages such as C#, Java, JavaScript, Python, and PowerShell.  Learn more."
+    },
+    {
+      "date": "12/18/2024",
+      "linkId": "tls-changes-for-azure-event-grid",
+      "title": "Retirement: Upcoming TLS changes for Azure Event Grid",
+      "category": "Retirements",
+      "description": "Starting March 1, 2025, all Azure services will require using TLS 1.2 or higher. Support for TLS 1.0 and TLS 1.1 will end on March 1, 2025. To enhance security and provide best-in-class encryption for your data, we will enable Transport Layer Security (TLS) 1.3 for Azure Event Grid on March 1, 2025.  Required action If you are using TLS 1.0 or TLS 1.1, we recommend using TLS 1.2 or higher. You can switch to TLS 1.2 today and take advantage of TLS 1.3 after March 1, 2025. If you are using Azure Event Grid topics, domains, see how to configure the minimum TLS version. If you are using Azure Event Grid system topics, read the API documentation or SDK documentation for more information. If you are using Azure Event Grid namespaces you don’t need to perform any action because it’s already supporting TLS 1.2 by default.  Once you enforce the minimum TLS version to 1.2 or TLS 1.3 in your Azure Event Grid resources, make sure publishing and delivery scenarios are not affected and events continue flowing in your test and production environments. Help and support If you have questions, get answers from community experts in Microsoft Q&A.  If you have a support plan and you need technical help, open the Azure portal and select the question mark icon at the top of the page."
+    },
     {
       "date": "12/17/2024",
       "linkId": "469221",
@@ -126,20 +140,6 @@
       "title": "Generally Available: Enhanced AKS logs with Kubernetes metadata and logs filtering",
       "category": "Features",
       "description": "Azure\nKubernetes Service (AKS) logs now include detailed metadata, such as PodLabels,\nPodAnnotations, PodUid, Image, ImageID, ImageRepo, and ImageTag. These\nadditions provide richer context and improved visibility into workloads, aiding\nin troubleshooting and monitoring. The integration with Grafana further\nenhances this by enabling users to visualize and analyze logs more effectively,\nutilizing Grafana's powerful dashboard capabilities.  Learn more."
-    },
-    {
-      "date": "12/10/2024",
-      "linkId": "471035",
-      "title": "Generally Available: Microsoft Azure now available from new cloud region in New Zealand",
-      "category": "Regions & Datacenters, Security, Services",
-      "description": "The first cloud region in New Zealand is now available with Azure Availability Zones and provides organizations across the globe with access to scalable, highly available, and resilient Microsoft Cloud services while confirming its commitment to promoting digital transformation and sustainable innovation in the country. The New Zealand region connects New Zealand to the largest and trusted global cloud infrastructure, delivering the highest standards of security, privacy and regulatory-compliant data storage in the country. For customers looking to leverage the new region and Availability Zones, Azure offers region portability for multiple resources with Azure Resource Mover.Learn more."
-    },
-    {
-      "date": "12/09/2024",
-      "linkId": "467688",
-      "title": "Retirement: Azure CDN Standard/Premium from Edgio (formerly Verizon) will be retired",
-      "category": "Retirements",
-      "description": "All Azure CDN from Edgio customers must migrate their workloads to Azure Front Door or other CDN services before January 15, 2025 as Edgio has advised their platform is currently scheduled to be shut down by that date. Migrate as soon as possible to avoid an imminent service shut-down.Microsoft's flagship CDN product, Azure Front Door Standard or Premium, is our recommended replacement and we encourage you to consider migrating your compatible workloads there. View the comparison between Azure Front Door and Azure CDN from Edgio. Azure Front Door compatible workloads can use these step-by-step instructions.For more details, please visit our learn page here and/or contact Microsoft Support."
     }
   ]
 }
