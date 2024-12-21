@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "Thu, 19 Dec 2024 12:03:15 GMT",
+  "lastUpdated": "Sat, 21 Dec 2024 12:02:20 GMT",
   "posts": [
+    {
+      "date": "12/20/2024",
+      "linkId": "470933",
+      "title": "Generally Available: New Zealand North region added to Azure HDInsight",
+      "category": "Regions & Datacenters, Features",
+      "description": "HDInsight is now generally available in New Zealand North. Azure HDInsight is a managed, full-spectrum, open-source analytics service in the cloud for enterprises. You can use open-source frameworks such as Hadoop, Apache Spark, Apache Hive, LLAP, Apache Kafka, and more.Learn more."
+    },
     {
       "date": "12/18/2024",
       "linkId": "472040",
@@ -133,13 +140,6 @@
       "title": "Public Preview: GitHub Copilot for Azure – AKS plugins",
       "category": "Features",
       "description": "GitHub Copilot for Azure now supports Azure Kubernetes Service (AKS)\nplugins. The extension, which enables AKS plugins for GitHub Copilot for Azure\n(@azure), allows users to perform various tasks related to AKS directly from\nthe GitHub Copilot Chat view. These tasks include creating an AKS cluster,\ndeploying a manifest to an AKS cluster, and generating Kubectl commands.  Learn more."
-    },
-    {
-      "date": "12/11/2024",
-      "linkId": "471329",
-      "title": "Generally Available: Enhanced AKS logs with Kubernetes metadata and logs filtering",
-      "category": "Features",
-      "description": "Azure\nKubernetes Service (AKS) logs now include detailed metadata, such as PodLabels,\nPodAnnotations, PodUid, Image, ImageID, ImageRepo, and ImageTag. These\nadditions provide richer context and improved visibility into workloads, aiding\nin troubleshooting and monitoring. The integration with Grafana further\nenhances this by enabling users to visualize and analyze logs more effectively,\nutilizing Grafana's powerful dashboard capabilities.  Learn more."
     }
   ]
 }

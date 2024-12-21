@@ -6,7 +6,14 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Dec 2024 12:03:15 GMT</pubDate>
+    <pubDate>Sat, 21 Dec 2024 12:02:20 GMT</pubDate>
+    <item>
+      <title>Generally Available: New Zealand North region added to Azure HDInsight</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470933</link>
+      <description>HDInsight is now generally available in New Zealand North. Azure HDInsight is a managed, full-spectrum, open-source analytics service in the cloud for enterprises. You can use open-source frameworks such as Hadoop, Apache Spark, Apache Hive, LLAP, Apache Kafka, and more.Learn more.</description>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470933</guid>
+    </item>
     <item>
       <title>Public Preview: Azure Database for MySQL bindings for Azure Functions</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=472040</link>
@@ -247,19 +254,6 @@ the GitHub Copilot Chat view. These tasks include creating an AKS cluster,
 deploying a manifest to an AKS cluster, and generating Kubectl commands. &#160;Learn more.</description>
       <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=471324</guid>
-    </item>
-    <item>
-      <title>Generally Available: Enhanced AKS logs with Kubernetes metadata and logs filtering</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=471329</link>
-      <description>Azure
-Kubernetes Service (AKS) logs now include detailed metadata, such as PodLabels,
-PodAnnotations, PodUid, Image, ImageID, ImageRepo, and ImageTag. These
-additions provide richer context and improved visibility into workloads, aiding
-in troubleshooting and monitoring. The integration with Grafana further
-enhances this by enabling users to visualize and analyze logs more effectively,
-utilizing Grafana's powerful dashboard capabilities.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=471329</guid>
     </item>
   </channel>
 </rss>
