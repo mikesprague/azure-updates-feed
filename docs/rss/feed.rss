@@ -6,7 +6,21 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 21 Dec 2024 12:02:20 GMT</pubDate>
+    <pubDate>Tue, 31 Dec 2024 12:02:43 GMT</pubDate>
+    <item>
+      <title>Generally Available: Azure NetApp Files volume enhancement &#8211; allow the same file path for volumes in different availability zones</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=public-preview-azure-netapp-files-volume-enhancement-allow-the-same-file-path-for-volumes-in-different-availability-zones</link>
+      <description>With this enhancement, Azure NetApp Files now allows the use of the same volume mount path for two or more volumes in the same region if they are each in a different availability zone. This is great for highly available architectures using cross-zone replication that would benefit from using the same mount&#160;path&#160;for both the source and target volumes. Having a common mount&#160;path&#160;for the source and target volumes eases automation and reduces manual effort during the failover of disaster recovery events which could lead to reduced recovery time objectives and improved application and data availability.&#160;This enhancement can also be used with regular volumes not participating in cross-zone replication. This could be useful for scenarios involving host-based replication or for test/dev environments that need to have consistent mount&#160;paths. This volume enhancement applies to SMB, NFS, and dual-protocol volumes.
+
+To learn more, see the links below:
+
+
+	Manage availability zone volume placement for Azure NetApp Files | Microsoft Learn
+	SMB FAQs for Azure NetApp Files | Microsoft Learn
+	NFS FAQs for Azure NetApp Files | Microsoft Learn</description>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=public-preview-azure-netapp-files-volume-enhancement-allow-the-same-file-path-for-volumes-in-different-availability-zones</guid>
+    </item>
     <item>
       <title>Generally Available: New Zealand North region added to Azure HDInsight</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=470933</link>
@@ -243,17 +257,6 @@ Dockerfiles and Kubernetes manifest files. With automated deployments, you can
 easily get your apps up and running on Azure Kubernetes Service.&#160;Learn more.</description>
       <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=471319</guid>
-    </item>
-    <item>
-      <title>Public Preview: GitHub Copilot for Azure &#8211; AKS plugins</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=471324</link>
-      <description>GitHub Copilot for Azure now supports Azure Kubernetes Service (AKS)
-plugins. The extension, which enables AKS plugins for GitHub Copilot for Azure
-(@azure), allows users to perform various tasks related to AKS directly from
-the GitHub Copilot Chat view. These tasks include creating an AKS cluster,
-deploying a manifest to an AKS cluster, and generating Kubectl commands. &#160;Learn more.</description>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=471324</guid>
     </item>
   </channel>
 </rss>
