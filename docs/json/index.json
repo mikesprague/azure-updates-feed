@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "Fri, 03 Jan 2025 12:02:46 GMT",
+  "lastUpdated": "Tue, 07 Jan 2025 12:02:45 GMT",
   "posts": [
     {
-      "date": "01/02/2025",
-      "linkId": "472065",
-      "title": "Generally Available: FIPS 140-2 Level 3 HSMs Premium Key Vault in Mooncake China",
-      "category": "Regions & Datacenters, Services, Security",
-      "description": "Azure Key Vault Premium is now available in the China\nRegion. This significant milestone marks the first time Azure Key Vault\nPremium, featuring FIPS 140-2 Level 3 Hardware Security Modules (HSMs), is\naccessible in China.   The FIPS 140-2 Level 3 HSMs offer the highest level of\nsecurity for cryptographic keys, ensuring your data is protected with the most\nstringent standards. For more information on FIPS 140, see Federal Information Processing Standard (FIPS) 140 .\nWith the Introduction of Premium Key Vault in Mooncake China, customers can now\nbenefit from advanced security features, including:  \n Enhanced\n     Security: FIPS 140-2 Level 3 certification ensures that the HSMs meet\n     rigorous security requirements, providing robust protection for your\n     cryptographic keys.  \n Compliance:\n     This launch helps customers in highly regulated industries meet their\n     compliance requirements.   This general availability is offered in the China\nNorth 3, China North 2, China East 3, and China East 2 regions. We invite you\nto take advantage of this opportunity to strengthen your security posture. For\nmore information on billing, please refer to the Key\nVault Pricing Details on Azure Cloud Computing page. We encourage you to\nexplore the capabilities of Premium Key Vault and share your valuable feedback\nwith us."
+      "date": "01/06/2025",
+      "linkId": "474560",
+      "title": "Generally Available: Azure NetApp Files now supports minimum volume size of 50 GiB",
+      "category": "Features",
+      "description": "We are excited to announce Azure NetApp Files volume enhancement with support for 50 GiB minimum volume sizes.Customers can now create an Azure NetApp Files volume as small as 50 GiB, compared to the initial minimum size of 100 GiB. This enhancement is particularly beneficial for workloads that require smaller volumes, such as Kubernetes. This allows customers to right-size their storage volumes more appropriately when volume usage is between 50 GiB and 100 GiB, helping them save costs and free up space in the capacity pool.This feature is available in all Azure NetApp Files enabled regions.Learn More:What’s New"
     },
     {
       "date": "12/30/2024",
