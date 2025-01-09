@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "Tue, 07 Jan 2025 12:02:45 GMT",
+  "lastUpdated": "Thu, 09 Jan 2025 12:03:03 GMT",
   "posts": [
+    {
+      "date": "01/08/2025",
+      "linkId": "474894",
+      "title": "Generally Available: Azure Files provisioned v2 billing model for HDD (standard)",
+      "category": "Pricing & Offerings",
+      "description": "The provisioned v2 model for Azure Files HDD (standard) pairs predictability of total cost of ownership with flexibility, allowing you to create a file share that meets your exact storage and performance requirements. Provisioned v2 shares enable independent provisioning of storage, IOPS, and throughput. In addition to predictable pricing and flexible provisioning, provisioned v2 also enables increased scale and performance, up to 256 TiB, 50,000 IOPS, and 5 GiB/sec of throughput; and per share monitoring.Provisioned v2 is generally available in a subset of regions. For the current list of available regions, see provisioned v2 availability."
+    },
     {
       "date": "01/06/2025",
       "linkId": "474560",
@@ -133,13 +140,6 @@
       "title": "Generally Available: Vaulted backup for AKS",
       "category": "Features",
       "description": "Azure Backup now\nsupports vaulted backups for AKS, enabling cross-region disaster recovery,\nlong-term retention and immutable security.  This simplifies compliance and strengthens\nresilience for cloud-native applications. Customers can protect\nclusters during a regional disaster recovery, store backup data for up to 10\nyears to meet compliance requirements, and secure backup data at an offsite\nlocation to safeguard against ransomware threats. Learn more."
-    },
-    {
-      "date": "12/11/2024",
-      "linkId": "471309",
-      "title": "Public Preview: AKS support for private ingress on cluster create or through API",
-      "category": "Features",
-      "description": "When you enable the application routing add-on with NGINX, it\ncreates an ingress controller configured with a public facing Azure Load\nBalancer. Starting with Kubernetes 1.30, you can control this behavior when\nenabling the add-on by choosing if it gets a public or an internal IP. Learn more."
     }
   ]
 }

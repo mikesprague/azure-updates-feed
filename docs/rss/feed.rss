@@ -6,7 +6,14 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Jan 2025 12:02:45 GMT</pubDate>
+    <pubDate>Thu, 09 Jan 2025 12:03:03 GMT</pubDate>
+    <item>
+      <title>Generally Available: Azure Files provisioned v2 billing model for HDD (standard)</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=474894</link>
+      <description>The provisioned v2 model for Azure Files HDD (standard) pairs predictability of total cost of ownership with flexibility, allowing you to create a file share that meets your exact storage and performance requirements. Provisioned v2 shares enable independent provisioning of storage, IOPS, and throughput. In addition to predictable pricing and flexible provisioning, provisioned v2 also enables increased scale and performance, up to 256 TiB, 50,000 IOPS, and 5 GiB/sec of throughput; and per share monitoring.Provisioned v2 is generally available in a subset of regions. For the current list of available regions, see provisioned v2 availability.</description>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=474894</guid>
+    </item>
     <item>
       <title>Generally Available: Azure NetApp Files now supports minimum volume size of 50 GiB</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=474560</link>
@@ -242,16 +249,6 @@ years to meet compliance requirements, and secure backup data at an offsite
 location to safeguard against ransomware threats.&#160;Learn more.</description>
       <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=471300</guid>
-    </item>
-    <item>
-      <title>Public Preview: AKS support for private ingress on cluster create or through API</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=471309</link>
-      <description>When you enable the application routing add-on with NGINX, it
-creates an ingress controller configured with a public facing Azure Load
-Balancer. Starting with Kubernetes 1.30, you can control this behavior when
-enabling the add-on by choosing if it gets a public or an internal IP.&#160;Learn more.</description>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=471309</guid>
     </item>
   </channel>
 </rss>
