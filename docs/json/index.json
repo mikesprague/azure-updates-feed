@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "Thu, 09 Jan 2025 12:03:03 GMT",
+  "lastUpdated": "Fri, 10 Jan 2025 12:02:54 GMT",
   "posts": [
+    {
+      "date": "01/09/2025",
+      "linkId": "470452",
+      "title": "Generally Available: Performance management server parameters now modifiable in Azure Database for PostgreSQL",
+      "category": "Features",
+      "description": "We're thrilled to announce that you can now modify multiple performance management server parameters in Azure Database for PostgreSQL – Flexible Server. You can now specify the value of hash_mem_multiplier, modify log_min_duration_sample, log_parameter_max_length, log_parameter_max_length_on_error, log_statement_sample_rate, vacuum_buffer_usage_limit, vacuum_failsafe_age, vacuum_multixact_failsafe_age , log_connections, and log_disconnections. Learn more."
+    },
+    {
+      "date": "01/09/2025",
+      "linkId": "466954",
+      "title": "Public Preview: Collect Azure Container Storage metrics with Azure Monitor Managed Service for Prometheus (Public Preview)",
+      "category": "Features",
+      "description": "Azure Container Storage is a cloud-based\nvolume management, deployment and orchestration service and works with Azure\nKubernetes Service (AKS) to effectively scale across storage services while\nproviding a cost-effective, container-native experience.   Customers using Azure Container Storage (ACStor) on AKS clusters can now collect storage pool and disk metrics\nwith Azure Monitor Managed Service for Prometheus and view/query metrics in Azure Managed\nGrafana.   When customers enable ACStor on an AKS cluster where\nManaged Prometheus is enabled, metrics will be automatically collected and\ningested along with other metrics.Learn more."
+    },
     {
       "date": "01/08/2025",
       "linkId": "474894",
@@ -126,20 +140,6 @@
       "title": "Public Preview: KAITO managed add-on now available in the AKS Visual Studio Code extension",
       "category": "Features",
       "description": "The AI toolchain operator (KAITO) managed add-on is now available in the\nAzure Kubernetes Service (AKS) Visual Studio Code extension. With an intuitive\nand visually engaging UI, this add-on is designed to simplify AI inference development.\nCustomers can enable KAITO, browse through the supported options, and choose an\nopen-source AI model to deploy to their AKS cluster. Once deployed, they can access model logs,\ntest performance, and fully engage with the model workspace directly from\nVSCode. Learn more."
-    },
-    {
-      "date": "12/11/2024",
-      "linkId": "471295",
-      "title": "Generally Available: Force attach/detach API support in AKS",
-      "category": "Features",
-      "description": "With the release of Kubernetes v1.30, the Azure Disk\nCSI driver has adopted the force detach capability. This feature allows the driver\nto force detach zone-redundant storage (ZRS) data disks from VM nodes in a\nfailed zone and attach them to another VM, reducing the Recovery Time Objective\n(RTO).Stateful workloads in AKS clusters can now quickly\nrecover from zone failures by detaching ZRS data disks from affected VM nodes\nand reattaching them to new VMs.  Learn more."
-    },
-    {
-      "date": "12/11/2024",
-      "linkId": "471300",
-      "title": "Generally Available: Vaulted backup for AKS",
-      "category": "Features",
-      "description": "Azure Backup now\nsupports vaulted backups for AKS, enabling cross-region disaster recovery,\nlong-term retention and immutable security.  This simplifies compliance and strengthens\nresilience for cloud-native applications. Customers can protect\nclusters during a regional disaster recovery, store backup data for up to 10\nyears to meet compliance requirements, and secure backup data at an offsite\nlocation to safeguard against ransomware threats. Learn more."
     }
   ]
 }

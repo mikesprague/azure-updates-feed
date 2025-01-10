@@ -6,7 +6,28 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 Jan 2025 12:03:03 GMT</pubDate>
+    <pubDate>Fri, 10 Jan 2025 12:02:54 GMT</pubDate>
+    <item>
+      <title>Generally Available: Performance management server parameters now modifiable in Azure Database for PostgreSQL</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=470452</link>
+      <description>We're thrilled to announce that you can now modify multiple performance management server parameters in Azure Database for PostgreSQL &#8211; Flexible Server. You can now specify the value of hash_mem_multiplier, modify log_min_duration_sample, log_parameter_max_length, log_parameter_max_length_on_error, log_statement_sample_rate, vacuum_buffer_usage_limit, vacuum_failsafe_age, vacuum_multixact_failsafe_age , log_connections, and log_disconnections.&#160;Learn more.</description>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=470452</guid>
+    </item>
+    <item>
+      <title>Public Preview: Collect Azure Container Storage metrics with Azure Monitor Managed Service for Prometheus (Public Preview)</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=466954</link>
+      <description>Azure Container Storage is a cloud-based
+volume management, deployment and orchestration service and works with Azure
+Kubernetes Service (AKS) to effectively scale across storage services while
+providing a cost-effective, container-native experience.&#160; &#160;Customers using Azure Container Storage (ACStor) on AKS clusters can now collect storage pool and disk metrics
+with Azure Monitor Managed Service for Prometheus and view/query metrics in Azure Managed
+Grafana.&#160;&#160;&#160;When customers enable ACStor on an AKS cluster where
+Managed Prometheus is enabled, metrics will be automatically collected and
+ingested along with other metrics.Learn more.</description>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=466954</guid>
+    </item>
     <item>
       <title>Generally Available: Azure Files provisioned v2 billing model for HDD (standard)</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=474894</link>
@@ -223,32 +244,6 @@ test performance, and fully engage with the model workspace directly from
 VSCode.&#160;Learn more.</description>
       <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=471290</guid>
-    </item>
-    <item>
-      <title>Generally Available: Force attach/detach API support in AKS</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=471295</link>
-      <description>With the release of Kubernetes v1.30, the Azure Disk
-CSI driver has adopted the force detach capability. This feature allows the driver
-to force detach zone-redundant storage (ZRS) data disks from VM nodes in a
-failed zone and attach them to another VM, reducing the Recovery Time Objective
-(RTO).Stateful workloads in AKS clusters can now quickly
-recover from zone failures by detaching ZRS data disks from affected VM nodes
-and reattaching them to new VMs.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=471295</guid>
-    </item>
-    <item>
-      <title>Generally Available: Vaulted backup for AKS</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=471300</link>
-      <description>Azure Backup now
-supports vaulted backups for AKS, enabling cross-region disaster recovery,
-long-term retention and immutable security. &#160;This simplifies compliance and strengthens
-resilience for cloud-native applications.&#160;Customers can protect
-clusters during a regional disaster recovery, store backup data for up to 10
-years to meet compliance requirements, and secure backup data at an offsite
-location to safeguard against ransomware threats.&#160;Learn more.</description>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=471300</guid>
     </item>
   </channel>
 </rss>
