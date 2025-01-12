@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "Fri, 10 Jan 2025 12:02:54 GMT",
+  "lastUpdated": "Sun, 12 Jan 2025 12:03:05 GMT",
   "posts": [
+    {
+      "date": "01/12/2025",
+      "linkId": "474668",
+      "title": "Generally Available: App Service session affinity proxy compatibility",
+      "category": "Features",
+      "description": "The new session affinity proxy setting allows you to adapt the session affinity cookie to the custom domain used by a reverse proxy when calling the App Service app using the default host name. Learn more."
+    },
     {
       "date": "01/09/2025",
       "linkId": "470452",
@@ -133,13 +140,6 @@
       "title": "Generally Available: Open-source feature update: vLLM model serving in KAITO",
       "category": "Open Source",
       "description": "KAITO\nnow supports high throughput model serving with the open-source vLLM serving\nengine. In the KAITO inference workspace, you can deploy models using vLLM to\nbatch process incoming requests, accelerate inference, and optimize your AI\nworkload by default, preventing out-of-memory (OOM) errors and minimizing workload\ndisruptions.  Learn more."
-    },
-    {
-      "date": "12/11/2024",
-      "linkId": "471290",
-      "title": "Public Preview: KAITO managed add-on now available in the AKS Visual Studio Code extension",
-      "category": "Features",
-      "description": "The AI toolchain operator (KAITO) managed add-on is now available in the\nAzure Kubernetes Service (AKS) Visual Studio Code extension. With an intuitive\nand visually engaging UI, this add-on is designed to simplify AI inference development.\nCustomers can enable KAITO, browse through the supported options, and choose an\nopen-source AI model to deploy to their AKS cluster. Once deployed, they can access model logs,\ntest performance, and fully engage with the model workspace directly from\nVSCode. Learn more."
     }
   ]
 }

@@ -6,7 +6,14 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Jan 2025 12:02:54 GMT</pubDate>
+    <pubDate>Sun, 12 Jan 2025 12:03:05 GMT</pubDate>
+    <item>
+      <title>Generally Available: App Service session affinity proxy compatibility</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=474668</link>
+      <description>The new session affinity proxy setting allows you to adapt the session affinity cookie to the custom domain used by a reverse proxy when calling the App Service app using the default host name.&#160;Learn more.</description>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=474668</guid>
+    </item>
     <item>
       <title>Generally Available: Performance management server parameters now modifiable in Azure Database for PostgreSQL</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=470452</link>
@@ -231,19 +238,6 @@ workload by default, preventing out-of-memory (OOM) errors and minimizing worklo
 disruptions.&#160;&#160;Learn more.</description>
       <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=471285</guid>
-    </item>
-    <item>
-      <title>Public Preview: KAITO managed add-on now available in the AKS Visual Studio Code extension</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=471290</link>
-      <description>The AI toolchain operator (KAITO) managed add-on is now available in the
-Azure Kubernetes Service (AKS) Visual Studio Code extension. With an intuitive
-and visually engaging UI, this add-on is designed to simplify AI inference development.
-Customers can enable KAITO, browse through the supported options, and choose an
-open-source AI model to deploy to their AKS cluster. Once deployed, they can access model logs,
-test performance, and fully engage with the model workspace directly from
-VSCode.&#160;Learn more.</description>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=471290</guid>
     </item>
   </channel>
 </rss>
