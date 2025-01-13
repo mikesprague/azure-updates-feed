@@ -6,7 +6,14 @@
     <description>Currently the Azure Updates page has no RSS enabled - this is a temp feed made by scraping that page for updates</description>
     <language>en-us</language>
     <atom:link href="https://mikesprague.github.io/azure-updates-feed/rss/feed.rss" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Jan 2025 12:03:05 GMT</pubDate>
+    <pubDate>Mon, 13 Jan 2025 12:03:11 GMT</pubDate>
+    <item>
+      <title>Generally Available: Introducing Azure Databricks Clean Rooms General Availability</title>
+      <link>https://azure.microsoft.com/en-us/updates/?id=467466</link>
+      <description>Azure Databricks Clean Rooms offers a privacy-safe environment for collaboration on all your data and AI assets, ensuring no direct access to sensitive information. In today&#8217;s world, organizations require an open, flexible, and secure way to collaborate on data. Azure Databricks Clean Rooms meets these essential needs, enabling businesses to work seamlessly with their customers and partners across any cloud platform in a privacy-safe manner.Learn more.</description>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+      <guid>https://azure.microsoft.com/en-us/updates/?id=467466</guid>
+    </item>
     <item>
       <title>Generally Available: App Service session affinity proxy compatibility</title>
       <link>https://azure.microsoft.com/en-us/updates/?id=474668</link>
@@ -226,18 +233,6 @@ computational tasks in scientific computing and data-intensive applications. &#1
 supported for Linux GPU node pools.&#160;&#160;Learn more.</description>
       <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
       <guid>https://azure.microsoft.com/en-us/updates/?id=471280</guid>
-    </item>
-    <item>
-      <title>Generally Available: Open-source feature update: vLLM model serving in KAITO</title>
-      <link>https://azure.microsoft.com/en-us/updates/?id=471285</link>
-      <description>KAITO
-now supports high throughput model serving with the open-source vLLM serving
-engine. In the KAITO inference workspace, you can deploy models using vLLM to
-batch process incoming requests, accelerate inference, and optimize your AI
-workload by default, preventing out-of-memory (OOM) errors and minimizing workload
-disruptions.&#160;&#160;Learn more.</description>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-      <guid>https://azure.microsoft.com/en-us/updates/?id=471285</guid>
     </item>
   </channel>
 </rss>

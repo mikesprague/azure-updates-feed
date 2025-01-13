@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "Sun, 12 Jan 2025 12:03:05 GMT",
+  "lastUpdated": "Mon, 13 Jan 2025 12:03:11 GMT",
   "posts": [
+    {
+      "date": "01/13/2025",
+      "linkId": "467466",
+      "title": "Generally Available: Introducing Azure Databricks Clean Rooms General Availability",
+      "category": "Features",
+      "description": "Azure Databricks Clean Rooms offers a privacy-safe environment for collaboration on all your data and AI assets, ensuring no direct access to sensitive information. In today’s world, organizations require an open, flexible, and secure way to collaborate on data. Azure Databricks Clean Rooms meets these essential needs, enabling businesses to work seamlessly with their customers and partners across any cloud platform in a privacy-safe manner.Learn more."
+    },
     {
       "date": "01/12/2025",
       "linkId": "474668",
@@ -133,13 +140,6 @@
       "title": "Public Preview: Windows GPU – Driver type selection",
       "category": "Features",
       "description": "AKS now supports GPU-enabled\nWindows node pools, in public preview, to run compute-intensive Kubernetes\nworkloads. AKS specifies a default GPU driver type for each supported\nGPU-enabled VM. Because workload and driver compatibility are important for\nfunctioning GPU workloads, you can now specify the driver type for your Windows\nGPU node.  When creating a Windows agent\npool with GPU support, you have the option to specify the type of GPU driver\nusing the --driver-type flag. The available options are: GRID: For applications\nrequiring virtualization support. CUDA: Optimized for\ncomputational tasks in scientific computing and data-intensive applications.   This feature is currently not\nsupported for Linux GPU node pools.  Learn more."
-    },
-    {
-      "date": "12/11/2024",
-      "linkId": "471285",
-      "title": "Generally Available: Open-source feature update: vLLM model serving in KAITO",
-      "category": "Open Source",
-      "description": "KAITO\nnow supports high throughput model serving with the open-source vLLM serving\nengine. In the KAITO inference workspace, you can deploy models using vLLM to\nbatch process incoming requests, accelerate inference, and optimize your AI\nworkload by default, preventing out-of-memory (OOM) errors and minimizing workload\ndisruptions.  Learn more."
     }
   ]
 }
