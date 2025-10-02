@@ -34,7 +34,7 @@
     "playwright": "1.55.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.2.5",
     "@types/cheerio": "1.0.0",
     "@types/node": "24.6.2",
     "cross-env": "10.1.0",
