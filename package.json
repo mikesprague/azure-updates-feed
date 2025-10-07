@@ -31,7 +31,7 @@
   "dependencies": {
     "@actions/core": "1.11.1",
     "cheerio": "1.1.2",
-    "playwright": "1.55.1"
+    "playwright": "1.56.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.5",
