@@ -73,7 +73,7 @@ jobs:
 
       - name: 📎  Attach RSS feed file to workflow run
         if: ${{ env.HAS_UPDATES }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ env.RSS_FILE_TO_ATTACH }}
           path: ${{ env.RSS_OUTPUT_FILE_DIR }}${{ env.RSS_FILE_TO_ATTACH }}
@@ -81,7 +81,7 @@ jobs:
 
       - name: 📎  Attach JSON feed file to workflow run
         if: ${{ env.HAS_UPDATES }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ env.JSON_FILE_TO_ATTACH }}
           path: ${{ env.JSON_OUTPUT_FILE_DIR }}${{ env.JSON_FILE_TO_ATTACH }}
