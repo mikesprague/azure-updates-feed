@@ -29,7 +29,7 @@
     "npm": ">= 10.x"
   },
   "dependencies": {
-    "@actions/core": "2.0.3",
+    "@actions/core": "3.0.0",
     "cheerio": "1.2.0",
     "playwright": "1.58.1"
   },
