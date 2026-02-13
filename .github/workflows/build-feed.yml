@@ -89,7 +89,7 @@ jobs:
 
       - name: ⛔  Failure Notification
         if: ${{ failure() }}
-        uses: mikesprague/teams-incoming-webhook-action@v1
+        uses: mikesprague/teams-incoming-webhook-action@v2
         with:
           github-token: ${{ github.token }}
           webhook-url: ${{ secrets.TEAMS_NOTIFICATION_WEBHOOK_URL }}
